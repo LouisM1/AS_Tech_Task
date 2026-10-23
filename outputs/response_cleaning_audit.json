@@ -1,0 +1,86 @@
+{
+  "status": "passed",
+  "source_revision": "f883165a3026fde855dfd448e0cd16443ab257b6",
+  "question_bank_sha256": "a1a83bd0ec96873a7c5f5d793b35cd54e7d23f81e1cf52eca8dd3ff01eb7b941",
+  "labelled_source_sha256": "4d735be9e5f00d072d17be25029cef524de9ec383911a4acc44f0b64a9c5818c",
+  "partitions": [
+    {
+      "partition": "shared_training",
+      "people": 1658,
+      "questions": 430,
+      "rows": 712940,
+      "observed_answers": 712827,
+      "missing_answers": 113,
+      "missing_by_item": {
+        "QID28_10": 14,
+        "QID29_13": 2,
+        "QID29_14": 2,
+        "QID29_15": 2,
+        "QID29_16": 2,
+        "QID29_17": 2,
+        "QID29_18": 2,
+        "QID29_19": 7,
+        "QID29_20": 8,
+        "QID29_21": 8,
+        "QID29_22": 9,
+        "QID29_23": 11,
+        "QID29_24": 44
+      },
+      "input_path": "data/processed/shared_training_wave1_3.parquet",
+      "input_sha256": "fbd31f760c8ff6a81b9e4bbb7d6b3585bfab1311408f66a4fcf95bffcd986741",
+      "output_path": "data/processed/shared_training_long.parquet",
+      "output_sha256": "f8402ba7dbbd0f91b8f3b0c3de4bfd7efc54ec97c97a703331722f73b42da4b9"
+    },
+    {
+      "partition": "development_anchors",
+      "people": 300,
+      "questions": 92,
+      "rows": 27600,
+      "observed_answers": 27576,
+      "missing_answers": 24,
+      "missing_by_item": {
+        "QID29_18": 1,
+        "QID29_19": 2,
+        "QID29_20": 2,
+        "QID29_21": 2,
+        "QID29_22": 2,
+        "QID29_23": 3,
+        "QID29_24": 12
+      },
+      "input_path": "data/processed/development_anchors_wave1_3.parquet",
+      "input_sha256": "d5a87ff7567e5d6de9b2c18e592cb2a6c332c2da0e4dcaf9c640ba2940cbc3a4",
+      "output_path": "data/processed/development_anchors_long.parquet",
+      "output_sha256": "20da864989ae1002bc83ad0602dd4c3416ffe6e7132f1750f2ade9a259068797"
+    },
+    {
+      "partition": "final_anchors",
+      "people": 100,
+      "questions": 92,
+      "rows": 9200,
+      "observed_answers": 9198,
+      "missing_answers": 2,
+      "missing_by_item": {
+        "QID29_24": 2
+      },
+      "input_path": "data/processed/final_anchors_wave1_3.parquet",
+      "input_sha256": "ce5fd5668f685cd96e82cf35469f59d8bbf93e518ce9f0c401c1b436906b075d",
+      "output_path": "data/processed/final_anchors_long.parquet",
+      "output_sha256": "247b0c2e004fe553be2c6a047c6f1b1a780e620d778bc65f3856c5b120fee796"
+    }
+  ],
+  "response_code_base": 1,
+  "answer_index_base": 0,
+  "missing_value_policy": "Preserved as null rows with is_missing=True; exclude these rows when fitting. Missingness reasons are not inferred.",
+  "checks": [
+    "fixed participant membership",
+    "allowed question columns",
+    "unique person/item rows",
+    "many-to-one question and option joins",
+    "original labelled-source agreement",
+    "lossless wide-to-long reshaping",
+    "missing values preserved",
+    "Parquet round-trip equality"
+  ],
+  "heldout_response_files_loaded": false,
+  "training_started": false
+}

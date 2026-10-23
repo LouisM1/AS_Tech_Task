@@ -1,0 +1,761 @@
+answer_column,question_id,block_name,question_type,role,persona_evidence,present_wave1_3,present_wave4
+QID11,QID11,Demographics,MC,shared_training,True,True,False
+QID12,QID12,Demographics,MC,shared_training,True,True,False
+QID13,QID13,Demographics,MC,shared_training,True,True,False
+QID14,QID14,Demographics,MC,shared_training,True,True,False
+QID15,QID15,Demographics,MC,shared_training,True,True,False
+QID16,QID16,Demographics,MC,shared_training,True,True,False
+QID17,QID17,Demographics,MC,shared_training,True,True,False
+QID18,QID18,Demographics,MC,shared_training,True,True,False
+QID19,QID19,Demographics,MC,shared_training,True,True,False
+QID20,QID20,Demographics,MC,shared_training,True,True,False
+QID21,QID21,Demographics,MC,shared_training,True,True,False
+QID22,QID22,Demographics,MC,shared_training,True,True,False
+QID23,QID23,Demographics,MC,shared_training,True,True,False
+QID24,QID24,Demographics,MC,shared_training,True,True,False
+QID25_1,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_2,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_3,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_4,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_5,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_6,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_7,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_8,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_9,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_10,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_11,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_12,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_13,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_14,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_15,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_16,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_17,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_18,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_19,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_20,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_21,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_22,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_23,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_24,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_25,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_26,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_27,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_28,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_29,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_30,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_31,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_32,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_33,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_34,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_35,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_36,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_37,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_38,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_39,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_40,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_41,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_42,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_43,QID25,Personality,Matrix,shared_training,False,True,False
+QID25_44,QID25,Personality,Matrix,shared_training,False,True,False
+QID26_1,QID26,Personality,Matrix,shared_training,False,True,False
+QID26_2,QID26,Personality,Matrix,shared_training,False,True,False
+QID26_3,QID26,Personality,Matrix,shared_training,False,True,False
+QID26_4,QID26,Personality,Matrix,shared_training,False,True,False
+QID26_5,QID26,Personality,Matrix,shared_training,False,True,False
+QID26_6,QID26,Personality,Matrix,shared_training,False,True,False
+QID26_7,QID26,Personality,Matrix,shared_training,False,True,False
+QID26_8,QID26,Personality,Matrix,shared_training,False,True,False
+QID26_9,QID26,Personality,Matrix,shared_training,False,True,False
+QID26_10,QID26,Personality,Matrix,shared_training,False,True,False
+QID26_11,QID26,Personality,Matrix,shared_training,False,True,False
+QID26_12,QID26,Personality,Matrix,shared_training,False,True,False
+QID26_13,QID26,Personality,Matrix,shared_training,False,True,False
+QID26_14,QID26,Personality,Matrix,shared_training,False,True,False
+QID26_15,QID26,Personality,Matrix,shared_training,False,True,False
+QID26_16,QID26,Personality,Matrix,shared_training,False,True,False
+QID26_17,QID26,Personality,Matrix,shared_training,False,True,False
+QID26_18,QID26,Personality,Matrix,shared_training,False,True,False
+QID29_1,QID29,Personality,Matrix,shared_training,True,True,False
+QID29_2,QID29,Personality,Matrix,shared_training,True,True,False
+QID29_3,QID29,Personality,Matrix,shared_training,True,True,False
+QID29_4,QID29,Personality,Matrix,shared_training,True,True,False
+QID29_5,QID29,Personality,Matrix,shared_training,True,True,False
+QID29_6,QID29,Personality,Matrix,shared_training,True,True,False
+QID29_7,QID29,Personality,Matrix,shared_training,True,True,False
+QID29_8,QID29,Personality,Matrix,shared_training,True,True,False
+QID29_9,QID29,Personality,Matrix,shared_training,True,True,False
+QID29_10,QID29,Personality,Matrix,shared_training,True,True,False
+QID29_11,QID29,Personality,Matrix,shared_training,True,True,False
+QID29_12,QID29,Personality,Matrix,shared_training,True,True,False
+QID29_13,QID29,Personality,Matrix,shared_training,True,True,False
+QID29_14,QID29,Personality,Matrix,shared_training,True,True,False
+QID29_15,QID29,Personality,Matrix,shared_training,True,True,False
+QID29_16,QID29,Personality,Matrix,shared_training,True,True,False
+QID29_17,QID29,Personality,Matrix,shared_training,True,True,False
+QID29_18,QID29,Personality,Matrix,shared_training,True,True,False
+QID29_19,QID29,Personality,Matrix,shared_training,True,True,False
+QID29_20,QID29,Personality,Matrix,shared_training,True,True,False
+QID29_21,QID29,Personality,Matrix,shared_training,True,True,False
+QID29_22,QID29,Personality,Matrix,shared_training,True,True,False
+QID29_23,QID29,Personality,Matrix,shared_training,True,True,False
+QID29_24,QID29,Personality,Matrix,shared_training,True,True,False
+QID35_1,QID35,Personality,Matrix,shared_training,False,True,False
+QID35_2,QID35,Personality,Matrix,shared_training,False,True,False
+QID35_3,QID35,Personality,Matrix,shared_training,False,True,False
+QID35_4,QID35,Personality,Matrix,shared_training,False,True,False
+QID35_5,QID35,Personality,Matrix,shared_training,False,True,False
+QID35_6,QID35,Personality,Matrix,shared_training,False,True,False
+QID35_7,QID35,Personality,Matrix,shared_training,False,True,False
+QID35_8,QID35,Personality,Matrix,shared_training,False,True,False
+QID35_9,QID35,Personality,Matrix,shared_training,False,True,False
+QID35_10,QID35,Personality,Matrix,shared_training,False,True,False
+QID35_11,QID35,Personality,Matrix,shared_training,False,True,False
+QID35_12,QID35,Personality,Matrix,shared_training,False,True,False
+QID232_1,QID232,Personality,Matrix,shared_training,False,True,False
+QID232_2,QID232,Personality,Matrix,shared_training,False,True,False
+QID232_3,QID232,Personality,Matrix,shared_training,False,True,False
+QID232_4,QID232,Personality,Matrix,shared_training,False,True,False
+QID232_5,QID232,Personality,Matrix,shared_training,False,True,False
+QID232_6,QID232,Personality,Matrix,shared_training,False,True,False
+QID232_7,QID232,Personality,Matrix,shared_training,False,True,False
+QID232_8,QID232,Personality,Matrix,shared_training,False,True,False
+QID232_9,QID232,Personality,Matrix,shared_training,False,True,False
+QID232_10,QID232,Personality,Matrix,shared_training,False,True,False
+QID232_11,QID232,Personality,Matrix,shared_training,False,True,False
+QID232_12,QID232,Personality,Matrix,shared_training,False,True,False
+QID232_13,QID232,Personality,Matrix,shared_training,False,True,False
+QID232_14,QID232,Personality,Matrix,shared_training,False,True,False
+QID232_15,QID232,Personality,Matrix,shared_training,False,True,False
+QID232_16,QID232,Personality,Matrix,shared_training,False,True,False
+QID232_17,QID232,Personality,Matrix,shared_training,False,True,False
+QID232_18,QID232,Personality,Matrix,shared_training,False,True,False
+QID232_19,QID232,Personality,Matrix,shared_training,False,True,False
+QID232_20,QID232,Personality,Matrix,shared_training,False,True,False
+QID235_1,QID235,Personality,Matrix,shared_training,True,True,False
+QID235_2,QID235,Personality,Matrix,shared_training,True,True,False
+QID235_3,QID235,Personality,Matrix,shared_training,True,True,False
+QID235_4,QID235,Personality,Matrix,shared_training,True,True,False
+QID235_5,QID235,Personality,Matrix,shared_training,True,True,False
+QID235_6,QID235,Personality,Matrix,shared_training,True,True,False
+QID52_TEXT,QID52,Cognitive tests,TE,excluded_other,False,True,False
+QID53_TEXT,QID53,Cognitive tests,TE,excluded_other,False,True,False
+QID54_TEXT,QID54,Cognitive tests,TE,excluded_other,False,True,False
+QID55_TEXT,QID55,Cognitive tests,TE,excluded_other,False,True,False
+QID56,QID56,Cognitive tests,MC,excluded_other,False,True,False
+QID57,QID57,Cognitive tests,MC,excluded_other,False,True,False
+QID58,QID58,Cognitive tests,MC,excluded_other,False,True,False
+QID59,QID59,Cognitive tests,MC,excluded_other,False,True,False
+QID60,QID60,Cognitive tests,MC,excluded_other,False,True,False
+QID61,QID61,Cognitive tests,MC,excluded_other,False,True,False
+QID63,QID63,Cognitive tests,MC,excluded_other,False,True,False
+QID64,QID64,Cognitive tests,MC,excluded_other,False,True,False
+QID65,QID65,Cognitive tests,MC,excluded_other,False,True,False
+QID66,QID66,Cognitive tests,MC,excluded_other,False,True,False
+QID67,QID67,Cognitive tests,MC,excluded_other,False,True,False
+QID68,QID68,Cognitive tests,MC,excluded_other,False,True,False
+QID69,QID69,Cognitive tests,MC,excluded_other,False,True,False
+QID70,QID70,Cognitive tests,MC,excluded_other,False,True,False
+QID71,QID71,Cognitive tests,MC,excluded_other,False,True,False
+QID72,QID72,Cognitive tests,MC,excluded_other,False,True,False
+QID74,QID74,Cognitive tests,MC,excluded_other,False,True,False
+QID75,QID75,Cognitive tests,MC,excluded_other,False,True,False
+QID76,QID76,Cognitive tests,MC,excluded_other,False,True,False
+QID77,QID77,Cognitive tests,MC,excluded_other,False,True,False
+QID78,QID78,Cognitive tests,MC,excluded_other,False,True,False
+QID79,QID79,Cognitive tests,MC,excluded_other,False,True,False
+QID81,QID81,Cognitive tests,MC,excluded_other,False,True,False
+QID82,QID82,Cognitive tests,MC,excluded_other,False,True,False
+QID83,QID83,Cognitive tests,MC,excluded_other,False,True,False
+QID80,QID80,Cognitive tests,MC,excluded_other,False,True,False
+QID278,QID278,Cognitive tests,MC,excluded_other,False,True,False
+QID268,QID268,Cognitive tests,MC,excluded_other,False,True,False
+QID269,QID269,Cognitive tests,MC,excluded_other,False,True,False
+QID270,QID270,Cognitive tests,MC,excluded_other,False,True,False
+QID279,QID279,Cognitive tests,MC,excluded_other,False,True,False
+QID271,QID271,Cognitive tests,MC,excluded_other,False,True,False
+QID272,QID272,Cognitive tests,MC,excluded_other,False,True,False
+QID273,QID273,Cognitive tests,MC,excluded_other,False,True,False
+QID274,QID274,Cognitive tests,MC,excluded_other,False,True,False
+QID275,QID275,Cognitive tests,MC,excluded_other,False,True,False
+QID276,QID276,Cognitive tests,MC,excluded_other,False,True,False
+QID277,QID277,Cognitive tests,MC,excluded_other,False,True,False
+QID123_TEXT,QID123,Cognitive tests,TE,excluded_other,False,True,False
+QID124_TEXT,QID124,Cognitive tests,TE,excluded_other,False,True,False
+QID224,QID224,Economic preferences,MC,shared_training,False,True,False
+QID225,QID225,Economic preferences,MC,shared_training,False,True,False
+QID226,QID226,Economic preferences,MC,shared_training,False,True,False
+QID227,QID227,Economic preferences,MC,shared_training,False,True,False
+QID228,QID228,Economic preferences,MC,shared_training,False,True,False
+QID229,QID229,Economic preferences,MC,shared_training,False,True,False
+QID230,QID230,Economic preferences,MC,shared_training,False,True,False
+QID149,QID149,Economic preferences,MC,shared_training,False,True,False
+QID150,QID150,Economic preferences,MC,shared_training,False,True,False
+QID151,QID151,Economic preferences,MC,shared_training,False,True,False
+QID152,QID152,Economic preferences,MC,shared_training,False,True,False
+QID27_1,QID27,Personality,Matrix,shared_training,False,True,False
+QID27_2,QID27,Personality,Matrix,shared_training,False,True,False
+QID27_3,QID27,Personality,Matrix,shared_training,False,True,False
+QID27_4,QID27,Personality,Matrix,shared_training,False,True,False
+QID27_5,QID27,Personality,Matrix,shared_training,False,True,False
+QID27_6,QID27,Personality,Matrix,shared_training,False,True,False
+QID27_7,QID27,Personality,Matrix,shared_training,False,True,False
+QID27_8,QID27,Personality,Matrix,shared_training,False,True,False
+QID27_9,QID27,Personality,Matrix,shared_training,False,True,False
+QID27_10,QID27,Personality,Matrix,shared_training,False,True,False
+QID27_11,QID27,Personality,Matrix,shared_training,False,True,False
+QID27_12,QID27,Personality,Matrix,shared_training,False,True,False
+QID27_13,QID27,Personality,Matrix,shared_training,False,True,False
+QID30_1,QID30,Personality,Matrix,shared_training,False,True,False
+QID30_2,QID30,Personality,Matrix,shared_training,False,True,False
+QID30_3,QID30,Personality,Matrix,shared_training,False,True,False
+QID30_4,QID30,Personality,Matrix,shared_training,False,True,False
+QID30_5,QID30,Personality,Matrix,shared_training,False,True,False
+QID30_6,QID30,Personality,Matrix,shared_training,False,True,False
+QID30_7,QID30,Personality,Matrix,shared_training,False,True,False
+QID30_8,QID30,Personality,Matrix,shared_training,False,True,False
+QID125_1,QID125,Personality,Matrix,excluded_other,False,True,False
+QID125_2,QID125,Personality,Matrix,excluded_other,False,True,False
+QID125_3,QID125,Personality,Matrix,excluded_other,False,True,False
+QID125_4,QID125,Personality,Matrix,excluded_other,False,True,False
+QID125_5,QID125,Personality,Matrix,excluded_other,False,True,False
+QID125_6,QID125,Personality,Matrix,excluded_other,False,True,False
+QID125_7,QID125,Personality,Matrix,excluded_other,False,True,False
+QID125_8,QID125,Personality,Matrix,excluded_other,False,True,False
+QID125_9,QID125,Personality,Matrix,excluded_other,False,True,False
+QID125_10,QID125,Personality,Matrix,excluded_other,False,True,False
+QID125_11,QID125,Personality,Matrix,excluded_other,False,True,False
+QID125_12,QID125,Personality,Matrix,excluded_other,False,True,False
+QID125_13,QID125,Personality,Matrix,excluded_other,False,True,False
+QID125_14,QID125,Personality,Matrix,excluded_other,False,True,False
+QID125_15,QID125,Personality,Matrix,excluded_other,False,True,False
+QID125_16,QID125,Personality,Matrix,excluded_other,False,True,False
+QID125_17,QID125,Personality,Matrix,excluded_other,False,True,False
+QID125_18,QID125,Personality,Matrix,excluded_other,False,True,False
+QID125_19,QID125,Personality,Matrix,excluded_other,False,True,False
+QID125_20,QID125,Personality,Matrix,excluded_other,False,True,False
+QID125_21,QID125,Personality,Matrix,excluded_other,False,True,False
+QID233_1,QID233,Personality,Matrix,shared_training,True,True,False
+QID233_2,QID233,Personality,Matrix,shared_training,True,True,False
+QID233_3,QID233,Personality,Matrix,shared_training,True,True,False
+QID233_4,QID233,Personality,Matrix,shared_training,True,True,False
+QID233_5,QID233,Personality,Matrix,shared_training,True,True,False
+QID233_6,QID233,Personality,Matrix,shared_training,True,True,False
+QID233_7,QID233,Personality,Matrix,shared_training,True,True,False
+QID233_8,QID233,Personality,Matrix,shared_training,True,True,False
+QID233_9,QID233,Personality,Matrix,shared_training,True,True,False
+QID233_10,QID233,Personality,Matrix,shared_training,True,True,False
+QID233_11,QID233,Personality,Matrix,shared_training,True,True,False
+QID233_12,QID233,Personality,Matrix,shared_training,True,True,False
+QID233_13,QID233,Personality,Matrix,shared_training,True,True,False
+QID233_14,QID233,Personality,Matrix,shared_training,True,True,False
+QID233_15,QID233,Personality,Matrix,shared_training,True,True,False
+QID233_16,QID233,Personality,Matrix,shared_training,True,True,False
+QID268_TEXT,QID268,Personality,TE,excluded_other,False,True,False
+QID269_TEXT,QID269,Personality,TE,excluded_other,False,True,False
+QID270_TEXT,QID270,Personality,TE,excluded_other,False,True,False
+QID36,QID36,Cognitive tests,MC,excluded_other,False,True,False
+QID37,QID37,Cognitive tests,MC,excluded_other,False,True,False
+QID38,QID38,Cognitive tests,MC,excluded_other,False,True,False
+QID39,QID39,Cognitive tests,MC,excluded_other,False,True,False
+QID40,QID40,Cognitive tests,MC,excluded_other,False,True,False
+QID41,QID41,Cognitive tests,MC,excluded_other,False,True,False
+QID42,QID42,Cognitive tests,MC,excluded_other,False,True,False
+QID43_TEXT,QID43,Cognitive tests,TE,excluded_other,False,True,False
+QID44_TEXT,QID44,Cognitive tests,TE,excluded_other,False,True,False
+QID45_TEXT,QID45,Cognitive tests,TE,excluded_other,False,True,False
+QID46_TEXT,QID46,Cognitive tests,TE,excluded_other,False,True,False
+QID47_TEXT,QID47,Cognitive tests,TE,excluded_other,False,True,False
+QID48_TEXT,QID48,Cognitive tests,TE,excluded_other,False,True,False
+QID49_TEXT,QID49,Cognitive tests,TE,excluded_other,False,True,False
+QID50_TEXT,QID50,Cognitive tests,TE,excluded_other,False,True,False
+QID51_TEXT,QID51,Cognitive tests,TE,excluded_other,False,True,False
+QID217,QID217,Cognitive tests,MC,excluded_other,False,True,False
+QID218,QID218,Cognitive tests,MC,excluded_other,False,True,False
+QID219,QID219,Cognitive tests,MC,excluded_other,False,True,False
+QID220,QID220,Cognitive tests,MC,excluded_other,False,True,False
+QID10_1,QID10,Forward Flow,TE,excluded_other,False,True,False
+QID10_2,QID10,Forward Flow,TE,excluded_other,False,True,False
+QID10_3,QID10,Forward Flow,TE,excluded_other,False,True,False
+QID10_4,QID10,Forward Flow,TE,excluded_other,False,True,False
+QID10_5,QID10,Forward Flow,TE,excluded_other,False,True,False
+QID10_6,QID10,Forward Flow,TE,excluded_other,False,True,False
+QID10_7,QID10,Forward Flow,TE,excluded_other,False,True,False
+QID10_8,QID10,Forward Flow,TE,excluded_other,False,True,False
+QID10_9,QID10,Forward Flow,TE,excluded_other,False,True,False
+QID10_10,QID10,Forward Flow,TE,excluded_other,False,True,False
+QID10_11,QID10,Forward Flow,TE,excluded_other,False,True,False
+QID10_12,QID10,Forward Flow,TE,excluded_other,False,True,False
+QID10_13,QID10,Forward Flow,TE,excluded_other,False,True,False
+QID10_14,QID10,Forward Flow,TE,excluded_other,False,True,False
+QID10_15,QID10,Forward Flow,TE,excluded_other,False,True,False
+QID10_16,QID10,Forward Flow,TE,excluded_other,False,True,False
+QID10_17,QID10,Forward Flow,TE,excluded_other,False,True,False
+QID10_18,QID10,Forward Flow,TE,excluded_other,False,True,False
+QID10_19,QID10,Forward Flow,TE,excluded_other,False,True,False
+QID10_20,QID10,Forward Flow,TE,excluded_other,False,True,False
+QID84_4,QID84,Economic preferences,Matrix,shared_training,True,True,False
+QID84_5,QID84,Economic preferences,Matrix,shared_training,True,True,False
+QID84_6,QID84,Economic preferences,Matrix,shared_training,True,True,False
+QID84_7,QID84,Economic preferences,Matrix,shared_training,True,True,False
+QID84_8,QID84,Economic preferences,Matrix,shared_training,True,True,False
+QID84_9,QID84,Economic preferences,Matrix,shared_training,True,True,False
+QID84_10,QID84,Economic preferences,Matrix,shared_training,True,True,False
+QID84_11,QID84,Economic preferences,Matrix,shared_training,True,True,False
+QID84_12,QID84,Economic preferences,Matrix,shared_training,True,True,False
+QID244_4,QID244,Economic preferences,Matrix,shared_training,False,True,False
+QID244_5,QID244,Economic preferences,Matrix,shared_training,False,True,False
+QID244_6,QID244,Economic preferences,Matrix,shared_training,False,True,False
+QID244_7,QID244,Economic preferences,Matrix,shared_training,False,True,False
+QID244_8,QID244,Economic preferences,Matrix,shared_training,False,True,False
+QID244_9,QID244,Economic preferences,Matrix,shared_training,False,True,False
+QID244_10,QID244,Economic preferences,Matrix,shared_training,False,True,False
+QID244_11,QID244,Economic preferences,Matrix,shared_training,False,True,False
+QID244_12,QID244,Economic preferences,Matrix,shared_training,False,True,False
+QID244_13,QID244,Economic preferences,Matrix,shared_training,False,True,False
+QID245_4,QID245,Economic preferences,Matrix,shared_training,False,True,False
+QID245_5,QID245,Economic preferences,Matrix,shared_training,False,True,False
+QID245_6,QID245,Economic preferences,Matrix,shared_training,False,True,False
+QID245_7,QID245,Economic preferences,Matrix,shared_training,False,True,False
+QID245_8,QID245,Economic preferences,Matrix,shared_training,False,True,False
+QID245_9,QID245,Economic preferences,Matrix,shared_training,False,True,False
+QID245_10,QID245,Economic preferences,Matrix,shared_training,False,True,False
+QID245_11,QID245,Economic preferences,Matrix,shared_training,False,True,False
+QID245_12,QID245,Economic preferences,Matrix,shared_training,False,True,False
+QID245_13,QID245,Economic preferences,Matrix,shared_training,False,True,False
+QID245_14,QID245,Economic preferences,Matrix,shared_training,False,True,False
+QID246_4,QID246,Economic preferences,Matrix,shared_training,False,True,False
+QID246_5,QID246,Economic preferences,Matrix,shared_training,False,True,False
+QID246_6,QID246,Economic preferences,Matrix,shared_training,False,True,False
+QID246_7,QID246,Economic preferences,Matrix,shared_training,False,True,False
+QID246_8,QID246,Economic preferences,Matrix,shared_training,False,True,False
+QID246_9,QID246,Economic preferences,Matrix,shared_training,False,True,False
+QID246_10,QID246,Economic preferences,Matrix,shared_training,False,True,False
+QID246_11,QID246,Economic preferences,Matrix,shared_training,False,True,False
+QID246_12,QID246,Economic preferences,Matrix,shared_training,False,True,False
+QID247_4,QID247,Economic preferences,Matrix,shared_training,False,True,False
+QID247_5,QID247,Economic preferences,Matrix,shared_training,False,True,False
+QID247_6,QID247,Economic preferences,Matrix,shared_training,False,True,False
+QID247_7,QID247,Economic preferences,Matrix,shared_training,False,True,False
+QID247_8,QID247,Economic preferences,Matrix,shared_training,False,True,False
+QID247_9,QID247,Economic preferences,Matrix,shared_training,False,True,False
+QID247_10,QID247,Economic preferences,Matrix,shared_training,False,True,False
+QID247_11,QID247,Economic preferences,Matrix,shared_training,False,True,False
+QID247_12,QID247,Economic preferences,Matrix,shared_training,False,True,False
+QID247_13,QID247,Economic preferences,Matrix,shared_training,False,True,False
+QID248_4,QID248,Economic preferences,Matrix,shared_training,False,True,False
+QID248_5,QID248,Economic preferences,Matrix,shared_training,False,True,False
+QID248_6,QID248,Economic preferences,Matrix,shared_training,False,True,False
+QID248_7,QID248,Economic preferences,Matrix,shared_training,False,True,False
+QID248_8,QID248,Economic preferences,Matrix,shared_training,False,True,False
+QID248_9,QID248,Economic preferences,Matrix,shared_training,False,True,False
+QID248_10,QID248,Economic preferences,Matrix,shared_training,False,True,False
+QID248_11,QID248,Economic preferences,Matrix,shared_training,False,True,False
+QID248_12,QID248,Economic preferences,Matrix,shared_training,False,True,False
+QID248_13,QID248,Economic preferences,Matrix,shared_training,False,True,False
+QID248_14,QID248,Economic preferences,Matrix,shared_training,False,True,False
+QID250_1,QID250,Economic preferences,Matrix,shared_training,True,True,False
+QID250_2,QID250,Economic preferences,Matrix,shared_training,True,True,False
+QID250_3,QID250,Economic preferences,Matrix,shared_training,True,True,False
+QID250_4,QID250,Economic preferences,Matrix,shared_training,True,True,False
+QID250_5,QID250,Economic preferences,Matrix,shared_training,True,True,False
+QID250_6,QID250,Economic preferences,Matrix,shared_training,True,True,False
+QID250_7,QID250,Economic preferences,Matrix,shared_training,True,True,False
+QID250_8,QID250,Economic preferences,Matrix,shared_training,True,True,False
+QID250_9,QID250,Economic preferences,Matrix,shared_training,True,True,False
+QID250_10,QID250,Economic preferences,Matrix,shared_training,True,True,False
+QID250_11,QID250,Economic preferences,Matrix,shared_training,True,True,False
+QID250_12,QID250,Economic preferences,Matrix,shared_training,True,True,False
+QID250_13,QID250,Economic preferences,Matrix,shared_training,True,True,False
+QID250_14,QID250,Economic preferences,Matrix,shared_training,True,True,False
+QID251_1,QID251,Economic preferences,Matrix,shared_training,False,True,False
+QID251_2,QID251,Economic preferences,Matrix,shared_training,False,True,False
+QID251_3,QID251,Economic preferences,Matrix,shared_training,False,True,False
+QID251_4,QID251,Economic preferences,Matrix,shared_training,False,True,False
+QID251_5,QID251,Economic preferences,Matrix,shared_training,False,True,False
+QID251_6,QID251,Economic preferences,Matrix,shared_training,False,True,False
+QID251_7,QID251,Economic preferences,Matrix,shared_training,False,True,False
+QID251_8,QID251,Economic preferences,Matrix,shared_training,False,True,False
+QID251_9,QID251,Economic preferences,Matrix,shared_training,False,True,False
+QID251_10,QID251,Economic preferences,Matrix,shared_training,False,True,False
+QID251_11,QID251,Economic preferences,Matrix,shared_training,False,True,False
+QID251_12,QID251,Economic preferences,Matrix,shared_training,False,True,False
+QID251_13,QID251,Economic preferences,Matrix,shared_training,False,True,False
+QID251_14,QID251,Economic preferences,Matrix,shared_training,False,True,False
+QID252_1,QID252,Economic preferences,Matrix,shared_training,False,True,False
+QID252_2,QID252,Economic preferences,Matrix,shared_training,False,True,False
+QID252_3,QID252,Economic preferences,Matrix,shared_training,False,True,False
+QID252_4,QID252,Economic preferences,Matrix,shared_training,False,True,False
+QID252_5,QID252,Economic preferences,Matrix,shared_training,False,True,False
+QID252_6,QID252,Economic preferences,Matrix,shared_training,False,True,False
+QID252_7,QID252,Economic preferences,Matrix,shared_training,False,True,False
+QID252_8,QID252,Economic preferences,Matrix,shared_training,False,True,False
+QID252_9,QID252,Economic preferences,Matrix,shared_training,False,True,False
+QID252_10,QID252,Economic preferences,Matrix,shared_training,False,True,False
+QID252_11,QID252,Economic preferences,Matrix,shared_training,False,True,False
+QID252_12,QID252,Economic preferences,Matrix,shared_training,False,True,False
+QID252_13,QID252,Economic preferences,Matrix,shared_training,False,True,False
+QID252_14,QID252,Economic preferences,Matrix,shared_training,False,True,False
+QID276_1,QID276,Economic preferences,Matrix,shared_training,False,True,False
+QID276_2,QID276,Economic preferences,Matrix,shared_training,False,True,False
+QID276_3,QID276,Economic preferences,Matrix,shared_training,False,True,False
+QID276_4,QID276,Economic preferences,Matrix,shared_training,False,True,False
+QID276_5,QID276,Economic preferences,Matrix,shared_training,False,True,False
+QID276_6,QID276,Economic preferences,Matrix,shared_training,False,True,False
+QID276_7,QID276,Economic preferences,Matrix,shared_training,False,True,False
+QID276_8,QID276,Economic preferences,Matrix,shared_training,False,True,False
+QID276_9,QID276,Economic preferences,Matrix,shared_training,False,True,False
+QID276_10,QID276,Economic preferences,Matrix,shared_training,False,True,False
+QID276_11,QID276,Economic preferences,Matrix,shared_training,False,True,False
+QID276_12,QID276,Economic preferences,Matrix,shared_training,False,True,False
+QID276_13,QID276,Economic preferences,Matrix,shared_training,False,True,False
+QID276_14,QID276,Economic preferences,Matrix,shared_training,False,True,False
+QID277_1,QID277,Economic preferences,Matrix,shared_training,False,True,False
+QID277_2,QID277,Economic preferences,Matrix,shared_training,False,True,False
+QID277_3,QID277,Economic preferences,Matrix,shared_training,False,True,False
+QID277_4,QID277,Economic preferences,Matrix,shared_training,False,True,False
+QID277_5,QID277,Economic preferences,Matrix,shared_training,False,True,False
+QID277_6,QID277,Economic preferences,Matrix,shared_training,False,True,False
+QID277_7,QID277,Economic preferences,Matrix,shared_training,False,True,False
+QID277_8,QID277,Economic preferences,Matrix,shared_training,False,True,False
+QID277_9,QID277,Economic preferences,Matrix,shared_training,False,True,False
+QID277_10,QID277,Economic preferences,Matrix,shared_training,False,True,False
+QID277_11,QID277,Economic preferences,Matrix,shared_training,False,True,False
+QID277_12,QID277,Economic preferences,Matrix,shared_training,False,True,False
+QID277_13,QID277,Economic preferences,Matrix,shared_training,False,True,False
+QID277_14,QID277,Economic preferences,Matrix,shared_training,False,True,False
+QID278_1,QID278,Economic preferences,Matrix,shared_training,False,True,False
+QID278_2,QID278,Economic preferences,Matrix,shared_training,False,True,False
+QID278_3,QID278,Economic preferences,Matrix,shared_training,False,True,False
+QID278_4,QID278,Economic preferences,Matrix,shared_training,False,True,False
+QID278_5,QID278,Economic preferences,Matrix,shared_training,False,True,False
+QID278_6,QID278,Economic preferences,Matrix,shared_training,False,True,False
+QID278_7,QID278,Economic preferences,Matrix,shared_training,False,True,False
+QID278_8,QID278,Economic preferences,Matrix,shared_training,False,True,False
+QID278_9,QID278,Economic preferences,Matrix,shared_training,False,True,False
+QID278_10,QID278,Economic preferences,Matrix,shared_training,False,True,False
+QID278_11,QID278,Economic preferences,Matrix,shared_training,False,True,False
+QID278_12,QID278,Economic preferences,Matrix,shared_training,False,True,False
+QID278_13,QID278,Economic preferences,Matrix,shared_training,False,True,False
+QID278_14,QID278,Economic preferences,Matrix,shared_training,False,True,False
+QID279_1,QID279,Economic preferences,Matrix,shared_training,False,True,False
+QID279_2,QID279,Economic preferences,Matrix,shared_training,False,True,False
+QID279_3,QID279,Economic preferences,Matrix,shared_training,False,True,False
+QID279_4,QID279,Economic preferences,Matrix,shared_training,False,True,False
+QID279_5,QID279,Economic preferences,Matrix,shared_training,False,True,False
+QID279_6,QID279,Economic preferences,Matrix,shared_training,False,True,False
+QID279_7,QID279,Economic preferences,Matrix,shared_training,False,True,False
+QID279_8,QID279,Economic preferences,Matrix,shared_training,False,True,False
+QID279_9,QID279,Economic preferences,Matrix,shared_training,False,True,False
+QID279_10,QID279,Economic preferences,Matrix,shared_training,False,True,False
+QID279_11,QID279,Economic preferences,Matrix,shared_training,False,True,False
+QID279_12,QID279,Economic preferences,Matrix,shared_training,False,True,False
+QID279_13,QID279,Economic preferences,Matrix,shared_training,False,True,False
+QID279_14,QID279,Economic preferences,Matrix,shared_training,False,True,False
+QID117,QID117,Economic preferences,MC,shared_training,False,True,False
+QID118,QID118,Economic preferences,MC,shared_training,False,True,False
+QID119,QID119,Economic preferences,MC,shared_training,False,True,False
+QID120,QID120,Economic preferences,MC,shared_training,False,True,False
+QID121,QID121,Economic preferences,MC,shared_training,False,True,False
+QID122,QID122,Economic preferences,MC,shared_training,False,True,False
+QID271_1,QID271,Economic preferences,TE,excluded_other,False,True,False
+QID271_11,QID271,Economic preferences,TE,excluded_other,False,True,False
+QID271_2,QID271,Economic preferences,TE,excluded_other,False,True,False
+QID271_3,QID271,Economic preferences,TE,excluded_other,False,True,False
+QID271_4,QID271,Economic preferences,TE,excluded_other,False,True,False
+QID271_5,QID271,Economic preferences,TE,excluded_other,False,True,False
+QID272_1,QID272,Economic preferences,TE,excluded_other,False,True,False
+QID272_2,QID272,Economic preferences,TE,excluded_other,False,True,False
+QID272_3,QID272,Economic preferences,TE,excluded_other,False,True,False
+QID272_4,QID272,Economic preferences,TE,excluded_other,False,True,False
+QID272_5,QID272,Economic preferences,TE,excluded_other,False,True,False
+QID272_6,QID272,Economic preferences,TE,excluded_other,False,True,False
+QID28_1,QID28,Personality,Matrix,shared_training,False,True,False
+QID28_2,QID28,Personality,Matrix,shared_training,False,True,False
+QID28_3,QID28,Personality,Matrix,shared_training,False,True,False
+QID28_4,QID28,Personality,Matrix,shared_training,False,True,False
+QID28_5,QID28,Personality,Matrix,shared_training,False,True,False
+QID28_6,QID28,Personality,Matrix,shared_training,False,True,False
+QID28_7,QID28,Personality,Matrix,shared_training,False,True,False
+QID28_8,QID28,Personality,Matrix,shared_training,False,True,False
+QID28_9,QID28,Personality,Matrix,shared_training,False,True,False
+QID28_10,QID28,Personality,Matrix,shared_training,False,True,False
+QID31,QID31,Personality,MC,shared_training,True,True,False
+QID32,QID32,Personality,MC,shared_training,True,True,False
+QID33,QID33,Personality,MC,shared_training,True,True,False
+QID34,QID34,Personality,MC,shared_training,True,True,False
+QID126_1,QID126,Personality,MC,excluded_other,False,True,False
+QID126_2,QID126,Personality,MC,excluded_other,False,True,False
+QID126_3,QID126,Personality,MC,excluded_other,False,True,False
+QID126_4,QID126,Personality,MC,excluded_other,False,True,False
+QID128_1,QID128,Personality,MC,excluded_other,False,True,False
+QID128_2,QID128,Personality,MC,excluded_other,False,True,False
+QID128_3,QID128,Personality,MC,excluded_other,False,True,False
+QID128_4,QID128,Personality,MC,excluded_other,False,True,False
+QID129_1,QID129,Personality,MC,excluded_other,False,True,False
+QID129_2,QID129,Personality,MC,excluded_other,False,True,False
+QID129_3,QID129,Personality,MC,excluded_other,False,True,False
+QID129_4,QID129,Personality,MC,excluded_other,False,True,False
+QID130_1,QID130,Personality,MC,excluded_other,False,True,False
+QID130_2,QID130,Personality,MC,excluded_other,False,True,False
+QID130_3,QID130,Personality,MC,excluded_other,False,True,False
+QID130_4,QID130,Personality,MC,excluded_other,False,True,False
+QID131_1,QID131,Personality,MC,excluded_other,False,True,False
+QID131_2,QID131,Personality,MC,excluded_other,False,True,False
+QID131_3,QID131,Personality,MC,excluded_other,False,True,False
+QID131_4,QID131,Personality,MC,excluded_other,False,True,False
+QID132_1,QID132,Personality,MC,excluded_other,False,True,False
+QID132_2,QID132,Personality,MC,excluded_other,False,True,False
+QID132_3,QID132,Personality,MC,excluded_other,False,True,False
+QID132_4,QID132,Personality,MC,excluded_other,False,True,False
+QID133_1,QID133,Personality,MC,excluded_other,False,True,False
+QID133_2,QID133,Personality,MC,excluded_other,False,True,False
+QID133_3,QID133,Personality,MC,excluded_other,False,True,False
+QID133_4,QID133,Personality,MC,excluded_other,False,True,False
+QID134_1,QID134,Personality,MC,excluded_other,False,True,False
+QID134_2,QID134,Personality,MC,excluded_other,False,True,False
+QID134_3,QID134,Personality,MC,excluded_other,False,True,False
+QID134_4,QID134,Personality,MC,excluded_other,False,True,False
+QID136_1,QID136,Personality,MC,excluded_other,False,True,False
+QID136_2,QID136,Personality,MC,excluded_other,False,True,False
+QID136_3,QID136,Personality,MC,excluded_other,False,True,False
+QID136_4,QID136,Personality,MC,excluded_other,False,True,False
+QID137_1,QID137,Personality,MC,excluded_other,False,True,False
+QID137_2,QID137,Personality,MC,excluded_other,False,True,False
+QID137_3,QID137,Personality,MC,excluded_other,False,True,False
+QID137_4,QID137,Personality,MC,excluded_other,False,True,False
+QID138_1,QID138,Personality,MC,excluded_other,False,True,False
+QID138_2,QID138,Personality,MC,excluded_other,False,True,False
+QID138_3,QID138,Personality,MC,excluded_other,False,True,False
+QID138_4,QID138,Personality,MC,excluded_other,False,True,False
+QID139_1,QID139,Personality,MC,excluded_other,False,True,False
+QID139_2,QID139,Personality,MC,excluded_other,False,True,False
+QID139_3,QID139,Personality,MC,excluded_other,False,True,False
+QID139_4,QID139,Personality,MC,excluded_other,False,True,False
+QID140_1,QID140,Personality,MC,excluded_other,False,True,False
+QID140_2,QID140,Personality,MC,excluded_other,False,True,False
+QID140_3,QID140,Personality,MC,excluded_other,False,True,False
+QID140_4,QID140,Personality,MC,excluded_other,False,True,False
+QID141_1,QID141,Personality,MC,excluded_other,False,True,False
+QID141_2,QID141,Personality,MC,excluded_other,False,True,False
+QID141_3,QID141,Personality,MC,excluded_other,False,True,False
+QID141_4,QID141,Personality,MC,excluded_other,False,True,False
+QID142_1,QID142,Personality,MC,excluded_other,False,True,False
+QID142_2,QID142,Personality,MC,excluded_other,False,True,False
+QID142_3,QID142,Personality,MC,excluded_other,False,True,False
+QID142_4,QID142,Personality,MC,excluded_other,False,True,False
+QID143_1,QID143,Personality,MC,excluded_other,False,True,False
+QID143_2,QID143,Personality,MC,excluded_other,False,True,False
+QID143_3,QID143,Personality,MC,excluded_other,False,True,False
+QID143_4,QID143,Personality,MC,excluded_other,False,True,False
+QID144_1,QID144,Personality,MC,excluded_other,False,True,False
+QID144_2,QID144,Personality,MC,excluded_other,False,True,False
+QID144_3,QID144,Personality,MC,excluded_other,False,True,False
+QID144_4,QID144,Personality,MC,excluded_other,False,True,False
+QID145_1,QID145,Personality,MC,excluded_other,False,True,False
+QID145_2,QID145,Personality,MC,excluded_other,False,True,False
+QID145_3,QID145,Personality,MC,excluded_other,False,True,False
+QID145_4,QID145,Personality,MC,excluded_other,False,True,False
+QID146_1,QID146,Personality,MC,excluded_other,False,True,False
+QID146_2,QID146,Personality,MC,excluded_other,False,True,False
+QID146_3,QID146,Personality,MC,excluded_other,False,True,False
+QID146_4,QID146,Personality,MC,excluded_other,False,True,False
+QID147_1,QID147,Personality,MC,excluded_other,False,True,False
+QID147_2,QID147,Personality,MC,excluded_other,False,True,False
+QID147_3,QID147,Personality,MC,excluded_other,False,True,False
+QID147_4,QID147,Personality,MC,excluded_other,False,True,False
+QID148,QID148,Personality,MC,excluded_other,False,True,False
+QID234_1,QID234,Personality,Matrix,shared_training,False,True,False
+QID234_2,QID234,Personality,Matrix,shared_training,False,True,False
+QID234_3,QID234,Personality,Matrix,shared_training,False,True,False
+QID234_4,QID234,Personality,Matrix,shared_training,False,True,False
+QID234_5,QID234,Personality,Matrix,shared_training,False,True,False
+QID234_6,QID234,Personality,Matrix,shared_training,False,True,False
+QID234_7,QID234,Personality,Matrix,shared_training,False,True,False
+QID234_12,QID234,Personality,Matrix,shared_training,False,True,False
+QID234_8,QID234,Personality,Matrix,shared_training,False,True,False
+QID234_9,QID234,Personality,Matrix,shared_training,False,True,False
+QID234_10,QID234,Personality,Matrix,shared_training,False,True,False
+QID234_11,QID234,Personality,Matrix,shared_training,False,True,False
+QID236_1,QID236,Personality,Matrix,shared_training,False,True,False
+QID236_2,QID236,Personality,Matrix,shared_training,False,True,False
+QID236_3,QID236,Personality,Matrix,shared_training,False,True,False
+QID236_4,QID236,Personality,Matrix,shared_training,False,True,False
+QID236_5,QID236,Personality,Matrix,shared_training,False,True,False
+QID236_6,QID236,Personality,Matrix,shared_training,False,True,False
+QID236_7,QID236,Personality,Matrix,shared_training,False,True,False
+QID236_8,QID236,Personality,Matrix,shared_training,False,True,False
+QID236_9,QID236,Personality,Matrix,shared_training,False,True,False
+QID236_10,QID236,Personality,Matrix,shared_training,False,True,False
+QID236_11,QID236,Personality,Matrix,shared_training,False,True,False
+QID236_12,QID236,Personality,Matrix,shared_training,False,True,False
+QID236_13,QID236,Personality,Matrix,shared_training,False,True,False
+QID237_1,QID237,Personality,Matrix,shared_training,False,True,False
+QID237_2,QID237,Personality,Matrix,shared_training,False,True,False
+QID237_3,QID237,Personality,Matrix,shared_training,False,True,False
+QID237_4,QID237,Personality,Matrix,shared_training,False,True,False
+QID237_5,QID237,Personality,Matrix,shared_training,False,True,False
+QID237_6,QID237,Personality,Matrix,shared_training,False,True,False
+QID237_7,QID237,Personality,Matrix,shared_training,False,True,False
+QID237_8,QID237,Personality,Matrix,shared_training,False,True,False
+QID237_9,QID237,Personality,Matrix,shared_training,False,True,False
+QID237_10,QID237,Personality,Matrix,shared_training,False,True,False
+QID237_11,QID237,Personality,Matrix,shared_training,False,True,False
+QID237_12,QID237,Personality,Matrix,shared_training,False,True,False
+QID238_1,QID238,Personality,Matrix,shared_training,False,True,False
+QID238_2,QID238,Personality,Matrix,shared_training,False,True,False
+QID238_3,QID238,Personality,Matrix,shared_training,False,True,False
+QID238_4,QID238,Personality,Matrix,shared_training,False,True,False
+QID238_5,QID238,Personality,Matrix,shared_training,False,True,False
+QID238_6,QID238,Personality,Matrix,shared_training,False,True,False
+QID238_7,QID238,Personality,Matrix,shared_training,False,True,False
+QID238_8,QID238,Personality,Matrix,shared_training,False,True,False
+QID238_9,QID238,Personality,Matrix,shared_training,False,True,False
+QID238_10,QID238,Personality,Matrix,shared_training,False,True,False
+QID238_11,QID238,Personality,Matrix,shared_training,False,True,False
+QID238_12,QID238,Personality,Matrix,shared_training,False,True,False
+QID238_21,QID238,Personality,Matrix,shared_training,False,True,False
+QID238_22,QID238,Personality,Matrix,shared_training,False,True,False
+QID238_23,QID238,Personality,Matrix,shared_training,False,True,False
+QID239_1,QID239,Personality,Matrix,validation_maximization_only,False,True,False
+QID239_2,QID239,Personality,Matrix,validation_maximization_only,False,True,False
+QID239_3,QID239,Personality,Matrix,validation_maximization_only,False,True,False
+QID239_4,QID239,Personality,Matrix,validation_maximization_only,False,True,False
+QID239_5,QID239,Personality,Matrix,validation_maximization_only,False,True,False
+QID239_6,QID239,Personality,Matrix,validation_maximization_only,False,True,False
+QID221_1,QID221,Cognitive tests,MC,excluded_other,False,True,False
+QID221_2,QID221,Cognitive tests,MC,excluded_other,False,True,False
+QID221_3,QID221,Cognitive tests,MC,excluded_other,False,True,False
+QID221_4,QID221,Cognitive tests,MC,excluded_other,False,True,False
+QID231,QID231,Economic preferences,MC,shared_training,False,True,False
+QID275_1,QID275,Economic preferences,TE,excluded_other,False,True,False
+QID275_2,QID275,Economic preferences,TE,excluded_other,False,True,False
+QID275_3,QID275,Economic preferences,TE,excluded_other,False,True,False
+QID275_4,QID275,Economic preferences,TE,excluded_other,False,True,False
+QID275_5,QID275,Economic preferences,TE,excluded_other,False,True,False
+QID275_6,QID275,Economic preferences,TE,excluded_other,False,True,False
+QID287_1,QID287,False consensus,Matrix,final_test_only,False,True,True
+QID287_2,QID287,False consensus,Matrix,final_test_only,False,True,True
+QID287_3,QID287,False consensus,Matrix,final_test_only,False,True,True
+QID287_4,QID287,False consensus,Matrix,shared_training,True,True,True
+QID287_5,QID287,False consensus,Matrix,shared_training,True,True,True
+QID287_6,QID287,False consensus,Matrix,shared_training,True,True,True
+QID287_7,QID287,False consensus,Matrix,validation_policy_only,False,True,True
+QID287_10,QID287,False consensus,Matrix,validation_policy_only,False,True,True
+QID287_11,QID287,False consensus,Matrix,shared_training,True,True,True
+QID287_12,QID287,False consensus,Matrix,shared_training,True,True,True
+QID154,QID154,Base-rate 30 engineers,Slider,excluded_other,False,True,True
+QID158,QID158,Disease-loss,MC,excluded_other,False,True,True
+QID160_1,QID160,Linda-conjunction,Matrix,excluded_other,False,True,True
+QID160_2,QID160,Linda-conjunction,Matrix,excluded_other,False,True,True
+QID160_3,QID160,Linda-conjunction,Matrix,excluded_other,False,True,True
+QID161,QID161,Outcome bias - success,MC,excluded_other,False,True,True
+QID165,QID165,Anchoring - African countries high,MC,excluded_other,False,True,True
+QID166_TEXT,QID166,Anchoring - African countries high,TE,excluded_other,False,True,True
+QID169,QID169,Anchoring - redwood high,MC,excluded_other,False,True,True
+QID170_TEXT,QID170,Anchoring - redwood high,TE,excluded_other,False,True,True
+QID171,QID171,Less is More Gamble A,MC,excluded_other,False,True,True
+QID174,QID174,Proportion dominance 1A,MC,excluded_other,False,True,True
+QID177,QID177,Proportion dominance 2A,MC,excluded_other,False,True,True
+QID181_TEXT,QID181,Sunk cost - no,TE,excluded_other,False,True,True
+QID184,QID184,Absolute vs. relative - jacket,MC,excluded_other,False,True,True
+QID191,QID191,WTA/WTP Thaler - WTP noncertainty,MC,excluded_other,False,True,True
+QID192,QID192,Allais Form 1,MC,excluded_other,False,True,True
+QID195,QID195,Myside German,MC,excluded_other,False,True,True
+QID203_1,QID203,Probability matching vs. maximizing - Problem 2,Matrix,excluded_other,False,True,True
+QID203_2,QID203,Probability matching vs. maximizing - Problem 2,Matrix,excluded_other,False,True,True
+QID203_3,QID203,Probability matching vs. maximizing - Problem 2,Matrix,excluded_other,False,True,True
+QID203_4,QID203,Probability matching vs. maximizing - Problem 2,Matrix,excluded_other,False,True,True
+QID203_5,QID203,Probability matching vs. maximizing - Problem 2,Matrix,excluded_other,False,True,True
+QID203_6,QID203,Probability matching vs. maximizing - Problem 2,Matrix,excluded_other,False,True,True
+QID288_1,QID288,Non-experimental heuristics and biases,Matrix,shared_training,False,True,True
+QID288_2,QID288,Non-experimental heuristics and biases,Matrix,shared_training,False,True,True
+QID288_3,QID288,Non-experimental heuristics and biases,Matrix,shared_training,False,True,True
+QID288_4,QID288,Non-experimental heuristics and biases,Matrix,shared_training,False,True,True
+QID289_1,QID289,Non-experimental heuristics and biases,Matrix,shared_training,False,True,True
+QID289_2,QID289,Non-experimental heuristics and biases,Matrix,shared_training,False,True,True
+QID289_3,QID289,Non-experimental heuristics and biases,Matrix,shared_training,False,True,True
+QID289_4,QID289,Non-experimental heuristics and biases,Matrix,shared_training,False,True,True
+QID291,QID291,Non-experimental heuristics and biases,MC,excluded_other,False,True,True
+QID196,QID196,Non-experimental heuristics and biases,MC,excluded_other,False,True,True
+QID290_1,QID290,Non-experimental heuristics and biases,Slider,excluded_public_support_proxy,False,True,True
+QID290_2,QID290,Non-experimental heuristics and biases,Slider,excluded_public_support_proxy,False,True,True
+QID290_3,QID290,Non-experimental heuristics and biases,Slider,excluded_public_support_proxy,False,True,True
+QID290_4,QID290,Non-experimental heuristics and biases,Slider,excluded_public_support_proxy,False,True,True
+QID290_5,QID290,Non-experimental heuristics and biases,Slider,excluded_public_support_proxy,False,True,True
+QID290_6,QID290,Non-experimental heuristics and biases,Slider,excluded_public_support_proxy,False,True,True
+QID290_7,QID290,Non-experimental heuristics and biases,Slider,excluded_public_support_proxy,False,True,True
+QID290_10,QID290,Non-experimental heuristics and biases,Slider,excluded_public_support_proxy,False,True,True
+QID290_11,QID290,Non-experimental heuristics and biases,Slider,excluded_public_support_proxy,False,True,True
+QID290_12,QID290,Non-experimental heuristics and biases,Slider,excluded_public_support_proxy,False,True,True
+QID9_1,QID9_1,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_2,QID9_2,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_3,QID9_3,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_4,QID9_4,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_5,QID9_5,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_6,QID9_6,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_7,QID9_7,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_8,QID9_8,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_9,QID9_9,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_10,QID9_10,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_11,QID9_11,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_12,QID9_12,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_13,QID9_13,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_14,QID9_14,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_15,QID9_15,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_16,QID9_16,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_17,QID9_17,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_18,QID9_18,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_19,QID9_19,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_20,QID9_20,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_21,QID9_21,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_22,QID9_22,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_23,QID9_23,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_24,QID9_24,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_25,QID9_25,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_26,QID9_26,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_27,QID9_27,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_28,QID9_28,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_29,QID9_29,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_30,QID9_30,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_31,QID9_31,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_32,QID9_32,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_33,QID9_33,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_34,QID9_34,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_35,QID9_35,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_36,QID9_36,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_37,QID9_37,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_38,QID9_38,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_39,QID9_39,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID9_40,QID9_40,Product Preferences - Pricing,MC,excluded_other,False,True,True
+QID162,QID162,Outcome bias - failure,MC,excluded_other,False,True,True
+QID163,QID163,Anchoring - African countries low,MC,excluded_other,False,True,True
+QID164_TEXT,QID164,Anchoring - African countries low,TE,excluded_other,False,True,True
+QID167,QID167,Anchoring - redwood low,MC,excluded_other,False,True,True
+QID168_TEXT,QID168,Anchoring - redwood low,TE,excluded_other,False,True,True
+QID182_TEXT,QID182,Sunk cost - yes,TE,excluded_other,False,True,True
+QID190,QID190,WTA/WTP Thaler problem - WTA certainty,MC,excluded_other,False,True,True
+QID194,QID194,Myside Ford,MC,excluded_other,False,True,True
+QID198_1,QID198,Probability matching vs. maximizing - Problem 1,Matrix,excluded_other,False,True,True
+QID198_2,QID198,Probability matching vs. maximizing - Problem 1,Matrix,excluded_other,False,True,True
+QID198_3,QID198,Probability matching vs. maximizing - Problem 1,Matrix,excluded_other,False,True,True
+QID198_4,QID198,Probability matching vs. maximizing - Problem 1,Matrix,excluded_other,False,True,True
+QID198_5,QID198,Probability matching vs. maximizing - Problem 1,Matrix,excluded_other,False,True,True
+QID198_6,QID198,Probability matching vs. maximizing - Problem 1,Matrix,excluded_other,False,True,True
+QID198_7,QID198,Probability matching vs. maximizing - Problem 1,Matrix,excluded_other,False,True,True
+QID198_8,QID198,Probability matching vs. maximizing - Problem 1,Matrix,excluded_other,False,True,True
+QID198_9,QID198,Probability matching vs. maximizing - Problem 1,Matrix,excluded_other,False,True,True
+QID198_10,QID198,Probability matching vs. maximizing - Problem 1,Matrix,excluded_other,False,True,True
+QID156,QID156,Base-rate 70 engineers,Slider,excluded_other,False,True,True
+QID157,QID157,Disease - gain,MC,excluded_other,False,True,True
+QID172,QID172,Less is More Gamble B,MC,excluded_other,False,True,True
+QID175,QID175,Proportion dominance 1B,MC,excluded_other,False,True,True
+QID178,QID178,Proportion dominance 2B,MC,excluded_other,False,True,True
+QID183,QID183,Absolute vs. relative - calculator,MC,excluded_other,False,True,True
+QID193,QID193,Allais Form 2,MC,excluded_other,False,True,True
+QID159_1,QID159,Linda -no conjunction,Matrix,excluded_other,False,True,True
+QID159_2,QID159,Linda -no conjunction,Matrix,excluded_other,False,True,True
+QID159_3,QID159,Linda -no conjunction,Matrix,excluded_other,False,True,True
+QID173,QID173,Less is More Gamble C,MC,excluded_other,False,True,True
+QID176,QID176,Proportion dominance 1C,MC,excluded_other,False,True,True
+QID179,QID179,Proportion dominance 2C,MC,excluded_other,False,True,True
+QID189,QID189,WTA/WTP Thaler problem - WTP certainty,MC,excluded_other,False,True,True

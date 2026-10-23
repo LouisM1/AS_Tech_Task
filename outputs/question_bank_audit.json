@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "source_revision": "f883165a3026fde855dfd448e0cd16443ab257b6",
+  "items": 441,
+  "parent_questions": 67,
+  "source_records": 73,
+  "roles": {
+    "training": 430,
+    "validation": 8,
+    "test": 3
+  },
+  "persona_evidence_items": 92,
+  "option_count": 1877,
+  "bipolar_items": 158,
+  "items_with_carried_instructions": 336,
+  "checks": [
+    "source equality",
+    "option order and codes",
+    "matrix row mapping",
+    "instruction source spans",
+    "receiver-game context",
+    "exact held-out text exclusion"
+  ],
+  "human_response_files_loaded": false,
+  "bank_path": "data/processed/question_bank.json",
+  "bank_sha256": "a1a83bd0ec96873a7c5f5d793b35cd54e7d23f81e1cf52eca8dd3ff01eb7b941"
+}

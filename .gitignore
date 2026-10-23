@@ -9,6 +9,3 @@ __pycache__/
 .ipynb_checkpoints/
 .jupyter/
 
-# Human records and generated outputs are recreated by the notebooks.
-data/
-outputs/

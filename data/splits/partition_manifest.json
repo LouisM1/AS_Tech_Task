@@ -1,0 +1,105 @@
+{
+  "status": "passed",
+  "source_repo": "LLM-Digital-Twin/Twin-2K-500",
+  "source_revision": "f883165a3026fde855dfd448e0cd16443ab257b6",
+  "seed": 20261023,
+  "respondents": {
+    "shared_training": 1658,
+    "development": 300,
+    "final_personas": 100
+  },
+  "training_question_count": 430,
+  "persona_evidence_question_count": 92,
+  "validation_question_count": 8,
+  "test_question_count": 3,
+  "partitions": [
+    {
+      "partition": "shared_training",
+      "path": "data/processed/shared_training_wave1_3.parquet",
+      "purpose": "training",
+      "people": 1658,
+      "answer_columns": 430,
+      "observed_answers": 712827,
+      "missing_answers": 113,
+      "sha256": "fbd31f760c8ff6a81b9e4bbb7d6b3585bfab1311408f66a4fcf95bffcd986741"
+    },
+    {
+      "partition": "development_anchors",
+      "path": "data/processed/development_anchors_wave1_3.parquet",
+      "purpose": "persona_evidence",
+      "people": 300,
+      "answer_columns": 92,
+      "observed_answers": 27576,
+      "missing_answers": 24,
+      "sha256": "d5a87ff7567e5d6de9b2c18e592cb2a6c332c2da0e4dcaf9c640ba2940cbc3a4"
+    },
+    {
+      "partition": "final_anchors",
+      "path": "data/processed/final_anchors_wave1_3.parquet",
+      "purpose": "persona_evidence",
+      "people": 100,
+      "answer_columns": 92,
+      "observed_answers": 9198,
+      "missing_answers": 2,
+      "sha256": "ce5fd5668f685cd96e82cf35469f59d8bbf93e518ce9f0c401c1b436906b075d"
+    },
+    {
+      "partition": "validation_policy",
+      "path": "data/heldout/validation_policy_wave4.parquet",
+      "purpose": "validation_labels",
+      "people": 300,
+      "answer_columns": 2,
+      "observed_answers": 600,
+      "missing_answers": 0,
+      "sha256": "e98c9283ab1a04360c2fa63fb721e88be8e5e31a07809f4857336aa80f36bd8a"
+    },
+    {
+      "partition": "validation_maximization",
+      "path": "data/heldout/validation_maximization_wave1_3.parquet",
+      "purpose": "validation_labels",
+      "people": 300,
+      "answer_columns": 6,
+      "observed_answers": 1800,
+      "missing_answers": 0,
+      "sha256": "09cd642a9d7da0342e951a4dad338f96e65e5b8cf330be7963cd45d5113faf7f"
+    },
+    {
+      "partition": "final_test",
+      "path": "data/heldout/final_test_wave4.parquet",
+      "purpose": "final_test_labels",
+      "people": 100,
+      "answer_columns": 3,
+      "observed_answers": 300,
+      "missing_answers": 0,
+      "sha256": "98f0f902366ef3b56f936c3e737c9599b85f09a08f54f1c2b65e6581621322ff"
+    },
+    {
+      "partition": "final_retest_reference",
+      "path": "data/heldout/final_test_original_wave1_3.parquet",
+      "purpose": "retest_reference_only",
+      "people": 100,
+      "answer_columns": 3,
+      "observed_answers": 300,
+      "missing_answers": 0,
+      "sha256": "eadfa510707c7c9171d3ede56f561920bc4018fad1e45e9344bc452e07df1314"
+    }
+  ],
+  "checks": {
+    "source_checksums_match": true,
+    "respondent_groups_disjoint": true,
+    "respondent_split_reproducible": true,
+    "unique_answer_column_mapping": true,
+    "anchors_subset_of_training_questions": true,
+    "heldout_families_absent_from_training_and_anchors": true,
+    "no_wave4_input_answers": true,
+    "saved_option_positions_valid": true,
+    "no_outcome_based_split_selection": true
+  },
+  "test_labels_handling": "Read programmatically only to partition and check option validity; never displayed, summarized by category, or used for fitting or selection.",
+  "limitations": [
+    "Raw downloads contain held-out labels; downstream training must load the explicit processed partitions only.",
+    "Semantic-equivalence auditing and complete task-context reconstruction are still required before feature generation.",
+    "This is a historical Prolific cohort; equal panel weights are not national survey weights."
+  ],
+  "training_started": false
+}

@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "project_root": "/Users/louismcauliffe/code/projects/AS_Tech_Task",
+  "python": "3.12.11",
+  "python_executable": "/Users/louismcauliffe/code/projects/AS_Tech_Task/.venv/bin/python",
+  "platform": "macOS-15.1.1-arm64-arm-64bit",
+  "architecture": "arm64",
+  "cpu_count": 8,
+  "seed": 20261023,
+  "device": "mps",
+  "mps_available": true,
+  "cuda_available": false,
+  "tensor_check": "passed",
+  "packages": {
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "pyarrow": "26.0.0",
+    "torch": "2.14.1",
+    "transformers": "4.57.6",
+    "sentence-transformers": "5.7.0",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "PyYAML": "6.0.3",
+    "huggingface-hub": "0.36.2",
+    "jupyterlab": "4.6.4",
+    "ipykernel": "7.4.0"
+  },
+  "dataset_downloaded": false,
+  "encoder_downloaded": false,
+  "training_started": false,
+  "note": "Fixed random seeds do not guarantee bit-identical results across hardware."
+}
