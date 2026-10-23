@@ -30,6 +30,9 @@ The notebooks are self-contained; there is no separate Python package or duplica
 
 ## Current state
 
+
+**Interview presentation notes:** [open the scrolling HTML](outputs/interview_presentation.html). Concise, objective talking points cover the scope, dataset, methods, architecture, evaluation and new survey. Use normal browser scrolling and zoom. All assets are embedded, including a selector for the 100 saved personas. Research sources and technical details are included at the end.
+
 **Final simulation complete.** Start with [the visual report](outputs/final_simulation_report.html) (open the downloaded HTML in a browser). It embeds four charts and a selector for all 100 personas. The final test has now been evaluated using predictions saved beforehand; the model was not changed afterwards.
 
 - **100 personas:** eight-number vectors fitted from 9,198 observed answers to the 92 fixed evidence questions.
