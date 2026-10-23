@@ -1,0 +1,23 @@
+{
+  "model_id": "Qwen/Qwen3-Embedding-0.6B",
+  "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+  "model_card": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B",
+  "cache_directory": ".cache/huggingface/hub",
+  "download_patterns": [
+    "*.json",
+    "*.safetensors",
+    "*.txt",
+    "README.md"
+  ],
+  "text_format_version": 1,
+  "instruction": "Represent the meaning of the candidate survey answer in the context of the question and all available options.",
+  "text_template": "Instruct: {instruction}\nQuery: {question_text}\n\nCandidate answer:\n{code}. {label}",
+  "embedding_dimension": 1024,
+  "max_sequence_length": 8192,
+  "batch_size": 8,
+  "compute_dtype": "float32",
+  "saved_dtype": "float32",
+  "pooling": "last_token",
+  "normalize_embeddings": true,
+  "attention_implementation": "sdpa"
+}

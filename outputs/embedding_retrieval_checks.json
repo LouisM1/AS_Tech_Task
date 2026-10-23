@@ -1,0 +1,205 @@
+{
+  "status": "structural_checks_passed_semantic_caveats",
+  "checks_passed": 39,
+  "checks": [
+    "saved file checksum: outputs/question_answer_embeddings.npy",
+    "saved file checksum: outputs/question_answer_index.json",
+    "input checksum: configs/embedding_model.json",
+    "input checksum: data/processed/question_bank.json",
+    "input checksum: outputs/data_quality_leakage_audit.json",
+    "shape and dtype",
+    "finite unit vectors",
+    "unique vectors across all candidates",
+    "contiguous unique row numbers",
+    "unique question/option keys",
+    "complete option coverage",
+    "every input text and option matches the bank",
+    "unknown question rejected",
+    "all 441 questions retrievable in option order",
+    "all vectors retrieve their own indexed option",
+    "response checksum: shared_training_long",
+    "response lookup: shared_training_long",
+    "response checksum: development_anchors_long",
+    "response lookup: development_anchors_long",
+    "response checksum: final_anchors_long",
+    "response lookup: final_anchors_long",
+    "model checksum: 1_Pooling/config.json",
+    "model checksum: README.md",
+    "model checksum: config.json",
+    "model checksum: config_sentence_transformers.json",
+    "model checksum: generation_config.json",
+    "model checksum: merges.txt",
+    "model checksum: model.safetensors",
+    "model checksum: modules.json",
+    "model checksum: tokenizer.json",
+    "model checksum: tokenizer_config.json",
+    "model checksum: vocab.json",
+    "frozen last-token encoder",
+    "all token counts match",
+    "no truncated inputs",
+    "fresh direct pooling reproduces saved vectors",
+    "fresh vectors retrieve the exact original options",
+    "embedding file unchanged: outputs/question_answer_embeddings.npy",
+    "embedding file unchanged: outputs/question_answer_index.json"
+  ],
+  "source_embedding_audit_sha256": "707deedc46ced978f85827ed58a139918ce44e2b11e5c3481342acd313dd99cc",
+  "all_candidate_self_retrieval": {
+    "correct": 1877,
+    "total": 1877
+  },
+  "permitted_response_joins": [
+    {
+      "partition": "shared_training_long",
+      "matched_answers": 712827,
+      "missing_answers_left_unmatched": 113
+    },
+    {
+      "partition": "development_anchors_long",
+      "matched_answers": 27576,
+      "missing_answers_left_unmatched": 24
+    },
+    {
+      "partition": "final_anchors_long",
+      "matched_answers": 9198,
+      "missing_answers_left_unmatched": 2
+    }
+  ],
+  "independent_pooling": {
+    "sample_rows": [
+      0,
+      4,
+      384,
+      392,
+      477,
+      571,
+      575,
+      760,
+      764,
+      775,
+      992,
+      994,
+      995,
+      1082,
+      1114,
+      1115,
+      1282,
+      1283,
+      1332,
+      1344,
+      1436,
+      1446,
+      1490,
+      1579,
+      1687,
+      1716,
+      1725,
+      1729,
+      1786,
+      1790,
+      1797
+    ],
+    "minimum_cosine": 1.0,
+    "exact_option_retrieval_correct": 31,
+    "total": 31
+  },
+  "semantic_diagnostic": {
+    "correct": 9,
+    "total": 10,
+    "results": [
+      {
+        "item_id": "QID235_1",
+        "paraphrase": "I strongly agree that it matters to me that the products I use do not damage the environment.",
+        "expected_answer_index": 4,
+        "retrieved_answer_index": 4,
+        "correct": true,
+        "expected_rank": 1,
+        "expected_margin_over_best_alternative": 0.044178009033203125
+      },
+      {
+        "item_id": "QID235_1",
+        "paraphrase": "I strongly disagree that it matters to me that the products I use do not damage the environment.",
+        "expected_answer_index": 0,
+        "retrieved_answer_index": 0,
+        "correct": true,
+        "expected_rank": 1,
+        "expected_margin_over_best_alternative": 0.06952011585235596
+      },
+      {
+        "item_id": "QID287_4",
+        "paraphrase": "I am strongly in favour of this Medicare for All proposal.",
+        "expected_answer_index": 4,
+        "retrieved_answer_index": 4,
+        "correct": true,
+        "expected_rank": 1,
+        "expected_margin_over_best_alternative": 0.04971951246261597
+      },
+      {
+        "item_id": "QID287_4",
+        "paraphrase": "I am strongly against this Medicare for All proposal.",
+        "expected_answer_index": 0,
+        "retrieved_answer_index": 0,
+        "correct": true,
+        "expected_rank": 1,
+        "expected_margin_over_best_alternative": 0.0776364803314209
+      },
+      {
+        "item_id": "QID250_1",
+        "paraphrase": "I choose the gamble: an equal chance of receiving six dollars or nothing.",
+        "expected_answer_index": 0,
+        "retrieved_answer_index": 0,
+        "correct": true,
+        "expected_rank": 1,
+        "expected_margin_over_best_alternative": 0.009744226932525635
+      },
+      {
+        "item_id": "QID250_1",
+        "paraphrase": "I choose to receive fifty cents for certain instead of the gamble.",
+        "expected_answer_index": 1,
+        "retrieved_answer_index": 1,
+        "correct": true,
+        "expected_rank": 1,
+        "expected_margin_over_best_alternative": 0.008998990058898926
+      },
+      {
+        "item_id": "QID279_1",
+        "paraphrase": "I choose a fifty-fifty gamble between losing eight dollars and winning seven dollars.",
+        "expected_answer_index": 0,
+        "retrieved_answer_index": 0,
+        "correct": true,
+        "expected_rank": 1,
+        "expected_margin_over_best_alternative": 0.013799607753753662
+      },
+      {
+        "item_id": "QID279_1",
+        "paraphrase": "I choose a guaranteed zero dollars, without taking the gamble.",
+        "expected_answer_index": 1,
+        "retrieved_answer_index": 1,
+        "correct": true,
+        "expected_rank": 1,
+        "expected_margin_over_best_alternative": 0.029919862747192383
+      },
+      {
+        "item_id": "QID119",
+        "paraphrase": "I keep none of the money and return all twelve dollars to the sender.",
+        "expected_answer_index": 0,
+        "retrieved_answer_index": 12,
+        "correct": false,
+        "expected_rank": 2,
+        "expected_margin_over_best_alternative": -0.0007190704345703125
+      },
+      {
+        "item_id": "QID119",
+        "paraphrase": "I keep all twelve dollars for myself and return nothing to the sender.",
+        "expected_answer_index": 12,
+        "retrieved_answer_index": 12,
+        "correct": true,
+        "expected_rank": 1,
+        "expected_margin_over_best_alternative": 0.004270195960998535
+      }
+    ],
+    "limitation": "Small hand-written training-only diagnostic; not evidence of survey prediction accuracy. No encoder tuning or feature changes performed."
+  },
+  "device": "mps",
+  "heldout_response_tables_loaded": false,
+  "embedding_files_modified": false
+}
