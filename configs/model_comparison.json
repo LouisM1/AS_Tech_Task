@@ -1,0 +1,62 @@
+{
+  "seed": 20261023,
+  "latent_dimension": 8,
+  "hidden_dimension": 64,
+  "batch_size": 256,
+  "learning_rate": 0.01,
+  "l2_penalty": 0.01,
+  "development_steps": 200,
+  "development_learning_rate": 0.03,
+  "selection_metric": "mean validation negative log-likelihood across the eight fixed validation questions",
+  "candidates": [
+    {
+      "name": "original_linear_64",
+      "features": "original_64",
+      "architecture": "linear",
+      "epochs": 0,
+      "load_original": true
+    },
+    {
+      "name": "longer_linear_64",
+      "features": "original_64",
+      "architecture": "linear",
+      "epochs": 300
+    },
+    {
+      "name": "contrast_linear_128",
+      "features": "contrast_128",
+      "architecture": "linear",
+      "epochs": 300
+    },
+    {
+      "name": "nonlinear_64",
+      "features": "original_64",
+      "architecture": "mlp",
+      "epochs": 300
+    },
+    {
+      "name": "nonlinear_contrast_128",
+      "features": "contrast_128",
+      "architecture": "mlp",
+      "epochs": 300
+    },
+    {
+      "name": "prior_linear_l2_003",
+      "features": "prior_65",
+      "architecture": "prior_linear",
+      "epochs": 150,
+      "l2": 0.03,
+      "round": 2
+    },
+    {
+      "name": "prior_linear_l2_01",
+      "features": "prior_65",
+      "architecture": "prior_linear",
+      "epochs": 150,
+      "l2": 0.1,
+      "round": 2
+    }
+  ],
+  "round_two_reason": "After the first five candidates, nonlinear models overfit and the training-derived pooled-scale baseline beat every model on validation NLL. Add two prior-informed regularized linear candidates; this is adaptive validation selection.",
+  "protocol": "Two-round small comparison. Fit shared weights on 1658 training people; infer development vectors from 92 anchors only. Select on validation NLL. Final test files are never opened."
+}

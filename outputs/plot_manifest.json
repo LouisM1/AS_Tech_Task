@@ -1,0 +1,318 @@
+{
+  "status": "passed",
+  "source_sha256": {
+    "outputs/model_comparison.json": "a7561fa3d3febf8e544f8ad5d5906a7cc232c8974ee4d53ace113eb890de6fad",
+    "outputs/shared_response_training.json": "dcdcc27dc29a765fb85155269e6a881de5ddd839d4617d596b65defdd96929df",
+    "data/processed/question_bank.json": "a1a83bd0ec96873a7c5f5d793b35cd54e7d23f81e1cf52eca8dd3ff01eb7b941",
+    "outputs/response_scale_priors.json": "8201c144fe986eb5d21c6d7ac56520061ced0227a8efe930a0522346cd5ae965",
+    "outputs/development_validation_predictions.npz": "2373884ec5cde838031aa87dce75e72cf734a1bd7ee050b08ef08e1b251e5710",
+    "data/heldout/validation_policy_wave4.parquet": "e98c9283ab1a04360c2fa63fb721e88be8e5e31a07809f4857336aa80f36bd8a",
+    "data/heldout/validation_maximization_wave1_3.parquet": "09cd642a9d7da0342e951a4dad338f96e65e5b8cf330be7963cd45d5113faf7f"
+  },
+  "exports": [
+    {
+      "path": "outputs/figures/01_model_comparison.png",
+      "sha256": "6aedcb19b84ed69843fc74f2cb225768de70fd68d7a820879b7ec556f680e4f2",
+      "bytes": 153214
+    },
+    {
+      "path": "outputs/figures/01_model_comparison.pdf",
+      "sha256": "2a69bba00e7d63b8d1fb2ca985fe6554fa9b869797b55b05f4c078f72ed00edd",
+      "bytes": 21273
+    },
+    {
+      "path": "outputs/figures/02_validation_by_question.png",
+      "sha256": "773fe66fc56397a6536736e79cd696fb430085d008d521185aad9ddd8dc062c2",
+      "bytes": 128192
+    },
+    {
+      "path": "outputs/figures/02_validation_by_question.pdf",
+      "sha256": "d8c6bbfbffe5e3bfe8df1ee5246094a8172c7d5c9c4560d35ffe5cfe937b5bd8",
+      "bytes": 23210
+    },
+    {
+      "path": "outputs/figures/03_validation_answer_distributions.png",
+      "sha256": "a20fa44862b2e8c7d5aec7102ea2e3376cdd8e0472069cf24d45ca11ca307566",
+      "bytes": 244775
+    },
+    {
+      "path": "outputs/figures/03_validation_answer_distributions.pdf",
+      "sha256": "d8988823edb8a1ea2ca32a2c389e1ec102a2d3f8db8121a7943b46ab971d5ca8",
+      "bytes": 26129
+    },
+    {
+      "path": "outputs/figures/04_original_training_curves.png",
+      "sha256": "07da83a39669ff96c2b6276d1747274f2ea8d2e82051dd02d097463ab3ddc9b5",
+      "bytes": 114309
+    },
+    {
+      "path": "outputs/figures/04_original_training_curves.pdf",
+      "sha256": "84f7ac2097fb4c0ed7ad8ddc03131202bd6390270a7f75dee46502fd186d3813",
+      "bytes": 19952
+    }
+  ],
+  "answer_share_data": [
+    {
+      "item_id": "QID287_7",
+      "options": [
+        "Strongly oppose",
+        "Somewhat oppose",
+        "Neither oppose nor support",
+        "Somewhat support",
+        "Strongly support"
+      ],
+      "human_share": [
+        0.02666666666666667,
+        0.06666666666666667,
+        0.10333333333333333,
+        0.26,
+        0.5433333333333333
+      ],
+      "predicted_share": [
+        0.09554785490036011,
+        0.060842011123895645,
+        0.17870981991291046,
+        0.28933602571487427,
+        0.3755643665790558
+      ],
+      "population_share": [
+        0.11127185051235684,
+        0.0916214587100663,
+        0.174080771549126,
+        0.270042194092827,
+        0.35298372513562387
+      ],
+      "distribution_TV": 0.1735936614125967
+    },
+    {
+      "item_id": "QID287_10",
+      "options": [
+        "Strongly oppose",
+        "Somewhat oppose",
+        "Neither oppose nor support",
+        "Somewhat support",
+        "Strongly support"
+      ],
+      "human_share": [
+        0.07333333333333333,
+        0.07666666666666666,
+        0.13333333333333333,
+        0.20333333333333334,
+        0.5133333333333333
+      ],
+      "predicted_share": [
+        0.11918213963508606,
+        0.07205721735954285,
+        0.20751623809337616,
+        0.27139654755592346,
+        0.3298478126525879
+      ],
+      "population_share": [
+        0.11127185051235684,
+        0.0916214587100663,
+        0.174080771549126,
+        0.270042194092827,
+        0.35298372513562387
+      ],
+      "distribution_TV": 0.18809494763612744
+    },
+    {
+      "item_id": "QID239_1",
+      "options": [
+        "Disagree strongly",
+        "Disagree a little",
+        "Neither agree nor disagree",
+        "Agree a little",
+        "Agree strongly"
+      ],
+      "human_share": [
+        0.23666666666666666,
+        0.23,
+        0.08,
+        0.32,
+        0.13333333333333333
+      ],
+      "predicted_share": [
+        0.149987131357193,
+        0.18542923033237457,
+        0.18773160874843597,
+        0.3233938217163086,
+        0.15345822274684906
+      ],
+      "population_share": [
+        0.1596974838046228,
+        0.19218369658128928,
+        0.1620926206354923,
+        0.3018176138015421,
+        0.18420858517705355
+      ],
+      "distribution_TV": 0.1312503124276797
+    },
+    {
+      "item_id": "QID239_2",
+      "options": [
+        "Disagree strongly",
+        "Disagree a little",
+        "Neither agree nor disagree",
+        "Agree a little",
+        "Agree strongly"
+      ],
+      "human_share": [
+        0.09666666666666666,
+        0.19,
+        0.19666666666666666,
+        0.34,
+        0.17666666666666667
+      ],
+      "predicted_share": [
+        0.13463415205478668,
+        0.16224850714206696,
+        0.17762893438339233,
+        0.31269654631614685,
+        0.21279171109199524
+      ],
+      "population_share": [
+        0.1596974838046228,
+        0.19218369658128928,
+        0.1620926206354923,
+        0.3018176138015421,
+        0.18420858517705355
+      ],
+      "distribution_TV": 0.07409260431925457
+    },
+    {
+      "item_id": "QID239_3",
+      "options": [
+        "Disagree strongly",
+        "Disagree a little",
+        "Neither agree nor disagree",
+        "Agree a little",
+        "Agree strongly"
+      ],
+      "human_share": [
+        0.19,
+        0.24,
+        0.13333333333333333,
+        0.27,
+        0.16666666666666666
+      ],
+      "predicted_share": [
+        0.1589498221874237,
+        0.19372612237930298,
+        0.17968671023845673,
+        0.29932665824890137,
+        0.16831074655056
+      ],
+      "population_share": [
+        0.1596974838046228,
+        0.19218369658128928,
+        0.1620926206354923,
+        0.3018176138015421,
+        0.18420858517705355
+      ],
+      "distribution_TV": 0.0773240852355957
+    },
+    {
+      "item_id": "QID239_4",
+      "options": [
+        "Disagree strongly",
+        "Disagree a little",
+        "Neither agree nor disagree",
+        "Agree a little",
+        "Agree strongly"
+      ],
+      "human_share": [
+        0.13,
+        0.22333333333333333,
+        0.14333333333333334,
+        0.3233333333333333,
+        0.18
+      ],
+      "predicted_share": [
+        0.16292528808116913,
+        0.19736096262931824,
+        0.17549729347229004,
+        0.3142266571521759,
+        0.1499897986650467
+      ],
+      "population_share": [
+        0.1596974838046228,
+        0.19218369658128928,
+        0.1620926206354923,
+        0.3018176138015421,
+        0.18420858517705355
+      ],
+      "distribution_TV": 0.06508924822012581
+    },
+    {
+      "item_id": "QID239_5",
+      "options": [
+        "Disagree strongly",
+        "Disagree a little",
+        "Neither agree nor disagree",
+        "Agree a little",
+        "Agree strongly"
+      ],
+      "human_share": [
+        0.03666666666666667,
+        0.10666666666666667,
+        0.22,
+        0.3566666666666667,
+        0.28
+      ],
+      "predicted_share": [
+        0.15748201310634613,
+        0.14969760179519653,
+        0.16076664626598358,
+        0.29887330532073975,
+        0.23318053781986237
+      ],
+      "population_share": [
+        0.1596974838046228,
+        0.19218369658128928,
+        0.1620926206354923,
+        0.3018176138015421,
+        0.18420858517705355
+      ],
+      "distribution_TV": 0.16384622941414517
+    },
+    {
+      "item_id": "QID239_6",
+      "options": [
+        "Disagree strongly",
+        "Disagree a little",
+        "Neither agree nor disagree",
+        "Agree a little",
+        "Agree strongly"
+      ],
+      "human_share": [
+        0.1,
+        0.23333333333333334,
+        0.2633333333333333,
+        0.2633333333333333,
+        0.14
+      ],
+      "predicted_share": [
+        0.1621105968952179,
+        0.17131133377552032,
+        0.17825371026992798,
+        0.2919323444366455,
+        0.1963917315006256
+      ],
+      "population_share": [
+        0.1596974838046228,
+        0.19218369658128928,
+        0.1620926206354923,
+        0.3018176138015421,
+        0.18420858517705355
+      ],
+      "distribution_TV": 0.147101481060187
+    }
+  ],
+  "selected_model": "prior_linear_l2_01",
+  "final_test_answers_loaded": false,
+  "notes": [
+    "Validation was used for selection; these are not final-test results.",
+    "Population baseline remains slightly better overall on validation accuracy and log loss."
+  ]
+}

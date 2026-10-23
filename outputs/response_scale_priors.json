@@ -1,0 +1,2681 @@
+[
+  {
+    "option_labels": [
+      "Northeast (PA, NY, NJ, RI, CT, MA, VT, NH, ME)",
+      "Midwest (ND, SD, NE, KS, MN, IA, MO, WI, IL, MI, IN, OH)",
+      "South (TX, OK, AR, LA, KY, TN, MS, AL, WV, DC, MD, DE, VA, NC, SC, GA, FL)",
+      "West (WA, OR, ID, MT, WY, CA, NV, UT, CO, AZ, NM)",
+      "Pacific (HI, AK)"
+    ],
+    "training_counts": [
+      279.0,
+      306.0,
+      668.0,
+      393.0,
+      12.0
+    ],
+    "probabilities": [
+      0.1683704149128082,
+      0.1846061334936861,
+      0.40228502705953095,
+      0.23692122669873722,
+      0.007817197835237523
+    ]
+  },
+  {
+    "option_labels": [
+      "Male",
+      "Female"
+    ],
+    "training_counts": [
+      815.0,
+      843.0
+    ],
+    "probabilities": [
+      0.491566265060241,
+      0.5084337349397591
+    ]
+  },
+  {
+    "option_labels": [
+      "18-29",
+      "30-49",
+      "50-64",
+      "65+"
+    ],
+    "training_counts": [
+      296.0,
+      609.0,
+      522.0,
+      231.0
+    ],
+    "probabilities": [
+      0.17870036101083034,
+      0.36702767749699156,
+      0.3146811070998797,
+      0.13959085439229843
+    ]
+  },
+  {
+    "option_labels": [
+      "Less than high school",
+      "High school graduate",
+      "Some college, no degree",
+      "Associate's degree",
+      "College graduate/some postgrad",
+      "Postgraduate"
+    ],
+    "training_counts": [
+      14.0,
+      223.0,
+      381.0,
+      189.0,
+      594.0,
+      257.0
+    ],
+    "probabilities": [
+      0.009014423076923076,
+      0.1346153846153846,
+      0.22956730769230768,
+      0.1141826923076923,
+      0.35757211538461536,
+      0.15504807692307693
+    ]
+  },
+  {
+    "option_labels": [
+      "White",
+      "Black",
+      "Asian",
+      "Hispanic",
+      "Other"
+    ],
+    "training_counts": [
+      1103.0,
+      201.0,
+      114.0,
+      153.0,
+      87.0
+    ],
+    "probabilities": [
+      0.6638604930847866,
+      0.12146722790138305,
+      0.06915213469633193,
+      0.0926037282020445,
+      0.052916416115454
+    ]
+  },
+  {
+    "option_labels": [
+      "Yes",
+      "No"
+    ],
+    "training_counts": [
+      1655.0,
+      3.0
+    ],
+    "probabilities": [
+      0.9975903614457832,
+      0.0024096385542168677
+    ]
+  },
+  {
+    "option_labels": [
+      "Married",
+      "Living with a partner",
+      "Divorced",
+      "Separated",
+      "Widowed",
+      "Never been married"
+    ],
+    "training_counts": [
+      651.0,
+      182.0,
+      174.0,
+      24.0,
+      55.0,
+      572.0
+    ],
+    "probabilities": [
+      0.3918269230769231,
+      0.10997596153846154,
+      0.10516826923076923,
+      0.015024038461538462,
+      0.03365384615384615,
+      0.34435096153846156
+    ]
+  },
+  {
+    "option_labels": [
+      "Protestant",
+      "Roman Catholic",
+      "Mormon",
+      "Orthodox",
+      "Jewish",
+      "Muslim",
+      "Buddhist",
+      "Hindu",
+      "Atheist",
+      "Agnostic",
+      "Other",
+      "Nothing in particular"
+    ],
+    "training_counts": [
+      407.0,
+      287.0,
+      13.0,
+      16.0,
+      31.0,
+      13.0,
+      23.0,
+      6.0,
+      172.0,
+      246.0,
+      173.0,
+      271.0
+    ],
+    "probabilities": [
+      0.24431137724550897,
+      0.1724550898203593,
+      0.008383233532934131,
+      0.010179640718562874,
+      0.019161676646706587,
+      0.008383233532934131,
+      0.01437125748502994,
+      0.004191616766467066,
+      0.10359281437125749,
+      0.14790419161676646,
+      0.10419161676646707,
+      0.162874251497006
+    ]
+  },
+  {
+    "option_labels": [
+      "More than once a week",
+      "Once a week",
+      "Once or twice a month",
+      "A few times a year",
+      "Seldom",
+      "Never"
+    ],
+    "training_counts": [
+      66.0,
+      230.0,
+      103.0,
+      200.0,
+      388.0,
+      671.0
+    ],
+    "probabilities": [
+      0.04026442307692308,
+      0.1388221153846154,
+      0.0625,
+      0.12079326923076923,
+      0.23377403846153846,
+      0.40384615384615385
+    ]
+  },
+  {
+    "option_labels": [
+      "Republican",
+      "Democrat",
+      "Independent",
+      "Something else"
+    ],
+    "training_counts": [
+      425.0,
+      687.0,
+      494.0,
+      52.0
+    ],
+    "probabilities": [
+      0.2563176895306859,
+      0.4139590854392298,
+      0.29783393501805056,
+      0.031889290012033694
+    ]
+  },
+  {
+    "option_labels": [
+      "Less than $30,000",
+      "$30,000-$50,000",
+      "$50,000-$75,000",
+      "$75,000-$100,000",
+      "$100,000 or more"
+    ],
+    "training_counts": [
+      289.0,
+      339.0,
+      333.0,
+      261.0,
+      436.0
+    ],
+    "probabilities": [
+      0.17438364401683704,
+      0.20444978953698137,
+      0.20084185207456404,
+      0.15754660252555622,
+      0.2627781118460613
+    ]
+  },
+  {
+    "option_labels": [
+      "Very conservative",
+      "Conservative",
+      "Moderate",
+      "Liberal",
+      "Very liberal"
+    ],
+    "training_counts": [
+      106.0,
+      346.0,
+      467.0,
+      462.0,
+      277.0
+    ],
+    "probabilities": [
+      0.06434155141310884,
+      0.20865904990980155,
+      0.2814191220685508,
+      0.2784125075165364,
+      0.1671677690920024
+    ]
+  },
+  {
+    "option_labels": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "More than 4"
+    ],
+    "training_counts": [
+      336.0,
+      524.0,
+      336.0,
+      278.0,
+      184.0
+    ],
+    "probabilities": [
+      0.2026458208057727,
+      0.3156945279615153,
+      0.2026458208057727,
+      0.16776909200240528,
+      0.11124473842453397
+    ]
+  },
+  {
+    "option_labels": [
+      "Full-time employment",
+      "Part-time employment",
+      "Unemployed",
+      "Self-employed",
+      "Home-maker",
+      "Student",
+      "Retired"
+    ],
+    "training_counts": [
+      701.0,
+      225.0,
+      192.0,
+      226.0,
+      48.0,
+      67.0,
+      199.0
+    ],
+    "probabilities": [
+      0.42162162162162165,
+      0.13573573573573575,
+      0.11591591591591592,
+      0.13633633633633635,
+      0.02942942942942943,
+      0.04084084084084084,
+      0.12012012012012012
+    ]
+  },
+  {
+    "option_labels": [
+      "Disagree strongly",
+      "Disagree a little",
+      "Neither agree nor disagree",
+      "Agree a little",
+      "Agree strongly"
+    ],
+    "training_counts": [
+      36804.0,
+      44291.0,
+      37356.0,
+      69558.0,
+      42453.0
+    ],
+    "probabilities": [
+      0.1596974838046228,
+      0.19218369658128928,
+      0.1620926206354923,
+      0.3018176138015421,
+      0.18420858517705355
+    ]
+  },
+  {
+    "option_labels": [
+      "Not Important to me 1",
+      "2",
+      "3",
+      "4",
+      "Quite Important to me 5",
+      "6",
+      "7",
+      "8",
+      "Highly Important to me 9"
+    ],
+    "training_counts": [
+      3068.0,
+      2684.0,
+      2636.0,
+      2742.0,
+      4290.0,
+      4309.0,
+      5586.0,
+      6379.0,
+      7999.0
+    ],
+    "probabilities": [
+      0.0773008916427384,
+      0.06762883481940457,
+      0.06641982771648783,
+      0.06908971840209562,
+      0.10808019747116014,
+      0.10855876278273136,
+      0.14072338924991185,
+      0.16069719409601532,
+      0.20150118381945495
+    ]
+  },
+  {
+    "option_labels": [
+      "$0 for myself, $5 to the other person.",
+      "$1 for myself, $4 to the other person.",
+      "$2 for myself, $3 to the other person.",
+      "$3 for myself, $2 to the other person.",
+      "$4 for myself, $1 to the other person.",
+      "$5 for myself, $0 to the other person."
+    ],
+    "training_counts": [
+      130.0,
+      22.0,
+      728.0,
+      1972.0,
+      178.0,
+      286.0
+    ],
+    "probabilities": [
+      0.03943407585791692,
+      0.006923540036122818,
+      0.21944611679711018,
+      0.5939193257074051,
+      0.053883202889825406,
+      0.08639373871161951
+    ]
+  },
+  {
+    "option_labels": [
+      "I would accept the offer: $0 for other, $5 for me",
+      "I would reject the offer: $0 for both"
+    ],
+    "training_counts": [
+      1502.0,
+      156.0
+    ],
+    "probabilities": [
+      0.905421686746988,
+      0.09457831325301205
+    ]
+  },
+  {
+    "option_labels": [
+      "I would accept the offer: $1 for other, $4 for me",
+      "I would reject the offer: $0 for both"
+    ],
+    "training_counts": [
+      1548.0,
+      110.0
+    ],
+    "probabilities": [
+      0.9331325301204819,
+      0.06686746987951807
+    ]
+  },
+  {
+    "option_labels": [
+      "I would accept the offer: $2 for other, $3 for me",
+      "I would reject the offer: $0 for both"
+    ],
+    "training_counts": [
+      1615.0,
+      43.0
+    ],
+    "probabilities": [
+      0.9734939759036144,
+      0.02650602409638554
+    ]
+  },
+  {
+    "option_labels": [
+      "I would accept the offer: $3 for other, $2 for me",
+      "I would reject the offer: $0 for both"
+    ],
+    "training_counts": [
+      1596.0,
+      62.0
+    ],
+    "probabilities": [
+      0.9620481927710843,
+      0.03795180722891566
+    ]
+  },
+  {
+    "option_labels": [
+      "I would accept the offer: $4 for other, $1 for me",
+      "I would reject the offer: $0 for both"
+    ],
+    "training_counts": [
+      1158.0,
+      500.0
+    ],
+    "probabilities": [
+      0.6981927710843373,
+      0.30180722891566264
+    ]
+  },
+  {
+    "option_labels": [
+      "I would accept the offer: $5 for other, $0 for me",
+      "I would reject the offer: $0 for both"
+    ],
+    "training_counts": [
+      551.0,
+      1107.0
+    ],
+    "probabilities": [
+      0.3325301204819277,
+      0.6674698795180722
+    ]
+  },
+  {
+    "option_labels": [
+      "Person A",
+      "Person B"
+    ],
+    "training_counts": [
+      2893.0,
+      3739.0
+    ],
+    "probabilities": [
+      0.4362375640639132,
+      0.5637624359360869
+    ]
+  },
+  {
+    "option_labels": [
+      "FALSE",
+      "TRUE"
+    ],
+    "training_counts": [
+      10354.0,
+      11200.0
+    ],
+    "probabilities": [
+      0.4803766932640564,
+      0.5196233067359436
+    ]
+  },
+  {
+    "option_labels": [
+      "Extremely inaccurate 1",
+      "2",
+      "3",
+      "4",
+      "Neither inaccurate nor accurate 5",
+      "6",
+      "7",
+      "8",
+      "Extremely accurate 9"
+    ],
+    "training_counts": [
+      1812.0,
+      1765.0,
+      1186.0,
+      1088.0,
+      1176.0,
+      1570.0,
+      1795.0,
+      1948.0,
+      924.0
+    ],
+    "probabilities": [
+      0.1365930837037595,
+      0.1330520605740978,
+      0.08942966925337151,
+      0.08204625932343856,
+      0.08867626007684773,
+      0.11836058163188427,
+      0.1353122881036691,
+      0.14683944850448277,
+      0.06969034882844873
+    ]
+  },
+  {
+    "option_labels": [
+      "Disagree strongly",
+      "Disagree a little",
+      "Neither agree nor disagree",
+      "Agree a little",
+      "Agree strongy"
+    ],
+    "training_counts": [
+      2010.0,
+      2915.0,
+      4562.0,
+      9398.0,
+      7643.0
+    ],
+    "probabilities": [
+      0.07579240945238006,
+      0.10990087815173558,
+      0.17197452229299362,
+      0.35423811856932874,
+      0.288094071533562
+    ]
+  },
+  {
+    "option_labels": [
+      "$6.00 in 6 weeks",
+      "$3.00 in 5 weeks"
+    ],
+    "training_counts": [
+      1593.0,
+      65.0
+    ],
+    "probabilities": [
+      0.9602409638554217,
+      0.03975903614457831
+    ]
+  },
+  {
+    "option_labels": [
+      "$6.00 in 6 weeks",
+      "$4.00 in 5 weeks"
+    ],
+    "training_counts": [
+      1572.0,
+      86.0
+    ],
+    "probabilities": [
+      0.9475903614457831,
+      0.05240963855421687
+    ]
+  },
+  {
+    "option_labels": [
+      "$6.00 in 6 weeks",
+      "$4.50 in 5 weeks"
+    ],
+    "training_counts": [
+      1547.0,
+      111.0
+    ],
+    "probabilities": [
+      0.9325301204819277,
+      0.06746987951807229
+    ]
+  },
+  {
+    "option_labels": [
+      "$6.00 in 6 weeks",
+      "$5.00 in 5 weeks"
+    ],
+    "training_counts": [
+      1338.0,
+      320.0
+    ],
+    "probabilities": [
+      0.8066265060240964,
+      0.19337349397590362
+    ]
+  },
+  {
+    "option_labels": [
+      "$6.00 in 6 weeks",
+      "$5.25 in 5 weeks"
+    ],
+    "training_counts": [
+      1247.0,
+      411.0
+    ],
+    "probabilities": [
+      0.7518072289156627,
+      0.24819277108433735
+    ]
+  },
+  {
+    "option_labels": [
+      "$6.00 in 6 weeks",
+      "$5.50 in 5 weeks"
+    ],
+    "training_counts": [
+      1117.0,
+      541.0
+    ],
+    "probabilities": [
+      0.6734939759036145,
+      0.3265060240963855
+    ]
+  },
+  {
+    "option_labels": [
+      "$6.00 in 6 weeks",
+      "$5.75 in 5 weeks"
+    ],
+    "training_counts": [
+      993.0,
+      665.0
+    ],
+    "probabilities": [
+      0.5987951807228916,
+      0.40120481927710844
+    ]
+  },
+  {
+    "option_labels": [
+      "$6.00 in 6 weeks",
+      "$6.00 in 5 weeks"
+    ],
+    "training_counts": [
+      108.0,
+      1550.0
+    ],
+    "probabilities": [
+      0.06566265060240964,
+      0.9343373493975904
+    ]
+  },
+  {
+    "option_labels": [
+      "$6.00 in 6 weeks",
+      "$7.00 in 5 weeks"
+    ],
+    "training_counts": [
+      50.0,
+      1608.0
+    ],
+    "probabilities": [
+      0.03072289156626506,
+      0.9692771084337349
+    ]
+  },
+  {
+    "option_labels": [
+      "$8.00 in 7 weeks",
+      "$4.00 in 6 weeks"
+    ],
+    "training_counts": [
+      1607.0,
+      51.0
+    ],
+    "probabilities": [
+      0.9686746987951808,
+      0.03132530120481928
+    ]
+  },
+  {
+    "option_labels": [
+      "$8.00 in 7 weeks",
+      "$5.00 in 6 weeks"
+    ],
+    "training_counts": [
+      1597.0,
+      61.0
+    ],
+    "probabilities": [
+      0.9626506024096385,
+      0.03734939759036145
+    ]
+  },
+  {
+    "option_labels": [
+      "$8.00 in 7 weeks",
+      "$6.00 in 6 weeks"
+    ],
+    "training_counts": [
+      1539.0,
+      119.0
+    ],
+    "probabilities": [
+      0.927710843373494,
+      0.07228915662650602
+    ]
+  },
+  {
+    "option_labels": [
+      "$8.00 in 7 weeks",
+      "$6.50 in 6 weeks"
+    ],
+    "training_counts": [
+      1497.0,
+      161.0
+    ],
+    "probabilities": [
+      0.9024096385542169,
+      0.09759036144578313
+    ]
+  },
+  {
+    "option_labels": [
+      "$8.00 in 7 weeks",
+      "$7.00 in 6 weeks"
+    ],
+    "training_counts": [
+      1277.0,
+      381.0
+    ],
+    "probabilities": [
+      0.7698795180722892,
+      0.23012048192771084
+    ]
+  },
+  {
+    "option_labels": [
+      "$8.00 in 7 weeks",
+      "$7.25 in 6 weeks"
+    ],
+    "training_counts": [
+      1192.0,
+      466.0
+    ],
+    "probabilities": [
+      0.7186746987951808,
+      0.2813253012048193
+    ]
+  },
+  {
+    "option_labels": [
+      "$8.00 in 7 weeks",
+      "$7.50 in 6 weeks"
+    ],
+    "training_counts": [
+      1043.0,
+      615.0
+    ],
+    "probabilities": [
+      0.6289156626506024,
+      0.3710843373493976
+    ]
+  },
+  {
+    "option_labels": [
+      "$8.00 in 7 weeks",
+      "$7.75 in 6 weeks"
+    ],
+    "training_counts": [
+      926.0,
+      732.0
+    ],
+    "probabilities": [
+      0.558433734939759,
+      0.44156626506024094
+    ]
+  },
+  {
+    "option_labels": [
+      "$8.00 in 7 weeks",
+      "$8.00 in 6 weeks"
+    ],
+    "training_counts": [
+      67.0,
+      1591.0
+    ],
+    "probabilities": [
+      0.04096385542168675,
+      0.9590361445783132
+    ]
+  },
+  {
+    "option_labels": [
+      "$8.00 in 7 weeks",
+      "$9.00 in 6 weeks"
+    ],
+    "training_counts": [
+      35.0,
+      1623.0
+    ],
+    "probabilities": [
+      0.021686746987951807,
+      0.9783132530120482
+    ]
+  },
+  {
+    "option_labels": [
+      "$10.00 in 7 weeks",
+      "$5.00 in 5 weeks"
+    ],
+    "training_counts": [
+      1597.0,
+      61.0
+    ],
+    "probabilities": [
+      0.9626506024096385,
+      0.03734939759036145
+    ]
+  },
+  {
+    "option_labels": [
+      "$10.00 in 7 weeks",
+      "$6.00 in 5 weeks"
+    ],
+    "training_counts": [
+      1581.0,
+      77.0
+    ],
+    "probabilities": [
+      0.9530120481927711,
+      0.046987951807228916
+    ]
+  },
+  {
+    "option_labels": [
+      "$10.00 in 7 weeks",
+      "$7.00 in 5 weeks"
+    ],
+    "training_counts": [
+      1546.0,
+      112.0
+    ],
+    "probabilities": [
+      0.9319277108433734,
+      0.06807228915662651
+    ]
+  },
+  {
+    "option_labels": [
+      "$10.00 in 7 weeks",
+      "$8.00 in 5 weeks"
+    ],
+    "training_counts": [
+      1391.0,
+      267.0
+    ],
+    "probabilities": [
+      0.8385542168674699,
+      0.1614457831325301
+    ]
+  },
+  {
+    "option_labels": [
+      "$10.00 in 7 weeks",
+      "$8.50 in 5 weeks"
+    ],
+    "training_counts": [
+      1316.0,
+      342.0
+    ],
+    "probabilities": [
+      0.7933734939759036,
+      0.20662650602409638
+    ]
+  },
+  {
+    "option_labels": [
+      "$10.00 in 7 weeks",
+      "$9.00 in 5 weeks"
+    ],
+    "training_counts": [
+      1000.0,
+      658.0
+    ],
+    "probabilities": [
+      0.6030120481927711,
+      0.3969879518072289
+    ]
+  },
+  {
+    "option_labels": [
+      "$10.00 in 7 weeks",
+      "$9.25 in 5 weeks"
+    ],
+    "training_counts": [
+      924.0,
+      734.0
+    ],
+    "probabilities": [
+      0.5572289156626506,
+      0.4427710843373494
+    ]
+  },
+  {
+    "option_labels": [
+      "$10.00 in 7 weeks",
+      "$9.50 in 5 weeks"
+    ],
+    "training_counts": [
+      798.0,
+      860.0
+    ],
+    "probabilities": [
+      0.48132530120481926,
+      0.5186746987951807
+    ]
+  },
+  {
+    "option_labels": [
+      "$10.00 in 7 weeks",
+      "$9.75 in 5 weeks"
+    ],
+    "training_counts": [
+      715.0,
+      943.0
+    ],
+    "probabilities": [
+      0.43132530120481927,
+      0.5686746987951807
+    ]
+  },
+  {
+    "option_labels": [
+      "$10.00 in 7 weeks",
+      "$10.00 in 5 weeks"
+    ],
+    "training_counts": [
+      46.0,
+      1612.0
+    ],
+    "probabilities": [
+      0.028313253012048192,
+      0.9716867469879518
+    ]
+  },
+  {
+    "option_labels": [
+      "$10.00 in 7 weeks",
+      "$11.00 in 5 weeks"
+    ],
+    "training_counts": [
+      31.0,
+      1627.0
+    ],
+    "probabilities": [
+      0.01927710843373494,
+      0.980722891566265
+    ]
+  },
+  {
+    "option_labels": [
+      "$6.00 in 1 week",
+      "$3.00 now"
+    ],
+    "training_counts": [
+      1503.0,
+      155.0
+    ],
+    "probabilities": [
+      0.9060240963855422,
+      0.09397590361445783
+    ]
+  },
+  {
+    "option_labels": [
+      "$6.00 in 1 week",
+      "$4.00 now"
+    ],
+    "training_counts": [
+      1459.0,
+      199.0
+    ],
+    "probabilities": [
+      0.8795180722891566,
+      0.12048192771084337
+    ]
+  },
+  {
+    "option_labels": [
+      "$6.00 in 1 week",
+      "$4.50 now"
+    ],
+    "training_counts": [
+      1422.0,
+      236.0
+    ],
+    "probabilities": [
+      0.8572289156626506,
+      0.1427710843373494
+    ]
+  },
+  {
+    "option_labels": [
+      "$6.00 in 1 week",
+      "$5.00 now"
+    ],
+    "training_counts": [
+      1047.0,
+      611.0
+    ],
+    "probabilities": [
+      0.6313253012048192,
+      0.3686746987951807
+    ]
+  },
+  {
+    "option_labels": [
+      "$6.00 in 1 week",
+      "$5.25 now"
+    ],
+    "training_counts": [
+      982.0,
+      676.0
+    ],
+    "probabilities": [
+      0.5921686746987952,
+      0.4078313253012048
+    ]
+  },
+  {
+    "option_labels": [
+      "$6.00 in 1 week",
+      "$5.50 now"
+    ],
+    "training_counts": [
+      852.0,
+      806.0
+    ],
+    "probabilities": [
+      0.513855421686747,
+      0.48614457831325303
+    ]
+  },
+  {
+    "option_labels": [
+      "$6.00 in 1 week",
+      "$5.75 now"
+    ],
+    "training_counts": [
+      751.0,
+      907.0
+    ],
+    "probabilities": [
+      0.4530120481927711,
+      0.5469879518072289
+    ]
+  },
+  {
+    "option_labels": [
+      "$6.00 in 1 week",
+      "$6.00 now"
+    ],
+    "training_counts": [
+      36.0,
+      1622.0
+    ],
+    "probabilities": [
+      0.022289156626506025,
+      0.977710843373494
+    ]
+  },
+  {
+    "option_labels": [
+      "$6.00 in 1 week",
+      "$7.00 now"
+    ],
+    "training_counts": [
+      15.0,
+      1643.0
+    ],
+    "probabilities": [
+      0.00963855421686747,
+      0.9903614457831326
+    ]
+  },
+  {
+    "option_labels": [
+      "$8.00 in 1 week",
+      "$4.00 now"
+    ],
+    "training_counts": [
+      1564.0,
+      94.0
+    ],
+    "probabilities": [
+      0.9427710843373494,
+      0.0572289156626506
+    ]
+  },
+  {
+    "option_labels": [
+      "$8.00 in 1 week",
+      "$5.00 now"
+    ],
+    "training_counts": [
+      1510.0,
+      148.0
+    ],
+    "probabilities": [
+      0.9102409638554216,
+      0.08975903614457831
+    ]
+  },
+  {
+    "option_labels": [
+      "$8.00 in 1 week",
+      "$6.00 now"
+    ],
+    "training_counts": [
+      1432.0,
+      226.0
+    ],
+    "probabilities": [
+      0.8632530120481928,
+      0.13674698795180723
+    ]
+  },
+  {
+    "option_labels": [
+      "$8.00 in 1 week",
+      "$6.50 now"
+    ],
+    "training_counts": [
+      1377.0,
+      281.0
+    ],
+    "probabilities": [
+      0.8301204819277108,
+      0.16987951807228915
+    ]
+  },
+  {
+    "option_labels": [
+      "$8.00 in 1 week",
+      "$7.00 now"
+    ],
+    "training_counts": [
+      1041.0,
+      617.0
+    ],
+    "probabilities": [
+      0.6277108433734939,
+      0.372289156626506
+    ]
+  },
+  {
+    "option_labels": [
+      "$8.00 in 1 week",
+      "$7.25 now"
+    ],
+    "training_counts": [
+      971.0,
+      687.0
+    ],
+    "probabilities": [
+      0.5855421686746988,
+      0.41445783132530123
+    ]
+  },
+  {
+    "option_labels": [
+      "$8.00 in 1 week",
+      "$7.50 now"
+    ],
+    "training_counts": [
+      832.0,
+      826.0
+    ],
+    "probabilities": [
+      0.5018072289156627,
+      0.49819277108433735
+    ]
+  },
+  {
+    "option_labels": [
+      "$8.00 in 1 week",
+      "$7.75 now"
+    ],
+    "training_counts": [
+      723.0,
+      935.0
+    ],
+    "probabilities": [
+      0.43614457831325304,
+      0.563855421686747
+    ]
+  },
+  {
+    "option_labels": [
+      "$8.00 in 1 week",
+      "$8.00 now"
+    ],
+    "training_counts": [
+      29.0,
+      1629.0
+    ],
+    "probabilities": [
+      0.018072289156626505,
+      0.9819277108433735
+    ]
+  },
+  {
+    "option_labels": [
+      "$8.00 in 1 week",
+      "$9.00 now"
+    ],
+    "training_counts": [
+      15.0,
+      1643.0
+    ],
+    "probabilities": [
+      0.00963855421686747,
+      0.9903614457831326
+    ]
+  },
+  {
+    "option_labels": [
+      "$10.00 in 2 weeks",
+      "$5.00 now"
+    ],
+    "training_counts": [
+      1483.0,
+      175.0
+    ],
+    "probabilities": [
+      0.8939759036144578,
+      0.10602409638554217
+    ]
+  },
+  {
+    "option_labels": [
+      "$10.00 in 2 weeks",
+      "$6.00 now"
+    ],
+    "training_counts": [
+      1449.0,
+      209.0
+    ],
+    "probabilities": [
+      0.8734939759036144,
+      0.12650602409638553
+    ]
+  },
+  {
+    "option_labels": [
+      "$10.00 in 2 weeks",
+      "$7.00 now"
+    ],
+    "training_counts": [
+      1364.0,
+      294.0
+    ],
+    "probabilities": [
+      0.822289156626506,
+      0.17771084337349397
+    ]
+  },
+  {
+    "option_labels": [
+      "$10.00 in 2 weeks",
+      "$8.00 now"
+    ],
+    "training_counts": [
+      1171.0,
+      487.0
+    ],
+    "probabilities": [
+      0.7060240963855422,
+      0.29397590361445786
+    ]
+  },
+  {
+    "option_labels": [
+      "$10.00 in 2 weeks",
+      "$8.50 now"
+    ],
+    "training_counts": [
+      1101.0,
+      557.0
+    ],
+    "probabilities": [
+      0.6638554216867469,
+      0.336144578313253
+    ]
+  },
+  {
+    "option_labels": [
+      "$10.00 in 2 weeks",
+      "$9.00 now"
+    ],
+    "training_counts": [
+      841.0,
+      817.0
+    ],
+    "probabilities": [
+      0.5072289156626506,
+      0.4927710843373494
+    ]
+  },
+  {
+    "option_labels": [
+      "$10.00 in 2 weeks",
+      "$9.25 now"
+    ],
+    "training_counts": [
+      791.0,
+      867.0
+    ],
+    "probabilities": [
+      0.4771084337349398,
+      0.5228915662650603
+    ]
+  },
+  {
+    "option_labels": [
+      "$10.00 in 2 weeks",
+      "$9.50 now"
+    ],
+    "training_counts": [
+      697.0,
+      961.0
+    ],
+    "probabilities": [
+      0.42048192771084336,
+      0.5795180722891566
+    ]
+  },
+  {
+    "option_labels": [
+      "$10.00 in 2 weeks",
+      "$9.75 now"
+    ],
+    "training_counts": [
+      614.0,
+      1044.0
+    ],
+    "probabilities": [
+      0.3704819277108434,
+      0.6295180722891566
+    ]
+  },
+  {
+    "option_labels": [
+      "$10.00 in 2 weeks",
+      "$10.00 now"
+    ],
+    "training_counts": [
+      20.0,
+      1638.0
+    ],
+    "probabilities": [
+      0.012650602409638554,
+      0.9873493975903614
+    ]
+  },
+  {
+    "option_labels": [
+      "$10.00 in 2 weeks",
+      "$11.00 now"
+    ],
+    "training_counts": [
+      14.0,
+      1644.0
+    ],
+    "probabilities": [
+      0.009036144578313253,
+      0.9909638554216867
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "$0.50"
+    ],
+    "training_counts": [
+      1511.0,
+      147.0
+    ],
+    "probabilities": [
+      0.9108433734939759,
+      0.0891566265060241
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "$1.00"
+    ],
+    "training_counts": [
+      1472.0,
+      186.0
+    ],
+    "probabilities": [
+      0.8873493975903615,
+      0.11265060240963855
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "$1.25"
+    ],
+    "training_counts": [
+      1455.0,
+      203.0
+    ],
+    "probabilities": [
+      0.8771084337349397,
+      0.12289156626506025
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "$1.50"
+    ],
+    "training_counts": [
+      1436.0,
+      222.0
+    ],
+    "probabilities": [
+      0.8656626506024097,
+      0.13433734939759037
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "$1.75"
+    ],
+    "training_counts": [
+      1406.0,
+      252.0
+    ],
+    "probabilities": [
+      0.8475903614457831,
+      0.15240963855421688
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "$2.00"
+    ],
+    "training_counts": [
+      1256.0,
+      402.0
+    ],
+    "probabilities": [
+      0.7572289156626506,
+      0.2427710843373494
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "$2.25"
+    ],
+    "training_counts": [
+      1191.0,
+      467.0
+    ],
+    "probabilities": [
+      0.7180722891566265,
+      0.2819277108433735
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "$2.50"
+    ],
+    "training_counts": [
+      3964.0,
+      1010.0
+    ],
+    "probabilities": [
+      0.7968247588424437,
+      0.20317524115755628
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "$2.75"
+    ],
+    "training_counts": [
+      1019.0,
+      639.0
+    ],
+    "probabilities": [
+      0.6144578313253012,
+      0.3855421686746988
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "$3.00"
+    ],
+    "training_counts": [
+      3345.0,
+      1629.0
+    ],
+    "probabilities": [
+      0.672427652733119,
+      0.327572347266881
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "$3.25"
+    ],
+    "training_counts": [
+      3182.0,
+      1792.0
+    ],
+    "probabilities": [
+      0.6396704180064309,
+      0.3603295819935691
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "$3.50"
+    ],
+    "training_counts": [
+      3041.0,
+      1933.0
+    ],
+    "probabilities": [
+      0.6113344051446945,
+      0.38866559485530544
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "$4.00"
+    ],
+    "training_counts": [
+      2254.0,
+      2720.0
+    ],
+    "probabilities": [
+      0.45317524115755625,
+      0.5468247588424437
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "$5.00"
+    ],
+    "training_counts": [
+      918.0,
+      4056.0
+    ],
+    "probabilities": [
+      0.18468649517684887,
+      0.8153135048231511
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "$3.75"
+    ],
+    "training_counts": [
+      2591.0,
+      725.0
+    ],
+    "probabilities": [
+      0.7811934900542495,
+      0.21880650994575046
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "$4.25"
+    ],
+    "training_counts": [
+      1877.0,
+      1439.0
+    ],
+    "probabilities": [
+      0.566003616636528,
+      0.43399638336347196
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "$4.50"
+    ],
+    "training_counts": [
+      1705.0,
+      1611.0
+    ],
+    "probabilities": [
+      0.5141651597347799,
+      0.48583484026522
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "$4.75"
+    ],
+    "training_counts": [
+      1604.0,
+      1712.0
+    ],
+    "probabilities": [
+      0.4837251356238698,
+      0.5162748643761302
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "$5.25"
+    ],
+    "training_counts": [
+      660.0,
+      2656.0
+    ],
+    "probabilities": [
+      0.19921639541892708,
+      0.8007836045810729
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "$5.50"
+    ],
+    "training_counts": [
+      596.0,
+      2720.0
+    ],
+    "probabilities": [
+      0.17992766726943943,
+      0.8200723327305606
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "$6.00"
+    ],
+    "training_counts": [
+      379.0,
+      2937.0
+    ],
+    "probabilities": [
+      0.11452682338758288,
+      0.8854731766124171
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "$7.00"
+    ],
+    "training_counts": [
+      295.0,
+      3021.0
+    ],
+    "probabilities": [
+      0.08921036769138035,
+      0.9107896323086196
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "-$5.50"
+    ],
+    "training_counts": [
+      3782.0,
+      1192.0
+    ],
+    "probabilities": [
+      0.7602491961414791,
+      0.2397508038585209
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "-$5.00"
+    ],
+    "training_counts": [
+      3215.0,
+      1759.0
+    ],
+    "probabilities": [
+      0.6463022508038585,
+      0.3536977491961415
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "-$4.75"
+    ],
+    "training_counts": [
+      2887.0,
+      2087.0
+    ],
+    "probabilities": [
+      0.5803858520900321,
+      0.41961414790996787
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "-$4.50"
+    ],
+    "training_counts": [
+      2757.0,
+      2217.0
+    ],
+    "probabilities": [
+      0.5542604501607717,
+      0.4457395498392283
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "-$4.25"
+    ],
+    "training_counts": [
+      1368.0,
+      290.0
+    ],
+    "probabilities": [
+      0.8246987951807229,
+      0.1753012048192771
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "-$4.00"
+    ],
+    "training_counts": [
+      2422.0,
+      2552.0
+    ],
+    "probabilities": [
+      0.48693729903536975,
+      0.5130627009646302
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "-$3.75"
+    ],
+    "training_counts": [
+      1213.0,
+      445.0
+    ],
+    "probabilities": [
+      0.7313253012048193,
+      0.26867469879518074
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "-$3.50"
+    ],
+    "training_counts": [
+      1131.0,
+      527.0
+    ],
+    "probabilities": [
+      0.6819277108433734,
+      0.3180722891566265
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "-$3.25"
+    ],
+    "training_counts": [
+      1085.0,
+      573.0
+    ],
+    "probabilities": [
+      0.6542168674698795,
+      0.3457831325301205
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "-$3.00"
+    ],
+    "training_counts": [
+      1808.0,
+      3166.0
+    ],
+    "probabilities": [
+      0.36354501607717044,
+      0.6364549839228296
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "-$2.75"
+    ],
+    "training_counts": [
+      717.0,
+      941.0
+    ],
+    "probabilities": [
+      0.43253012048192774,
+      0.5674698795180723
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "-$2.50"
+    ],
+    "training_counts": [
+      657.0,
+      1001.0
+    ],
+    "probabilities": [
+      0.3963855421686747,
+      0.6036144578313253
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "-$2.00"
+    ],
+    "training_counts": [
+      564.0,
+      1094.0
+    ],
+    "probabilities": [
+      0.34036144578313254,
+      0.6596385542168675
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "-$1.00"
+    ],
+    "training_counts": [
+      510.0,
+      1148.0
+    ],
+    "probabilities": [
+      0.30783132530120483,
+      0.6921686746987952
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "-$7.50"
+    ],
+    "training_counts": [
+      2836.0,
+      480.0
+    ],
+    "probabilities": [
+      0.8550331525015069,
+      0.14496684749849306
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "-$7.00"
+    ],
+    "training_counts": [
+      2838.0,
+      478.0
+    ],
+    "probabilities": [
+      0.8556359252561784,
+      0.14436407474382157
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "-$6.75"
+    ],
+    "training_counts": [
+      2803.0,
+      513.0
+    ],
+    "probabilities": [
+      0.8450874020494273,
+      0.15491259795057263
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "-$6.50"
+    ],
+    "training_counts": [
+      2778.0,
+      538.0
+    ],
+    "probabilities": [
+      0.8375527426160337,
+      0.16244725738396623
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "-$6.25"
+    ],
+    "training_counts": [
+      2753.0,
+      563.0
+    ],
+    "probabilities": [
+      0.8300180831826401,
+      0.16998191681735986
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "-$6.00"
+    ],
+    "training_counts": [
+      2630.0,
+      686.0
+    ],
+    "probabilities": [
+      0.7929475587703436,
+      0.2070524412296564
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "-$5.75"
+    ],
+    "training_counts": [
+      2498.0,
+      818.0
+    ],
+    "probabilities": [
+      0.7531645569620253,
+      0.2468354430379747
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery",
+      "-$5.25"
+    ],
+    "training_counts": [
+      2249.0,
+      1067.0
+    ],
+    "probabilities": [
+      0.6781193490054249,
+      0.321880650994575
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery with x=$7.00",
+      "$0"
+    ],
+    "training_counts": [
+      702.0,
+      956.0
+    ],
+    "probabilities": [
+      0.4234939759036145,
+      0.5765060240963855
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery with x=$8.00",
+      "$0"
+    ],
+    "training_counts": [
+      771.0,
+      887.0
+    ],
+    "probabilities": [
+      0.4650602409638554,
+      0.5349397590361445
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery with x=$9.00",
+      "$0"
+    ],
+    "training_counts": [
+      888.0,
+      770.0
+    ],
+    "probabilities": [
+      0.5355421686746988,
+      0.4644578313253012
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery with x=$10.00",
+      "$0"
+    ],
+    "training_counts": [
+      982.0,
+      676.0
+    ],
+    "probabilities": [
+      0.5921686746987952,
+      0.4078313253012048
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery with x=$11.00",
+      "$0"
+    ],
+    "training_counts": [
+      1020.0,
+      638.0
+    ],
+    "probabilities": [
+      0.6150602409638555,
+      0.3849397590361446
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery with x=$12.00",
+      "$0"
+    ],
+    "training_counts": [
+      1074.0,
+      584.0
+    ],
+    "probabilities": [
+      0.6475903614457831,
+      0.35240963855421686
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery with x=$13.00",
+      "$0"
+    ],
+    "training_counts": [
+      1102.0,
+      556.0
+    ],
+    "probabilities": [
+      0.6644578313253012,
+      0.33554216867469877
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery with x=$14.00",
+      "$0"
+    ],
+    "training_counts": [
+      1143.0,
+      515.0
+    ],
+    "probabilities": [
+      0.689156626506024,
+      0.3108433734939759
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery with x=$15.00",
+      "$0"
+    ],
+    "training_counts": [
+      1216.0,
+      442.0
+    ],
+    "probabilities": [
+      0.733132530120482,
+      0.2668674698795181
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery with x=$16.00",
+      "$0"
+    ],
+    "training_counts": [
+      1292.0,
+      366.0
+    ],
+    "probabilities": [
+      0.7789156626506024,
+      0.22108433734939759
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery with x=$17.00",
+      "$0"
+    ],
+    "training_counts": [
+      1310.0,
+      348.0
+    ],
+    "probabilities": [
+      0.7897590361445783,
+      0.21024096385542168
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery with x=$18.00",
+      "$0"
+    ],
+    "training_counts": [
+      1318.0,
+      340.0
+    ],
+    "probabilities": [
+      0.7945783132530121,
+      0.20542168674698796
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery with x=$19.00",
+      "$0"
+    ],
+    "training_counts": [
+      1324.0,
+      334.0
+    ],
+    "probabilities": [
+      0.7981927710843374,
+      0.20180722891566266
+    ]
+  },
+  {
+    "option_labels": [
+      "Lottery with x=$20.00",
+      "$0"
+    ],
+    "training_counts": [
+      1336.0,
+      322.0
+    ],
+    "probabilities": [
+      0.805421686746988,
+      0.19457831325301206
+    ]
+  },
+  {
+    "option_labels": [
+      "I would keep $0 for myself and send $5 to the other person.",
+      "I would keep $1 for myself and send $4 to the other person.",
+      "I would keep $2 for myself and send $3 to the other person.",
+      "I would keep $3 for myself and send $2 to the other person.",
+      "I would keep $4 for myself and send $1 to the other person.",
+      "I would keep $5 for myself and send $0 to the other person."
+    ],
+    "training_counts": [
+      313.0,
+      59.0,
+      273.0,
+      600.0,
+      207.0,
+      206.0
+    ],
+    "probabilities": [
+      0.18870192307692307,
+      0.036057692307692304,
+      0.16466346153846154,
+      0.36117788461538464,
+      0.125,
+      0.12439903846153846
+    ]
+  },
+  {
+    "option_labels": [
+      "I would keep $0 for myself and send $15 to the other person.",
+      "I would keep $1 for myself and send $14 to the other person.",
+      "I would keep $2 for myself and send $13 to the other person.",
+      "I would keep $3 for myself and send $12 to the other person.",
+      "I would keep $4 for myself and send $11 to the other person.",
+      "I would keep $5 for myself and send $10 to the other person.",
+      "I would keep $6 for myself and send $9 to the other person.",
+      "I would keep $7 for myself and send $8 to the other person.",
+      "I would keep $8 for myself and send $7 to the other person.",
+      "I would keep $9 for myself and send $6 to the other person.",
+      "I would keep $10 for myself and send $5 to the other person.",
+      "I would keep $11 for myself and send $4 to the other person.",
+      "I would keep $12 for myself and send $3 to the other person.",
+      "I would keep $13 for myself and send $2 to the other person.",
+      "I would keep $14 for myself and send $1 to the other person.",
+      "I would keep $15 for myself and send $0 to the other person."
+    ],
+    "training_counts": [
+      34.0,
+      4.0,
+      6.0,
+      11.0,
+      7.0,
+      101.0,
+      25.0,
+      402.0,
+      500.0,
+      57.0,
+      288.0,
+      22.0,
+      35.0,
+      9.0,
+      17.0,
+      140.0
+    ],
+    "probabilities": [
+      0.02090800477897252,
+      0.002986857825567503,
+      0.004181600955794504,
+      0.007168458781362007,
+      0.0047789725209080045,
+      0.06093189964157706,
+      0.015531660692951015,
+      0.24074074074074073,
+      0.2992831541218638,
+      0.03464755077658303,
+      0.17264038231780168,
+      0.013739545997610514,
+      0.021505376344086023,
+      0.005973715651135006,
+      0.010752688172043012,
+      0.08422939068100359
+    ]
+  },
+  {
+    "option_labels": [
+      "I would keep $0 for myself and send $12 to the other person.",
+      "I would keep $1 for myself and send $11 to the other person.",
+      "I would keep $2 for myself and send $10 to the other person.",
+      "I would keep $3 for myself and send $9 to the other person.",
+      "I would keep $4 for myself and send $8 to the other person.",
+      "I would keep $5 for myself and send $7 to the other person.",
+      "I would keep $6 for myself and send $6 to the other person.",
+      "I would keep $7 for myself and send $5 to the other person.",
+      "I would keep $8 for myself and send $4 to the other person.",
+      "I would keep $9 for myself and send $3 to the other person.",
+      "I would keep $10 for myself and send $2 to the other person.",
+      "I would keep $11 for myself and send $1 to the other person.",
+      "I would keep $12 for myself and send $0 to the other person."
+    ],
+    "training_counts": [
+      28.0,
+      5.0,
+      10.0,
+      9.0,
+      77.0,
+      62.0,
+      807.0,
+      191.0,
+      204.0,
+      63.0,
+      47.0,
+      19.0,
+      136.0
+    ],
+    "probabilities": [
+      0.017354877318970677,
+      0.003590664272890485,
+      0.006582884500299222,
+      0.005984440454817474,
+      0.0466786355475763,
+      0.03770197486535009,
+      0.48354278874925194,
+      0.11490125673249552,
+      0.12268102932375823,
+      0.038300418910831836,
+      0.02872531418312388,
+      0.011968880909634948,
+      0.0819868342309994
+    ]
+  },
+  {
+    "option_labels": [
+      "I would keep $0 for myself and send $9 to the other person.",
+      "I would keep $1 for myself and send $8 to the other person.",
+      "I would keep $2 for myself and send $7 to the other person.",
+      "I would keep $3 for myself and send $6 to the other person.",
+      "I would keep $4 for myself and send $5 to the other person.",
+      "I would keep $5 for myself and send $4 to the other person.",
+      "I would keep $6 for myself and send $3 to the other person.",
+      "I would keep $7 for myself and send $2 to the other person.",
+      "I would keep $8 for myself and send $1 to the other person.",
+      "I would keep $9 for myself and send $0 to the other person."
+    ],
+    "training_counts": [
+      33.0,
+      6.0,
+      13.0,
+      81.0,
+      322.0,
+      624.0,
+      331.0,
+      77.0,
+      36.0,
+      135.0
+    ],
+    "probabilities": [
+      0.02038369304556355,
+      0.004196642685851319,
+      0.008393285371702638,
+      0.049160671462829736,
+      0.1936450839328537,
+      0.3747002398081535,
+      0.19904076738609114,
+      0.046762589928057555,
+      0.022182254196642687,
+      0.0815347721822542
+    ]
+  },
+  {
+    "option_labels": [
+      "I would keep $0 for myself and send $6 to the other person.",
+      "I would keep $1 for myself and send $5 to the other person.",
+      "I would keep $2 for myself and send $4 to the other person.",
+      "I would keep $3 for myself and send $3 to the other person.",
+      "I would keep $4 for myself and send $2 to the other person.",
+      "I would keep $5 for myself and send $1 to the other person.",
+      "I would keep $6 for myself and send $0 to the other person."
+    ],
+    "training_counts": [
+      26.0,
+      17.0,
+      95.0,
+      823.0,
+      360.0,
+      178.0,
+      159.0
+    ],
+    "probabilities": [
+      0.016216216216216217,
+      0.010810810810810811,
+      0.05765765765765766,
+      0.4948948948948949,
+      0.2168168168168168,
+      0.10750750750750751,
+      0.0960960960960961
+    ]
+  },
+  {
+    "option_labels": [
+      "I would keep $0 for myself and send $3 to the other person.",
+      "I would keep $1 for myself and send $2 to the other person.",
+      "I would keep $2 for myself and send $1 to the other person.",
+      "I would keep $3 for myself and send $0 to the other person."
+    ],
+    "training_counts": [
+      66.0,
+      366.0,
+      826.0,
+      400.0
+    ],
+    "probabilities": [
+      0.040312876052948254,
+      0.22081829121540314,
+      0.49759326113116725,
+      0.24127557160048135
+    ]
+  },
+  {
+    "option_labels": [
+      "Definitely untrue",
+      "Not true",
+      "Probably not true",
+      "Neither true nor untrue",
+      "Probably true",
+      "True",
+      "Definitely true"
+    ],
+    "training_counts": [
+      550.0,
+      1172.0,
+      1561.0,
+      2277.0,
+      3943.0,
+      4605.0,
+      2458.0
+    ],
+    "probabilities": [
+      0.03324684728172329,
+      0.0707777710734327,
+      0.09424968321969468,
+      0.13745248295420262,
+      0.23797743317444037,
+      0.2779219211971279,
+      0.1483738610993785
+    ]
+  },
+  {
+    "option_labels": [
+      "Tightwad (difficulty spending money) 1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "About the same or neither 6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "Spendthrift (difficulty controlling spending) 11"
+    ],
+    "training_counts": [
+      54.0,
+      85.0,
+      194.0,
+      213.0,
+      233.0,
+      300.0,
+      231.0,
+      192.0,
+      96.0,
+      29.0,
+      31.0
+    ],
+    "probabilities": [
+      0.0329538645895746,
+      0.05152786099460755,
+      0.11683642899940083,
+      0.12822049131216298,
+      0.140203714799281,
+      0.18034751348112643,
+      0.1390053924505692,
+      0.11563810665068903,
+      0.05811863391252247,
+      0.017974835230677052,
+      0.019173157579388856
+    ]
+  },
+  {
+    "option_labels": [
+      "Never",
+      "Rarely",
+      "Sometimes",
+      "Often",
+      "Always"
+    ],
+    "training_counts": [
+      306.0,
+      1232.0,
+      1148.0,
+      568.0,
+      62.0
+    ],
+    "probabilities": [
+      0.09244203553146643,
+      0.3712737127371274,
+      0.34598012646793136,
+      0.17133393556157783,
+      0.018970189701897018
+    ]
+  },
+  {
+    "option_labels": [
+      "Mr. A 1",
+      "2",
+      "About the same or neither 3",
+      "4",
+      "Mr. B 5"
+    ],
+    "training_counts": [
+      167.0,
+      347.0,
+      272.0,
+      618.0,
+      254.0
+    ],
+    "probabilities": [
+      0.10102224894768491,
+      0.20926037282020446,
+      0.16416115453998797,
+      0.37221888153938665,
+      0.153337342152736
+    ]
+  },
+  {
+    "option_labels": [
+      "Certainly, always false",
+      "Generally false",
+      "Somewhat false, but with exceptions",
+      "Somewhat true, but with exceptions",
+      "Generally true",
+      "Certainly, always true"
+    ],
+    "training_counts": [
+      686.0,
+      2384.0,
+      2948.0,
+      6402.0,
+      6941.0,
+      2193.0
+    ],
+    "probabilities": [
+      0.03186456400742115,
+      0.11062152133580705,
+      0.13678107606679035,
+      0.2969851576994434,
+      0.3219851576994434,
+      0.10176252319109462
+    ]
+  },
+  {
+    "option_labels": [
+      "Strongly oppose",
+      "Somewhat oppose",
+      "Neither oppose nor support",
+      "Somewhat support",
+      "Strongly support"
+    ],
+    "training_counts": [
+      922.0,
+      759.0,
+      1443.0,
+      2239.0,
+      2927.0
+    ],
+    "probabilities": [
+      0.11127185051235684,
+      0.0916214587100663,
+      0.174080771549126,
+      0.270042194092827,
+      0.35298372513562387
+    ]
+  },
+  {
+    "option_labels": [
+      "not at all beneficial",
+      "low benefit",
+      "slightly beneficial",
+      "neutral",
+      "moderately beneficial",
+      "very beneficial",
+      "extremely beneficial"
+    ],
+    "training_counts": [
+      826.0,
+      1026.0,
+      772.0,
+      806.0,
+      1276.0,
+      1167.0,
+      759.0
+    ],
+    "probabilities": [
+      0.12456695285434553,
+      0.1546919716824823,
+      0.1164331977707486,
+      0.12155445097153186,
+      0.19234824521765326,
+      0.17593010995631872,
+      0.11447507154691972
+    ]
+  },
+  {
+    "option_labels": [
+      "not at all risky",
+      "low risk",
+      "slightly risky",
+      "neutral",
+      "moderately risky",
+      "very risky",
+      "extremely risky"
+    ],
+    "training_counts": [
+      313.0,
+      607.0,
+      603.0,
+      394.0,
+      1984.0,
+      1666.0,
+      1065.0
+    ],
+    "probabilities": [
+      0.04729627956017472,
+      0.09158005723753578,
+      0.09097755686097304,
+      0.059496912185570114,
+      0.2989908118692574,
+      0.25109203193251994,
+      0.16056635035396896
+    ]
+  }
+]

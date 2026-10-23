@@ -1,0 +1,309 @@
+{
+  "selected_model": "prior_linear_l2_01",
+  "results": {
+    "Own vector": {
+      "accuracy": 0.3595833333333333,
+      "nll": 1.5154813699396528,
+      "distribution_TV": 0.12754906247129216,
+      "policy_accuracy": 0.48833333333333334,
+      "policy_nll": 1.3148845915056162,
+      "per_question": [
+        {
+          "item_id": "QID287_7",
+          "accuracy": 0.5433333333333333,
+          "nll": 1.2329842262151134
+        },
+        {
+          "item_id": "QID287_10",
+          "accuracy": 0.43333333333333335,
+          "nll": 1.3967849567961186
+        },
+        {
+          "item_id": "QID239_1",
+          "accuracy": 0.36333333333333334,
+          "nll": 1.5406696321082685
+        },
+        {
+          "item_id": "QID239_2",
+          "accuracy": 0.30333333333333334,
+          "nll": 1.5719206617222719
+        },
+        {
+          "item_id": "QID239_3",
+          "accuracy": 0.21333333333333335,
+          "nll": 1.733265819310478
+        },
+        {
+          "item_id": "QID239_4",
+          "accuracy": 0.2833333333333333,
+          "nll": 1.6956368127900032
+        },
+        {
+          "item_id": "QID239_5",
+          "accuracy": 0.38,
+          "nll": 1.459653172053138
+        },
+        {
+          "item_id": "QID239_6",
+          "accuracy": 0.3566666666666667,
+          "nll": 1.492935678521831
+        }
+      ]
+    },
+    "Mean vector": {
+      "accuracy": 0.36625,
+      "nll": 1.5054576188398194,
+      "distribution_TV": 0.12110155774522816,
+      "policy_accuracy": 0.5283333333333333,
+      "policy_nll": 1.3247776132305773,
+      "per_question": [
+        {
+          "item_id": "QID287_7",
+          "accuracy": 0.5433333333333333,
+          "nll": 1.257141359996184
+        },
+        {
+          "item_id": "QID287_10",
+          "accuracy": 0.5133333333333333,
+          "nll": 1.3924138664649706
+        },
+        {
+          "item_id": "QID239_1",
+          "accuracy": 0.32,
+          "nll": 1.6104193133932916
+        },
+        {
+          "item_id": "QID239_2",
+          "accuracy": 0.34,
+          "nll": 1.5391961164822263
+        },
+        {
+          "item_id": "QID239_3",
+          "accuracy": 0.27,
+          "nll": 1.6079675445051995
+        },
+        {
+          "item_id": "QID239_4",
+          "accuracy": 0.3233333333333333,
+          "nll": 1.5626295145684805
+        },
+        {
+          "item_id": "QID239_5",
+          "accuracy": 0.3566666666666667,
+          "nll": 1.4860494310306076
+        },
+        {
+          "item_id": "QID239_6",
+          "accuracy": 0.2633333333333333,
+          "nll": 1.5878438042775955
+        }
+      ]
+    },
+    "Zero vector": {
+      "accuracy": 0.36625,
+      "nll": 1.5037171661409763,
+      "distribution_TV": 0.12042281199717617,
+      "policy_accuracy": 0.5283333333333333,
+      "policy_nll": 1.3096163909205922,
+      "per_question": [
+        {
+          "item_id": "QID287_7",
+          "accuracy": 0.5433333333333333,
+          "nll": 1.2422861745726335
+        },
+        {
+          "item_id": "QID287_10",
+          "accuracy": 0.5133333333333333,
+          "nll": 1.3769466072685512
+        },
+        {
+          "item_id": "QID239_1",
+          "accuracy": 0.32,
+          "nll": 1.6070770657181634
+        },
+        {
+          "item_id": "QID239_2",
+          "accuracy": 0.34,
+          "nll": 1.5464672950078686
+        },
+        {
+          "item_id": "QID239_3",
+          "accuracy": 0.27,
+          "nll": 1.6154739720611029
+        },
+        {
+          "item_id": "QID239_4",
+          "accuracy": 0.3233333333333333,
+          "nll": 1.5569123610689575
+        },
+        {
+          "item_id": "QID239_5",
+          "accuracy": 0.3566666666666667,
+          "nll": 1.482332563244691
+        },
+        {
+          "item_id": "QID239_6",
+          "accuracy": 0.2633333333333333,
+          "nll": 1.6022412901858425
+        }
+      ]
+    },
+    "Population baseline": {
+      "accuracy": 0.36625,
+      "nll": 1.512691430368977,
+      "distribution_TV": 0.12976823668808082,
+      "policy_accuracy": 0.5283333333333333,
+      "policy_nll": 1.341417087821124,
+      "per_question": [
+        {
+          "item_id": "QID287_7",
+          "accuracy": 0.5433333333333333,
+          "nll": 1.3047216080207753
+        },
+        {
+          "item_id": "QID287_10",
+          "accuracy": 0.5133333333333333,
+          "nll": 1.3781125676214727
+        },
+        {
+          "item_id": "QID239_1",
+          "accuracy": 0.32,
+          "nll": 1.567962227877554
+        },
+        {
+          "item_id": "QID239_2",
+          "accuracy": 0.34,
+          "nll": 1.5547139845331934
+        },
+        {
+          "item_id": "QID239_3",
+          "accuracy": 0.27,
+          "nll": 1.5923840712821482
+        },
+        {
+          "item_id": "QID239_4",
+          "accuracy": 0.3233333333333333,
+          "nll": 1.5594686598726746
+        },
+        {
+          "item_id": "QID239_5",
+          "accuracy": 0.3566666666666667,
+          "nll": 1.5444337664152672
+        },
+        {
+          "item_id": "QID239_6",
+          "accuracy": 0.2633333333333333,
+          "nll": 1.5997345573287298
+        }
+      ]
+    }
+  },
+  "shuffle": {
+    "accuracy": {
+      "mean": 0.27022333333333337,
+      "range_95": [
+        0.25083333333333335,
+        0.2891875
+      ]
+    },
+    "nll": {
+      "mean": 1.7769517400656383,
+      "range_95": [
+        1.7324817024396038,
+        1.8212314529413893
+      ]
+    },
+    "policy_accuracy": {
+      "mean": 0.3722883333333333,
+      "range_95": [
+        0.33666666666666667,
+        0.41
+      ]
+    },
+    "policy_nll": {
+      "mean": 1.6115532185733796,
+      "range_95": [
+        1.5443148592122358,
+        1.6846998516784786
+      ]
+    }
+  },
+  "paired_bootstrap": {
+    "Mean vector": {
+      "accuracy": {
+        "own_minus_comparator": -0.006666666666666667,
+        "paired_respondent_bootstrap_95": [
+          -0.03,
+          0.017083333333333332
+        ]
+      },
+      "nll": {
+        "own_minus_comparator": 0.010023751099833368,
+        "paired_respondent_bootstrap_95": [
+          -0.024957866261213102,
+          0.044922659173060965
+        ]
+      }
+    },
+    "Zero vector": {
+      "accuracy": {
+        "own_minus_comparator": -0.006666666666666667,
+        "paired_respondent_bootstrap_95": [
+          -0.030416666666666668,
+          0.01667708333333337
+        ]
+      },
+      "nll": {
+        "own_minus_comparator": 0.011764203798676452,
+        "paired_respondent_bootstrap_95": [
+          -0.023476605749361848,
+          0.04697696302127899
+        ]
+      }
+    },
+    "Population baseline": {
+      "accuracy": {
+        "own_minus_comparator": -0.006666666666666667,
+        "paired_respondent_bootstrap_95": [
+          -0.029166666666666667,
+          0.017916666666666668
+        ]
+      },
+      "nll": {
+        "own_minus_comparator": 0.0027899395706758963,
+        "paired_respondent_bootstrap_95": [
+          -0.03196368901370862,
+          0.03621071503219237
+        ]
+      }
+    }
+  },
+  "source_sha256": {
+    "outputs/selected_response_model.npz": "14f58e1a237e3b3ca824a8361acb43fe4031a6cc83af22d282befc63b937cb90",
+    "outputs/development_validation_predictions.npz": "2373884ec5cde838031aa87dce75e72cf734a1bd7ee050b08ef08e1b251e5710",
+    "outputs/question_answer_features_prior_65.npy": "d3247c69150ec514f43b756863b662ed8adb55edc81b47416f0b825f51848002",
+    "outputs/question_answer_index.json": "840bb4e902d74e2c8276613b848ab0d0c12fad9cd8110f765bbbe4df8f8d9057",
+    "outputs/response_scale_priors.json": "8201c144fe986eb5d21c6d7ac56520061ced0227a8efe930a0522346cd5ae965",
+    "data/processed/question_bank.json": "a1a83bd0ec96873a7c5f5d793b35cd54e7d23f81e1cf52eca8dd3ff01eb7b941",
+    "outputs/model_comparison.json": "a7561fa3d3febf8e544f8ad5d5906a7cc232c8974ee4d53ace113eb890de6fad",
+    "data/heldout/validation_policy_wave4.parquet": "e98c9283ab1a04360c2fa63fb721e88be8e5e31a07809f4857336aa80f36bd8a",
+    "data/heldout/validation_maximization_wave1_3.parquet": "09cd642a9d7da0342e951a4dad338f96e65e5b8cf330be7963cd45d5113faf7f"
+  },
+  "figures": [
+    "outputs/figures/05_respondent_vector_checks.png",
+    "outputs/figures/05_respondent_vector_checks.pdf"
+  ],
+  "checks": {
+    "checkpoint_reproduces_saved_predictions": true,
+    "population_baseline_reproduced": true,
+    "shuffling_preserves_aggregate_shares": true,
+    "source_files_unchanged": true
+  },
+  "final_test_answers_loaded": false,
+  "model_retrained": false,
+  "limitations": [
+    "Exploratory: these questions were already used for model selection.",
+    "Bootstrap intervals resample respondents, not questions, and omit selection uncertainty.",
+    "Ablations hold shared weights fixed; they are not independently retrained alternatives."
+  ]
+}

@@ -57,6 +57,26 @@ The vectors and readable index are included in Git. Downloaded model weights rem
 
 The notebook verifies saved-file round trips, the scoring equation, masked options and missing answers. Reported accuracy measures training fit, not performance on unseen respondents or questions. The background vectors are not the final 100 personas.
 
+`08_response_model_comparison.ipynb` compares seven small models in two documented rounds. Each shared model uses background people only; each development vector is fitted using the 92 anchor items before scoring the eight validation questions. Selection uses validation log loss. The larger nonlinear models overfit; the selected `prior_linear_l2_01` keeps the linear eight-coordinate model, adds training-derived answer-scale priors and strengthens regularization.
+
+Compared with the original, training accuracy rises from 51.6% to 55.4%, validation accuracy from 34.3% to 36.0%, and policy-validation accuracy from 42.5% to 48.8%. Overall validation log loss falls from 1.5761 to 1.5155. A pooled-scale population baseline still slightly wins overall (36.6% accuracy; 1.5127 log loss). Only eight validation questions were available, and those results were used for selection; they are not an independent final assessment.
+
+- `outputs/selected_response_model.npz`: selected shared weights, background/development vectors, IDs and feature references. Original checkpoint is retained.
+- `outputs/question_answer_features_prior_65.npy`: original 64 PCA features plus a fixed log population probability for each option.
+- `outputs/response_scale_priors.json`: training-only frequency estimates by answer-scale wording/order; unseen scales default to uniform probabilities.
+- `outputs/model_comparison.json`: every candidate, baselines, per-question metrics, provenance and selection rationale.
+- `outputs/development_validation_predictions.npz`: selected validation probabilities with person/question IDs.
+- `outputs/question_answer_pca_contrast_128.npz` and `outputs/question_answer_features_contrast_128.npy`: alternative features used in the comparison, not the selected model.
+
+`09_model_diagnostics.ipynb` generates four figures with baselines and explicit training/validation labels. PNG and matching PDF exports are in `outputs/figures/`; `outputs/plot_manifest.json` records their source hashes and plotted answer shares.
+
+![Training and validation model comparison](outputs/figures/01_model_comparison.png)
+
+Other figures: [validation by question](outputs/figures/02_validation_by_question.png), [human versus predicted answer shares](outputs/figures/03_validation_answer_distributions.png), and [original training curves](outputs/figures/04_original_training_curves.png).
+
+
+`10_respondent_vector_checks.ipynb` holds the selected model fixed and compares correct, mean, zero and shuffled development vectors. Correct vectors outperform shuffled ones (36.0% versus 27.0% accuracy), demonstrating person-specific signal. However, mean/zero vectors reach 36.6% with slightly better log loss: individual variation has not demonstrated an overall benefit. These exploratory checks use existing validation only; no retraining or final-test access. Results and paired respondent-bootstrap intervals are in `outputs/respondent_vector_checks.json`; [vector comparison figure](outputs/figures/05_respondent_vector_checks.png) also has a PDF export.
+
 - **People:** 1,658 shared-training, 300 development, 100 final personas.
 - **Questions:** 430 permitted training columns; 92 persona-evidence columns; eight validation questions; three final-test questions.
 - **Source/version:** `configs/data_source.json` records the Hugging Face commit and file checksums.
@@ -69,6 +89,6 @@ Data and output reports are included in Git so reviewers can inspect the source 
 
 ## Next
 
-Freeze the shared scorer and fit eight-number vectors for the 300 development respondents using their 92 evidence questions. Evaluate on validation questions before choosing settings and constructing the final 100 personas. Validation/test answers have not been used in model training. The audit caveats still apply: related policy rows share a survey instrument, and public-model pretraining contamination is unknown.
+Freeze the selected model and evaluation protocol, then construct the final 100 respondent vectors from their 92 evidence questions. Evaluate the final test once. Validation labels have now been used for model selection; final-test labels remain sealed. The selected model improves over the original, but has not beaten the pooled-frequency baseline overall on validation accuracy/log loss. Related policy rows share a survey instrument, and public-model pretraining contamination is unknown.
 
 Source: [Twin-2K-500](https://huggingface.co/datasets/LLM-Digital-Twin/Twin-2K-500), Toubia et al. (2025), [paper](https://arxiv.org/abs/2505.17479). Licence: CC BY 4.0.
