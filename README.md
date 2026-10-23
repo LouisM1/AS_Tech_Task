@@ -4,7 +4,7 @@ Build a shared response model from Twin-2K-500 and construct 100 personas from p
 
 ## Current milestone
 
-Step 1: project scaffolding, isolated Python environment, fixed seed and executable environment-check notebook. Data downloading, cleaning, split creation and model training are later steps. The encoder revision must be pinned before feature generation.
+Steps 1–3 are complete: the isolated environment is verified, the official structured dataset is downloaded at a pinned Hugging Face commit, and participant/question splits are saved. The executed notebook `notebooks/01_download_and_splits.ipynb` shows the download and split logic cell by cell. Full question-context reconstruction, long-format cleaning and model training remain. The encoder revision must be pinned before feature generation.
 
 ## Start here
 
@@ -46,4 +46,28 @@ Raw/processed human data, trained artifacts, local caches and generated outputs 
 
 ## Next milestone
 
-Download the official question catalogue and response tables; record their revision, then save respondent and question splits before exploring answer distributions. The existing data-split proposal is not yet applied here.
+Build the context-complete question bank and cleaned long-format records. Preserve task instructions, map the original one-based answer codes correctly, and finish the semantic leakage audit before computing model features. Load training inputs from the explicit processed partitions, not the unfiltered raw response tables.
+
+
+## Dataset and saved splits
+
+Source: [Twin-2K-500 on Hugging Face](https://huggingface.co/datasets/LLM-Digital-Twin/Twin-2K-500), Toubia et al. (2025), [arXiv:2505.17479](https://arxiv.org/abs/2505.17479), CC BY 4.0. The seven source files include all numeric and labelled response tables, question catalogue and documentation. Supplied persona summaries and LLM simulation outputs are not model inputs.
+
+- `configs/data_source.json`: immutable source commit, original file URLs, sizes and SHA-256 checksums.
+- `configs/data_split_plan.json`: source revision, fixed seed, question lists and split rules.
+- `data/raw/twin_2k_500/`: unmodified, read-only source copies; these contain held-out answers.
+- `data/splits/respondent_split.json`: fixed IDs for 1,658 training people, 300 development people and 100 final personas.
+- `data/splits/question_split.json`: 430 permitted training columns, 92 persona-evidence columns, eight validation questions and three final-test questions.
+- `data/splits/respondent_assignments.csv` and `question_assignments.csv`: readable assignment tables.
+- `data/processed/shared_training_wave1_3.parquet`: background training responses only.
+- `data/processed/development_anchors_wave1_3.parquet` and `final_anchors_wave1_3.parquet`: permitted persona evidence only.
+- `data/heldout/`: validation labels, final-test labels and a separate earlier-answer repeatability reference. Keep these out of model inputs.
+- `outputs/reports/data_split_audit.json`: structural verification and missingness counts; no answer distributions or model scores.
+
+Open the split notebook:
+
+```sh
+.venv/bin/jupyter lab notebooks/01_download_and_splits.ipynb
+```
+
+Run all cells to reproduce the partitioning. Existing sources are checked against their hashes, and existing manifests/partitions must match rather than being silently replaced. The notebook retains missing answers and one-based option codes. Raw data and generated partitions remain git-ignored; the two configuration files preserve the revision and rules for reproducibility. No individual answer values are displayed in the notebook outputs.

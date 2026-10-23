@@ -1,0 +1,57 @@
+{
+  "repo_id": "LLM-Digital-Twin/Twin-2K-500",
+  "revision": "f883165a3026fde855dfd448e0cd16443ab257b6",
+  "licence": "CC-BY-4.0",
+  "attribution": "Toubia et al. (2025), Twin-2K-500, arXiv:2505.17479",
+  "files": [
+    {
+      "repo_path": "README.md",
+      "local_path": "data/raw/twin_2k_500/f883165a3026fde855dfd448e0cd16443ab257b6/README.md",
+      "url": "https://huggingface.co/datasets/LLM-Digital-Twin/Twin-2K-500/resolve/f883165a3026fde855dfd448e0cd16443ab257b6/README.md",
+      "bytes": 10970,
+      "sha256": "9f71a028d2510476cdb3dd365f4525e7b7cc0736f17939adcfeae9bf91a52d4b"
+    },
+    {
+      "repo_path": "question_catalog_and_human_response_csv/question_catalog_README.md",
+      "local_path": "data/raw/twin_2k_500/f883165a3026fde855dfd448e0cd16443ab257b6/question_catalog_and_human_response_csv/question_catalog_README.md",
+      "url": "https://huggingface.co/datasets/LLM-Digital-Twin/Twin-2K-500/resolve/f883165a3026fde855dfd448e0cd16443ab257b6/question_catalog_and_human_response_csv/question_catalog_README.md",
+      "bytes": 10078,
+      "sha256": "eaf3ccb2a5a0382723a057d8e05a0d3a9464c8c9cef1a675205eb55f739689f8"
+    },
+    {
+      "repo_path": "question_catalog_and_human_response_csv/question_catalog.json",
+      "local_path": "data/raw/twin_2k_500/f883165a3026fde855dfd448e0cd16443ab257b6/question_catalog_and_human_response_csv/question_catalog.json",
+      "url": "https://huggingface.co/datasets/LLM-Digital-Twin/Twin-2K-500/resolve/f883165a3026fde855dfd448e0cd16443ab257b6/question_catalog_and_human_response_csv/question_catalog.json",
+      "bytes": 214137,
+      "sha256": "e72e305f0c7c83bb990e97de4c0cf2c718ead18cc197239b7feeb354c9ac1bef"
+    },
+    {
+      "repo_path": "question_catalog_and_human_response_csv/wave1_3_response.csv",
+      "local_path": "data/raw/twin_2k_500/f883165a3026fde855dfd448e0cd16443ab257b6/question_catalog_and_human_response_csv/wave1_3_response.csv",
+      "url": "https://huggingface.co/datasets/LLM-Digital-Twin/Twin-2K-500/resolve/f883165a3026fde855dfd448e0cd16443ab257b6/question_catalog_and_human_response_csv/wave1_3_response.csv",
+      "bytes": 5462260,
+      "sha256": "fc227b1682e2654fd4b2a8152294b68118c0e3be4d83f4a9af5f3e96df56d3f0"
+    },
+    {
+      "repo_path": "question_catalog_and_human_response_csv/wave1_3_response_label.csv",
+      "local_path": "data/raw/twin_2k_500/f883165a3026fde855dfd448e0cd16443ab257b6/question_catalog_and_human_response_csv/wave1_3_response_label.csv",
+      "url": "https://huggingface.co/datasets/LLM-Digital-Twin/Twin-2K-500/resolve/f883165a3026fde855dfd448e0cd16443ab257b6/question_catalog_and_human_response_csv/wave1_3_response_label.csv",
+      "bytes": 21102001,
+      "sha256": "4d735be9e5f00d072d17be25029cef524de9ec383911a4acc44f0b64a9c5818c"
+    },
+    {
+      "repo_path": "question_catalog_and_human_response_csv/wave4_response.csv",
+      "local_path": "data/raw/twin_2k_500/f883165a3026fde855dfd448e0cd16443ab257b6/question_catalog_and_human_response_csv/wave4_response.csv",
+      "url": "https://huggingface.co/datasets/LLM-Digital-Twin/Twin-2K-500/resolve/f883165a3026fde855dfd448e0cd16443ab257b6/question_catalog_and_human_response_csv/wave4_response.csv",
+      "bytes": 633807,
+      "sha256": "09ec1a88bdd48fec95963da3102df0ca467378bf729cbc1c0b869b0f1e4fb942"
+    },
+    {
+      "repo_path": "question_catalog_and_human_response_csv/wave4_response_label.csv",
+      "local_path": "data/raw/twin_2k_500/f883165a3026fde855dfd448e0cd16443ab257b6/question_catalog_and_human_response_csv/wave4_response_label.csv",
+      "url": "https://huggingface.co/datasets/LLM-Digital-Twin/Twin-2K-500/resolve/f883165a3026fde855dfd448e0cd16443ab257b6/question_catalog_and_human_response_csv/wave4_response_label.csv",
+      "bytes": 4728435,
+      "sha256": "02eb7eeff000406ff70c954565dada7a4a8d997c2f8152aec8d32a1e719e3681"
+    }
+  ]
+}
