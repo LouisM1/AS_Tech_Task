@@ -1,0 +1,38 @@
+{
+  "exports": [
+    {
+      "path": "outputs/figures/06_final_persona_pipeline.png",
+      "sha256": "1b3aeff04f8ad61c3f68765cb8ce73309ddfcd438115103f7d2d864b19c5f2ee"
+    },
+    {
+      "path": "outputs/figures/06_final_persona_pipeline.pdf",
+      "sha256": "d16d7c496bc5790cf95bba59ec542f9db45518d16e91b61117ec3c936c406d21"
+    },
+    {
+      "path": "outputs/figures/07_final_test_results.png",
+      "sha256": "398e1b630984296ea9d8cef0b20d92a155b2401ebe685027596e8d2f72d9b327"
+    },
+    {
+      "path": "outputs/figures/07_final_test_results.pdf",
+      "sha256": "2012cb1b6dc5d7630ca02c464ccd15f8bf095e29b96b0c9a9b38c02ca8d7a655"
+    },
+    {
+      "path": "outputs/figures/08_novel_policy_results.png",
+      "sha256": "bb10b5523e0f857964980f27ea4e228c9d3c9dd6fb9e9fab4401adae0c3b743e"
+    },
+    {
+      "path": "outputs/figures/08_novel_policy_results.pdf",
+      "sha256": "11c3ee25c000358d9b22b08fee82b7a7c60af47391ae9ced8cc1472d9f693d65"
+    },
+    {
+      "path": "outputs/figures/09_final_persona_variation.png",
+      "sha256": "5ef36d89dfd168b937bf14a5860fdd4895a20616a57c4565d42fe5f9d15121e2"
+    },
+    {
+      "path": "outputs/figures/09_final_persona_variation.pdf",
+      "sha256": "866eb1f10d6f475e60824f8bfefb8ab96b88ea9a861591922986abeb54abe908"
+    }
+  ],
+  "report_sha256": "a1e001712c88161c81d1b59eca7b71a68b01debf543fe237bd6406537b08a614",
+  "test_predictions_unchanged": true
+}

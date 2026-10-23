@@ -1,0 +1,185 @@
+{
+  "title": "How should a hypothetical $1 billion energy-affordability budget be allocated?",
+  "decision": "Which allocation packages should policymakers take forward into a real human pilot survey?",
+  "scenario": "Consider a hypothetical federal program for 2027 with a fixed total budget of $1 billion, including delivery costs, to help low-income U.S. households with home energy costs. The money has already been set aside; choosing a package does not change total spending or taxes. Bill credits reduce recipients' electricity or heating bills during 2027. Home energy improvements, such as insulation and efficient heating equipment, are intended to reduce bills in later years. Both renters and homeowners can qualify; support for rental properties must benefit the tenant. The five packages are alternatives, and only one would be implemented. Evaluate each package independently.",
+  "questions": [
+    {
+      "item_id": "ENERGY_2027_1",
+      "short_label": "100% credits / 0% improvements",
+      "bill_credit_pct": 100,
+      "home_improvement_pct": 0,
+      "question_text": "Instructions:\nConsider a hypothetical federal program for 2027 with a fixed total budget of $1 billion, including delivery costs, to help low-income U.S. households with home energy costs. The money has already been set aside; choosing a package does not change total spending or taxes. Bill credits reduce recipients' electricity or heating bills during 2027. Home energy improvements, such as insulation and efficient heating equipment, are intended to reduce bills in later years. Both renters and homeowners can qualify; support for rental properties must benefit the tenant. The five packages are alternatives, and only one would be implemented. Evaluate each package independently.\n\nQuestion:\nWould you support or oppose...\n\nIndicated row:\nAllocating 100% of the program budget to immediate bill credits and 0% to home energy improvements?\n\nAnswer options:\n1. Strongly oppose\n2. Somewhat oppose\n3. Neither oppose nor support\n4. Somewhat support\n5. Strongly support",
+      "options": [
+        {
+          "code": 1,
+          "index": 0,
+          "label": "Strongly oppose"
+        },
+        {
+          "code": 2,
+          "index": 1,
+          "label": "Somewhat oppose"
+        },
+        {
+          "code": 3,
+          "index": 2,
+          "label": "Neither oppose nor support"
+        },
+        {
+          "code": 4,
+          "index": 3,
+          "label": "Somewhat support"
+        },
+        {
+          "code": 5,
+          "index": 4,
+          "label": "Strongly support"
+        }
+      ],
+      "human_answers_available": false
+    },
+    {
+      "item_id": "ENERGY_2027_2",
+      "short_label": "75% credits / 25% improvements",
+      "bill_credit_pct": 75,
+      "home_improvement_pct": 25,
+      "question_text": "Instructions:\nConsider a hypothetical federal program for 2027 with a fixed total budget of $1 billion, including delivery costs, to help low-income U.S. households with home energy costs. The money has already been set aside; choosing a package does not change total spending or taxes. Bill credits reduce recipients' electricity or heating bills during 2027. Home energy improvements, such as insulation and efficient heating equipment, are intended to reduce bills in later years. Both renters and homeowners can qualify; support for rental properties must benefit the tenant. The five packages are alternatives, and only one would be implemented. Evaluate each package independently.\n\nQuestion:\nWould you support or oppose...\n\nIndicated row:\nAllocating 75% of the program budget to immediate bill credits and 25% to home energy improvements?\n\nAnswer options:\n1. Strongly oppose\n2. Somewhat oppose\n3. Neither oppose nor support\n4. Somewhat support\n5. Strongly support",
+      "options": [
+        {
+          "code": 1,
+          "index": 0,
+          "label": "Strongly oppose"
+        },
+        {
+          "code": 2,
+          "index": 1,
+          "label": "Somewhat oppose"
+        },
+        {
+          "code": 3,
+          "index": 2,
+          "label": "Neither oppose nor support"
+        },
+        {
+          "code": 4,
+          "index": 3,
+          "label": "Somewhat support"
+        },
+        {
+          "code": 5,
+          "index": 4,
+          "label": "Strongly support"
+        }
+      ],
+      "human_answers_available": false
+    },
+    {
+      "item_id": "ENERGY_2027_3",
+      "short_label": "50% credits / 50% improvements",
+      "bill_credit_pct": 50,
+      "home_improvement_pct": 50,
+      "question_text": "Instructions:\nConsider a hypothetical federal program for 2027 with a fixed total budget of $1 billion, including delivery costs, to help low-income U.S. households with home energy costs. The money has already been set aside; choosing a package does not change total spending or taxes. Bill credits reduce recipients' electricity or heating bills during 2027. Home energy improvements, such as insulation and efficient heating equipment, are intended to reduce bills in later years. Both renters and homeowners can qualify; support for rental properties must benefit the tenant. The five packages are alternatives, and only one would be implemented. Evaluate each package independently.\n\nQuestion:\nWould you support or oppose...\n\nIndicated row:\nAllocating 50% of the program budget to immediate bill credits and 50% to home energy improvements?\n\nAnswer options:\n1. Strongly oppose\n2. Somewhat oppose\n3. Neither oppose nor support\n4. Somewhat support\n5. Strongly support",
+      "options": [
+        {
+          "code": 1,
+          "index": 0,
+          "label": "Strongly oppose"
+        },
+        {
+          "code": 2,
+          "index": 1,
+          "label": "Somewhat oppose"
+        },
+        {
+          "code": 3,
+          "index": 2,
+          "label": "Neither oppose nor support"
+        },
+        {
+          "code": 4,
+          "index": 3,
+          "label": "Somewhat support"
+        },
+        {
+          "code": 5,
+          "index": 4,
+          "label": "Strongly support"
+        }
+      ],
+      "human_answers_available": false
+    },
+    {
+      "item_id": "ENERGY_2027_4",
+      "short_label": "25% credits / 75% improvements",
+      "bill_credit_pct": 25,
+      "home_improvement_pct": 75,
+      "question_text": "Instructions:\nConsider a hypothetical federal program for 2027 with a fixed total budget of $1 billion, including delivery costs, to help low-income U.S. households with home energy costs. The money has already been set aside; choosing a package does not change total spending or taxes. Bill credits reduce recipients' electricity or heating bills during 2027. Home energy improvements, such as insulation and efficient heating equipment, are intended to reduce bills in later years. Both renters and homeowners can qualify; support for rental properties must benefit the tenant. The five packages are alternatives, and only one would be implemented. Evaluate each package independently.\n\nQuestion:\nWould you support or oppose...\n\nIndicated row:\nAllocating 25% of the program budget to immediate bill credits and 75% to home energy improvements?\n\nAnswer options:\n1. Strongly oppose\n2. Somewhat oppose\n3. Neither oppose nor support\n4. Somewhat support\n5. Strongly support",
+      "options": [
+        {
+          "code": 1,
+          "index": 0,
+          "label": "Strongly oppose"
+        },
+        {
+          "code": 2,
+          "index": 1,
+          "label": "Somewhat oppose"
+        },
+        {
+          "code": 3,
+          "index": 2,
+          "label": "Neither oppose nor support"
+        },
+        {
+          "code": 4,
+          "index": 3,
+          "label": "Somewhat support"
+        },
+        {
+          "code": 5,
+          "index": 4,
+          "label": "Strongly support"
+        }
+      ],
+      "human_answers_available": false
+    },
+    {
+      "item_id": "ENERGY_2027_5",
+      "short_label": "0% credits / 100% improvements",
+      "bill_credit_pct": 0,
+      "home_improvement_pct": 100,
+      "question_text": "Instructions:\nConsider a hypothetical federal program for 2027 with a fixed total budget of $1 billion, including delivery costs, to help low-income U.S. households with home energy costs. The money has already been set aside; choosing a package does not change total spending or taxes. Bill credits reduce recipients' electricity or heating bills during 2027. Home energy improvements, such as insulation and efficient heating equipment, are intended to reduce bills in later years. Both renters and homeowners can qualify; support for rental properties must benefit the tenant. The five packages are alternatives, and only one would be implemented. Evaluate each package independently.\n\nQuestion:\nWould you support or oppose...\n\nIndicated row:\nAllocating 0% of the program budget to immediate bill credits and 100% to home energy improvements?\n\nAnswer options:\n1. Strongly oppose\n2. Somewhat oppose\n3. Neither oppose nor support\n4. Somewhat support\n5. Strongly support",
+      "options": [
+        {
+          "code": 1,
+          "index": 0,
+          "label": "Strongly oppose"
+        },
+        {
+          "code": 2,
+          "index": 1,
+          "label": "Somewhat oppose"
+        },
+        {
+          "code": 3,
+          "index": 2,
+          "label": "Neither oppose nor support"
+        },
+        {
+          "code": 4,
+          "index": 3,
+          "label": "Somewhat support"
+        },
+        {
+          "code": 5,
+          "index": 4,
+          "label": "Strongly support"
+        }
+      ],
+      "human_answers_available": false
+    }
+  ],
+  "scope": "Simulation of 100 held-out Twin-2K-500 respondents, not a representative forecast of the 2027 United States.",
+  "design_reason": "Change only the budget allocation, hold cost and eligibility fixed, and keep the response scale consistent with observed policy questions.",
+  "interpretation": "Independent support ratings are not exclusive choices or a vote between packages. No real answers exist for these new questions."
+}

@@ -1,0 +1,96 @@
+{
+  "created_utc": "2026-10-23T09:59:26.198594+00:00",
+  "model": "prior_linear_l2_01",
+  "input_sha256": {
+    "configs/final_simulation_protocol.json": "475377b6056e5551891f64b5d3f6c740e1f970e94b428407d4da3b012ef4ca07",
+    "configs/energy_policy_survey.json": "b4cb3dbd132e5bef85716ef52e3c940766da47040a7e1d85c0cdde24ad1e7d5e",
+    "configs/embedding_model.json": "9989f404db420a56255775bd60dba400d488fd326b77c3947f29878c2d48a17c",
+    "data/splits/question_split.json": "28763f0e6cb9ffd7407955ae5398543d97299bce096556b4b1dab815b2bbf00f",
+    "data/splits/respondent_split.json": "1c2e99f99fce2f090bbcfea9a2cdb83eb2573def8bac2379dcbcb4bc006964e8",
+    "data/splits/partition_manifest.json": "f659da3c5bc6eaea453b2614ed54cb5725db8f2a42e830f4ae5df0c1573b6b7d",
+    "data/processed/question_bank.json": "a1a83bd0ec96873a7c5f5d793b35cd54e7d23f81e1cf52eca8dd3ff01eb7b941",
+    "outputs/question_answer_index.json": "840bb4e902d74e2c8276613b848ab0d0c12fad9cd8110f765bbbe4df8f8d9057",
+    "outputs/model_comparison.json": "a7561fa3d3febf8e544f8ad5d5906a7cc232c8974ee4d53ace113eb890de6fad",
+    "outputs/selected_response_model.npz": "14f58e1a237e3b3ca824a8361acb43fe4031a6cc83af22d282befc63b937cb90",
+    "outputs/question_answer_pca.npz": "57cb3720d86d1b65b96a50ad97f8bf2f74bccb370dc2951bc4fe2a1e5f2e1247",
+    "outputs/question_answer_features_prior_65.npy": "d3247c69150ec514f43b756863b662ed8adb55edc81b47416f0b825f51848002",
+    "outputs/response_scale_priors.json": "8201c144fe986eb5d21c6d7ac56520061ced0227a8efe930a0522346cd5ae965",
+    "data/processed/final_anchors_wave1_3.parquet": "ce5fd5668f685cd96e82cf35469f59d8bbf93e518ce9f0c401c1b436906b075d"
+  },
+  "prediction_sha256": {
+    "outputs/final_persona_vectors.npz": "078bdb5571820a8e40dc50e0907ac750df13bbc768add6ed9cfb599233310f52",
+    "outputs/final_personas.json": "6701124558e6dedfe7ed8c5d53aa837707710fc6dca87b1714eff27383b1f6f2",
+    "outputs/novel_question_embeddings.npy": "4dfc89821baa17784f92ad13eb185db767646f578d245e621d511ca73ad01cb9",
+    "outputs/novel_question_features.npy": "bf832f3af84e5660f5359675f9b9753f8bf09c56e8fddc10075c16ddf22a795d",
+    "outputs/novel_question_index.json": "2748c2f5963e3f95cf3021be4b425af7e2f0bbd3876e191cb8935ca12e2aa4a5",
+    "outputs/final_test_predictions.npz": "fa623be6cf90fbefc100c3778be0c53f2642aa7a3f9451563e6d6f33fa1cd4a2",
+    "outputs/novel_policy_predictions.npz": "c5b6c9395dfb82b9cbae61aa5db5e795779a9df70681e40fc510b6107a56e53a",
+    "outputs/novel_policy_responses.json": "62eaae96d88be87256ee0c5edafc68c519e1467271fd909fafab9523f36d05fe"
+  },
+  "personas": 100,
+  "anchor_questions": 92,
+  "observed_anchor_answers": 9198,
+  "anchor_fit_history": [
+    {
+      "step": 0,
+      "nll": 1.3908069133758545
+    },
+    {
+      "step": 20,
+      "nll": 1.251488447189331
+    },
+    {
+      "step": 40,
+      "nll": 1.2426884174346924
+    },
+    {
+      "step": 60,
+      "nll": 1.2419737577438354
+    },
+    {
+      "step": 80,
+      "nll": 1.2419204711914062
+    },
+    {
+      "step": 100,
+      "nll": 1.241917610168457
+    },
+    {
+      "step": 120,
+      "nll": 1.241909146308899
+    },
+    {
+      "step": 140,
+      "nll": 1.2419077157974243
+    },
+    {
+      "step": 160,
+      "nll": 1.2419085502624512
+    },
+    {
+      "step": 180,
+      "nll": 1.2419085502624512
+    },
+    {
+      "step": 200,
+      "nll": 1.2419089078903198
+    }
+  ],
+  "fit_seconds": 0.2739401659928262,
+  "embedding_seconds": 3.5858011670061387,
+  "final_test_answers_loaded": false,
+  "final_test_predictions_frozen": true,
+  "new_questions": 5,
+  "checks": [
+    "people and question splits disjoint",
+    "92 anchors only",
+    "100 distinct finite vectors",
+    "frozen shared weights",
+    "frozen Qwen and existing PCA",
+    "normalized probabilities",
+    "500 valid single-select responses",
+    "independent score reconstruction",
+    "saved-vector round trip",
+    "inputs unchanged"
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "evaluated_utc": "2026-10-23T10:02:27.676140+00:00",
+  "model": "prior_linear_l2_01",
+  "personas": 100,
+  "test_questions": [
+    "QID287_1",
+    "QID287_2",
+    "QID287_3"
+  ],
+  "observed_test_answers": 300,
+  "metrics": {
+    "100 personas": {
+      "nll": 1.3009589609643732,
+      "accuracy": 0.4633333333333333,
+      "distribution_TV": 0.14868853252410696,
+      "support_share_mae": 0.06974238002703081,
+      "per_question": [
+        {
+          "item_id": "QID287_1",
+          "accuracy": 0.53,
+          "nll": 1.2400952994358792,
+          "distribution_TV": 0.1344616250450288,
+          "human_shares": [
+            0.08,
+            0.14,
+            0.13,
+            0.32,
+            0.33
+          ],
+          "predicted_shares": [
+            0.11742989622425737,
+            0.07714077637154974,
+            0.19342445414834877,
+            0.24839759858342156,
+            0.3636072746724227
+          ],
+          "human_support": 0.65,
+          "predicted_support": 0.6120048732558443
+        },
+        {
+          "item_id": "QID287_2",
+          "accuracy": 0.39,
+          "nll": 1.369661090515117,
+          "distribution_TV": 0.2160724526309846,
+          "human_shares": [
+            0.03,
+            0.05,
+            0.21,
+            0.46,
+            0.25
+          ],
+          "predicted_shares": [
+            0.09996352318161833,
+            0.07371398561427454,
+            0.19623606137269733,
+            0.25769148599631797,
+            0.3723949438350916
+          ],
+          "human_support": 0.71,
+          "predicted_support": 0.6300864298314095
+        },
+        {
+          "item_id": "QID287_3",
+          "accuracy": 0.47,
+          "nll": 1.2931204929421236,
+          "distribution_TV": 0.09553151989630748,
+          "human_shares": [
+            0.04,
+            0.05,
+            0.19,
+            0.33,
+            0.39
+          ],
+          "predicted_shares": [
+            0.11010462366012674,
+            0.07542689623618076,
+            0.18578692327203877,
+            0.25672019109740946,
+            0.3719613657342443
+          ],
+          "human_support": 0.72,
+          "predicted_support": 0.6286815568316537
+        }
+      ]
+    },
+    "Population baseline": {
+      "nll": 1.430944423263232,
+      "accuracy": 0.3233333333333333,
+      "distribution_TV": 0.14570223025919193,
+      "support_share_mae": 0.07030741410488268,
+      "per_question": [
+        {
+          "item_id": "QID287_1",
+          "accuracy": 0.33,
+          "nll": 1.5001222065476998,
+          "distribution_TV": 0.09833634719710643,
+          "human_shares": [
+            0.08,
+            0.14,
+            0.13,
+            0.32,
+            0.33
+          ],
+          "predicted_shares": [
+            0.11127185051235662,
+            0.0916214587100662,
+            0.1740807715491263,
+            0.2700421940928272,
+            0.35298372513562337
+          ],
+          "human_support": 0.65,
+          "predicted_support": 0.6230259192284506
+        },
+        {
+          "item_id": "QID287_2",
+          "accuracy": 0.25,
+          "nll": 1.4150621714394789,
+          "distribution_TV": 0.22587703435804635,
+          "human_shares": [
+            0.03,
+            0.05,
+            0.21,
+            0.46,
+            0.25
+          ],
+          "predicted_shares": [
+            0.11127185051235662,
+            0.0916214587100662,
+            0.1740807715491263,
+            0.2700421940928272,
+            0.35298372513562337
+          ],
+          "human_support": 0.71,
+          "predicted_support": 0.6230259192284506
+        },
+        {
+          "item_id": "QID287_3",
+          "accuracy": 0.39,
+          "nll": 1.3776488918025183,
+          "distribution_TV": 0.112893309222423,
+          "human_shares": [
+            0.04,
+            0.05,
+            0.19,
+            0.33,
+            0.39
+          ],
+          "predicted_shares": [
+            0.11127185051235662,
+            0.0916214587100662,
+            0.1740807715491263,
+            0.2700421940928272,
+            0.35298372513562337
+          ],
+          "human_support": 0.72,
+          "predicted_support": 0.6230259192284506
+        }
+      ]
+    },
+    "Shared model only": {
+      "nll": 1.4261563016694851,
+      "accuracy": 0.3233333333333333,
+      "distribution_TV": 0.14784371283795197,
+      "support_share_mae": 0.025984138301657283,
+      "per_question": [
+        {
+          "item_id": "QID287_1",
+          "accuracy": 0.33,
+          "nll": 1.519562560160621,
+          "distribution_TV": 0.123906048109036,
+          "human_shares": [
+            0.08,
+            0.14,
+            0.13,
+            0.32,
+            0.33
+          ],
+          "predicted_shares": [
+            0.10926919060997115,
+            0.07032509712177587,
+            0.1357187195706332,
+            0.26576885476918827,
+            0.4189181379284318
+          ],
+          "human_support": 0.65,
+          "predicted_support": 0.68468699269762
+        },
+        {
+          "item_id": "QID287_2",
+          "accuracy": 0.25,
+          "nll": 1.3993234439647175,
+          "distribution_TV": 0.22537703431249775,
+          "human_shares": [
+            0.03,
+            0.05,
+            0.21,
+            0.46,
+            0.25
+          ],
+          "predicted_shares": [
+            0.08498330230890161,
+            0.06635887433951941,
+            0.16094622104295772,
+            0.28367674464454473,
+            0.40403485766407693
+          ],
+          "human_support": 0.71,
+          "predicted_support": 0.6877116023086216
+        },
+        {
+          "item_id": "QID287_3",
+          "accuracy": 0.39,
+          "nll": 1.3595829008831168,
+          "distribution_TV": 0.0942480560923222,
+          "human_shares": [
+            0.04,
+            0.05,
+            0.19,
+            0.33,
+            0.39
+          ],
+          "predicted_shares": [
+            0.09155848701210383,
+            0.06691627617447177,
+            0.14250226132939808,
+            0.2832496825782798,
+            0.4157732929057467
+          ],
+          "human_support": 0.72,
+          "predicted_support": 0.6990229754840265
+        }
+      ]
+    }
+  },
+  "paired_bootstrap": {
+    "Population baseline": {
+      "accuracy": {
+        "personas_minus_comparator": 0.14,
+        "paired_respondent_bootstrap_95": [
+          0.07333333333333333,
+          0.20666666666666658
+        ]
+      },
+      "nll": {
+        "personas_minus_comparator": -0.12998546229885877,
+        "paired_respondent_bootstrap_95": [
+          -0.2223363362658944,
+          -0.03427980928199996
+        ]
+      }
+    },
+    "Shared model only": {
+      "accuracy": {
+        "personas_minus_comparator": 0.14,
+        "paired_respondent_bootstrap_95": [
+          0.07991666666666665,
+          0.2066666666666666
+        ]
+      },
+      "nll": {
+        "personas_minus_comparator": -0.1251973407051119,
+        "paired_respondent_bootstrap_95": [
+          -0.2248831758622423,
+          -0.024969163807066753
+        ]
+      }
+    }
+  },
+  "new_question_results": [
+    {
+      "item_id": "ENERGY_2027_1",
+      "label": "100% credits / 0% improvements",
+      "expected_shares": [
+        0.09905399265334718,
+        0.07506210766317115,
+        0.21469302104630772,
+        0.26240254496481014,
+        0.34878833367236417
+      ],
+      "expected_support": 0.611190878637174,
+      "population_support": 0.623025919228451,
+      "zero_vector_support": 0.6716684473207967,
+      "sampled_counts": [
+        12,
+        7,
+        23,
+        20,
+        38
+      ],
+      "persona_support_range": [
+        0.0947004311451863,
+        0.9804510235310753
+      ]
+    },
+    {
+      "item_id": "ENERGY_2027_2",
+      "label": "75% credits / 25% improvements",
+      "expected_shares": [
+        0.09007311032727554,
+        0.06711279244944397,
+        0.2245204644796054,
+        0.2727926579752669,
+        0.3455009747684082
+      ],
+      "expected_support": 0.6182936327436751,
+      "population_support": 0.623025919228451,
+      "zero_vector_support": 0.6763938300377306,
+      "sampled_counts": [
+        6,
+        5,
+        28,
+        26,
+        35
+      ],
+      "persona_support_range": [
+        0.10225926866415222,
+        0.9833325064686259
+      ]
+    },
+    {
+      "item_id": "ENERGY_2027_3",
+      "label": "50% credits / 50% improvements",
+      "expected_shares": [
+        0.09219173233700602,
+        0.0689632663766294,
+        0.22350941051172651,
+        0.28181581774889497,
+        0.33351977302574326
+      ],
+      "expected_support": 0.6153355907746382,
+      "population_support": 0.623025919228451,
+      "zero_vector_support": 0.6686939432418694,
+      "sampled_counts": [
+        4,
+        6,
+        23,
+        25,
+        42
+      ],
+      "persona_support_range": [
+        0.12946864186490792,
+        0.9839731111077005
+      ]
+    },
+    {
+      "item_id": "ENERGY_2027_4",
+      "label": "25% credits / 75% improvements",
+      "expected_shares": [
+        0.08984178085957983,
+        0.06656173930585085,
+        0.22500544700112218,
+        0.27524131064690965,
+        0.3433497221865375
+      ],
+      "expected_support": 0.6185910328334472,
+      "population_support": 0.623025919228451,
+      "zero_vector_support": 0.6741998175419807,
+      "sampled_counts": [
+        9,
+        9,
+        25,
+        28,
+        29
+      ],
+      "persona_support_range": [
+        0.10180334349243197,
+        0.9821074450981113
+      ]
+    },
+    {
+      "item_id": "ENERGY_2027_5",
+      "label": "0% credits / 100% improvements",
+      "expected_shares": [
+        0.09406410964804054,
+        0.07015511283199975,
+        0.21933675272662673,
+        0.27183261073339454,
+        0.3446114140599386
+      ],
+      "expected_support": 0.616444024793333,
+      "population_support": 0.623025919228451,
+      "zero_vector_support": 0.6743376043752752,
+      "sampled_counts": [
+        9,
+        10,
+        26,
+        22,
+        33
+      ],
+      "persona_support_range": [
+        0.08922522581686779,
+        0.9831095643817154
+      ]
+    }
+  ],
+  "prediction_seal_sha256": "4a76c5ee38e6ee440adb62ce4d87e611c95de1b69492ca273d4ad4140d525180",
+  "test_labels_sha256": "98f0f902366ef3b56f936c3e737c9599b85f09a08f54f1c2b65e6581621322ff",
+  "test_label_file": "data/heldout/final_test_wave4.parquet",
+  "final_test_answers_loaded": true,
+  "retest_reference_loaded": false,
+  "model_changed_after_test": false,
+  "limitations": [
+    "Historical U.S. Prolific sample, not population weighted or a forecast.",
+    "Public-data model pretraining contamination cannot be ruled out.",
+    "Related policy items share the same instrument; the three questions are not three independent domains.",
+    "Novel survey ratings have no human ground truth and cannot establish accuracy.",
+    "Bootstrap resamples people on three fixed questions; it excludes question and model-selection uncertainty."
+  ]
+}

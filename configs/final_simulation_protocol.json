@@ -1,0 +1,33 @@
+{
+  "seed": 20261023,
+  "selected_model": "prior_linear_l2_01",
+  "shared_weights": "outputs/selected_response_model.npz",
+  "persona_steps": 200,
+  "persona_learning_rate": 0.03,
+  "persona_l2": 0.1,
+  "personalization_multiplier": 1.0,
+  "initialization": "Mean background respondent vector",
+  "persona_group": "final_personas",
+  "evidence": "92 previously fixed anchor questions only; missing answers ignored",
+  "novel_survey": "configs/energy_policy_survey.json",
+  "primary_test_metric": "Mean negative log likelihood over the three reserved questions",
+  "secondary_metrics": [
+    "Exact-option accuracy",
+    "Mean total variation distance of answer shares",
+    "Absolute error in support share (options 4+5)"
+  ],
+  "comparators": [
+    "Training-only pooled-scale population prior",
+    "Same model with zero respondent vector"
+  ],
+  "selection_policy": "Use the existing selected model unchanged; no further calibration or selection after seeing final labels.",
+  "prediction_seal": "Save all final/novel probabilities and their SHA256 before loading final-test answers.",
+  "simulation": "One independent categorical answer per persona per question using the fixed seed. Use mean probabilities for headline survey shares.",
+  "uncertainty": "Paired bootstrap of people on three fixed test questions; no claim about uncertainty across questions or model selection. No real-world confidence bands for novel predictions.",
+  "limitations": [
+    "Historical U.S. Prolific sample, not population weighted or a forecast.",
+    "Public-data model pretraining contamination cannot be ruled out.",
+    "Related policy items share the same instrument; the three questions are not three independent domains.",
+    "Novel survey ratings have no human ground truth and cannot establish accuracy."
+  ]
+}

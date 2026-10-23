@@ -30,6 +30,13 @@ The notebooks are self-contained; there is no separate Python package or duplica
 
 ## Current state
 
+**Final simulation complete.** Start with [the visual report](outputs/final_simulation_report.html) (open the downloaded HTML in a browser). It embeds four charts and a selector for all 100 personas. The final test has now been evaluated using predictions saved beforehand; the model was not changed afterwards.
+
+- **100 personas:** eight-number vectors fitted from 9,198 observed answers to the 92 fixed evidence questions.
+- **Final human-answer test:** 46.3% exact accuracy versus 32.3% for the population baseline; log loss 1.301 versus 1.431 across three reserved energy-policy questions. Aggregate distribution error is similar to the baseline, not an improvement.
+- **Five new questions:** support for allocating a hypothetical $1bn budget between bill credits and home-energy improvements in 25% steps. Predicted support is 61.1–61.9%, with no credible winning allocation. These questions have no human ground truth.
+
+
 The dataset is downloaded and the splits are saved. `01_download_and_splits.ipynb` contains the full download/split logic and seed `20261023`. Running it again verifies existing source hashes and reproduces the existing partitions without silently replacing a split.
 
 `02_question_bank.ipynb` builds `data/processed/question_bank.json`: 441 items with original wording, carried instructions, answer mappings and source records. Use each item's `question_text` for model input; `sources` is for provenance. Checks are saved in `outputs/question_bank_audit.json`.
@@ -77,6 +84,23 @@ Other figures: [validation by question](outputs/figures/02_validation_by_questio
 
 `10_respondent_vector_checks.ipynb` holds the selected model fixed and compares correct, mean, zero and shuffled development vectors. Correct vectors outperform shuffled ones (36.0% versus 27.0% accuracy), demonstrating person-specific signal. However, mean/zero vectors reach 36.6% with slightly better log loss: individual variation has not demonstrated an overall benefit. These exploratory checks use existing validation only; no retraining or final-test access. Results and paired respondent-bootstrap intervals are in `outputs/respondent_vector_checks.json`; [vector comparison figure](outputs/figures/05_respondent_vector_checks.png) also has a PDF export.
 
+`11_final_personas_and_simulation.ipynb` fits the final 100 vectors using the existing selected model and anchor-only protocol. It encodes the five new questions with cached, frozen Qwen and the original PCA, saves 500 seeded single-select responses and all probabilities, and seals the predictions before final labels are opened.
+
+`12_final_results.ipynb` evaluates those frozen predictions on the three reserved questions, compares population and zero-vector baselines, and creates the visual report. All four new figures are exported to `outputs/figures/` as PNG and PDF. The final test is now consumed; subsequent model changes need fresh evaluation data.
+
+- `configs/energy_policy_survey.json`: exact common scenario, five questions, options and interpretation.
+- `configs/final_simulation_protocol.json`: fixed fitting settings, evaluation metrics and comparators.
+- `outputs/final_personas.json`: all 100 persona vectors and permitted answer evidence, linked to the clean question bank.
+- `outputs/final_persona_vectors.npz`: compact vectors and person/question IDs.
+- `outputs/novel_policy_responses.json`: 500 single-select draws with option probabilities; aggregate figures use mean probabilities.
+- `outputs/final_test_predictions.npz` and `outputs/novel_policy_predictions.npz`: frozen predictions and baseline probabilities.
+- `outputs/novel_question_index.json`, `novel_question_embeddings.npy`, `novel_question_features.npy`: new-question wording and feature provenance.
+- `outputs/final_prediction_seal.json`: pre-evaluation input/output hashes and fit checks.
+- `outputs/final_evaluation.json`: final metrics, paired respondent-bootstrap intervals and new-question estimates.
+- `outputs/final_figure_manifest.json`: chart hashes; `outputs/final_simulation_report.html`: portable report with embedded images.
+
+Verification: both notebooks executed; 100 vectors and 500 seeded draws checked; new PCA transformation reproduced; frozen source/model hashes unchanged; all four charts visually reviewed. HTML embedded data and JavaScript syntax were checked. Automated browser preview was unavailable because the browser tool blocks local-file URLs.
+
 - **People:** 1,658 shared-training, 300 development, 100 final personas.
 - **Questions:** 430 permitted training columns; 92 persona-evidence columns; eight validation questions; three final-test questions.
 - **Source/version:** `configs/data_source.json` records the Hugging Face commit and file checksums.
@@ -89,6 +113,6 @@ Data and output reports are included in Git so reviewers can inspect the source 
 
 ## Next
 
-Freeze the selected model and evaluation protocol, then construct the final 100 respondent vectors from their 92 evidence questions. Evaluate the final test once. Validation labels have now been used for model selection; final-test labels remain sealed. The selected model improves over the original, but has not beaten the pooled-frequency baseline overall on validation accuracy/log loss. Related policy rows share a survey instrument, and public-model pretraining contamination is unknown.
+Present the frozen results and validate the five allocation questions with a real human pilot before recommending a budget split. The final test showed improved individual-answer prediction, while aggregate opinion estimates remained comparable to the baseline. New-package differences are small and unvalidated. Any further model tuning requires fresh held-out questions or respondents; do not reuse this final test for selection. Related policy rows share a survey instrument, and public-model pretraining contamination is unknown.
 
 Source: [Twin-2K-500](https://huggingface.co/datasets/LLM-Digital-Twin/Twin-2K-500), Toubia et al. (2025), [paper](https://arxiv.org/abs/2505.17479). Licence: CC BY 4.0.
