@@ -2,7 +2,6 @@
 .cache/
 .env
 .env.*
-!.env.example
 __pycache__/
 *.py[cod]
 *.egg-info/
@@ -10,13 +9,6 @@ __pycache__/
 .ipynb_checkpoints/
 .jupyter/
 
-# Keep folder scaffolding, but do not commit human records or generated artifacts.
-data/**
-!data/**/
-!data/**/.gitkeep
-artifacts/**
-!artifacts/**/
-!artifacts/**/.gitkeep
-outputs/**
-!outputs/**/
-!outputs/**/.gitkeep
+# Human records and generated outputs are recreated by the notebooks.
+data/
+outputs/
