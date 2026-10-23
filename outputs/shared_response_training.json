@@ -1,0 +1,176 @@
+{
+  "status": "passed",
+  "config": {
+    "seed": 20261023,
+    "pca_components": 64,
+    "pca_whiten": true,
+    "pca_solver": "randomized",
+    "latent_dimension": 8,
+    "epochs": 100,
+    "batch_size": 256,
+    "learning_rate": 0.01,
+    "l2_penalty": 0.01,
+    "gradient_clip_norm": 5.0,
+    "training_partition": "data/processed/shared_training_wave1_3.parquet",
+    "selection_policy": "Fixed initial settings; no validation/test answers used and no claim of generalization."
+  },
+  "input_sha256": {
+    "configs/response_model.json": "dc94e1de198ecc9a48556c6feda3608c95835946c46de8a4b2809827ae32438f",
+    "data/splits/question_split.json": "28763f0e6cb9ffd7407955ae5398543d97299bce096556b4b1dab815b2bbf00f",
+    "data/splits/respondent_split.json": "1c2e99f99fce2f090bbcfea9a2cdb83eb2573def8bac2379dcbcb4bc006964e8",
+    "outputs/question_answer_embeddings.npy": "9c0b221cb269a6faafa4d52375568a19264b70b0471dd87e18553733c71a68b6",
+    "outputs/question_answer_index.json": "840bb4e902d74e2c8276613b848ab0d0c12fad9cd8110f765bbbe4df8f8d9057",
+    "data/processed/shared_training_wave1_3.parquet": "fbd31f760c8ff6a81b9e4bbb7d6b3585bfab1311408f66a4fcf95bffcd986741"
+  },
+  "device": "mps",
+  "parameters": 13840,
+  "pca": {
+    "fit_option_count": 1822,
+    "fit_question_count": 430,
+    "output_dimension": 64,
+    "whiten": true,
+    "training_variance_retained": 0.8570456504821777,
+    "within_question_option_variance_retained": 0.7629984740970185,
+    "seconds": 0.021619874984025955
+  },
+  "training": {
+    "respondents": 1658,
+    "observed_answers": 712827,
+    "missing_answers_skipped": 113,
+    "seconds": 7.099213083041832,
+    "initial": {
+      "nll": 1.2960113277536673,
+      "accuracy": 0.30864291055192916
+    },
+    "final": {
+      "nll": 1.1218770659349317,
+      "accuracy": 0.5158166006618716
+    },
+    "uniform_baseline": {
+      "nll": 1.295643735472773,
+      "expected_accuracy": 0.315945867233592
+    },
+    "shared_only_after_training": {
+      "nll": 1.2754648213898092,
+      "accuracy": 0.3995724067691039
+    },
+    "history": [
+      {
+        "epoch": 0,
+        "nll": 1.2960113277536673,
+        "accuracy": 0.30864291055192916,
+        "elapsed_seconds": 0.0
+      },
+      {
+        "epoch": 1,
+        "nll": 1.2589952315487567,
+        "accuracy": 0.41287717777244687,
+        "elapsed_seconds": 0.12726120802108198
+      },
+      {
+        "epoch": 10,
+        "nll": 1.1740746091249707,
+        "accuracy": 0.47883848395192663,
+        "elapsed_seconds": 0.6890440410352312
+      },
+      {
+        "epoch": 20,
+        "nll": 1.142514607837966,
+        "accuracy": 0.5028260714030193,
+        "elapsed_seconds": 1.3509270410286263
+      },
+      {
+        "epoch": 30,
+        "nll": 1.1309924569802823,
+        "accuracy": 0.5101181633131181,
+        "elapsed_seconds": 2.0852462080074474
+      },
+      {
+        "epoch": 40,
+        "nll": 1.1272897715662709,
+        "accuracy": 0.5127148662999578,
+        "elapsed_seconds": 2.8788768330123276
+      },
+      {
+        "epoch": 50,
+        "nll": 1.1248558027921192,
+        "accuracy": 0.5143632325936026,
+        "elapsed_seconds": 3.71069845801685
+      },
+      {
+        "epoch": 60,
+        "nll": 1.1236538248259926,
+        "accuracy": 0.5148991269971536,
+        "elapsed_seconds": 4.4872947910334915
+      },
+      {
+        "epoch": 70,
+        "nll": 1.1229900993942352,
+        "accuracy": 0.5149664645138301,
+        "elapsed_seconds": 5.215898041031323
+      },
+      {
+        "epoch": 80,
+        "nll": 1.1224471905113385,
+        "accuracy": 0.5150885137628064,
+        "elapsed_seconds": 5.916161166038364
+      },
+      {
+        "epoch": 90,
+        "nll": 1.1221892863541012,
+        "accuracy": 0.5156931485479647,
+        "elapsed_seconds": 6.542695874988567
+      },
+      {
+        "epoch": 100,
+        "nll": 1.1218770659349317,
+        "accuracy": 0.5158166006618716,
+        "elapsed_seconds": 7.098260750004556
+      }
+    ]
+  },
+  "checks": [
+    "PCA fit exclusively on training options",
+    "complete option-to-feature mapping",
+    "only background respondents and permitted questions loaded",
+    "missing answers ignored",
+    "finite parameters and reduced training loss",
+    "respondent vectors improve training fit",
+    "model checkpoint round trip",
+    "PCA transform round trip",
+    "independent NumPy scoring equation",
+    "probabilities sum to one",
+    "padded options have zero probability",
+    "input files unchanged"
+  ],
+  "validation_or_test_answers_loaded": false,
+  "development_or_final_evidence_loaded": false,
+  "qwen_weights_updated": false,
+  "final_personas_trained": false,
+  "limitations": [
+    "Initial fixed hyperparameters, not selected on validation performance.",
+    "Training accuracy is not an estimate of accuracy for new people or questions.",
+    "Eight latent coordinates are learned preferences, without fixed human-interpretable labels.",
+    "GPU reruns may differ slightly despite fixed seeds."
+  ],
+  "versions": {
+    "torch": "2.14.1",
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1"
+  },
+  "files": {
+    "outputs/question_answer_pca.npz": {
+      "sha256": "57cb3720d86d1b65b96a50ad97f8bf2f74bccb370dc2951bc4fe2a1e5f2e1247",
+      "bytes": 282913
+    },
+    "outputs/question_answer_features_64.npy": {
+      "sha256": "1a00d917e7417c15b01fa11652bb8fccafd739d3bbc92bd9ef7009e32f26455e",
+      "bytes": 480640
+    },
+    "outputs/shared_response_model.npz": {
+      "sha256": "f6449f0c5b71a15d59d2c11c6db561da08ac8be8f164bfa1a13a0c99e0dda5ab",
+      "bytes": 98650
+    }
+  },
+  "next_step": "Freeze the shared scorer, fit development respondent vectors from their 92 evidence items, and evaluate validation questions."
+}

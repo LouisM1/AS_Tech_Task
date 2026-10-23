@@ -48,6 +48,15 @@ The vectors and readable index are included in Git. Downloaded model weights rem
 
 `06_embedding_checks.ipynb` independently reloads the saved features, verifies all 1,877 option lookups, joins all 749,601 observed permitted responses, and reproduces 31 vectors using direct last-token pooling. The fixed training-only paraphrase diagnostic retrieves 9/10 intended options. It narrowly confuses returning all $12 with keeping all $12 in one trust-game example; this is a semantic limitation, not an index mismatch. Findings are in `outputs/embedding_retrieval_checks.json`. These checks do not establish survey prediction accuracy.
 
+`07_pca_and_response_model.ipynb` fits whitened 64-dimensional PCA exclusively on the 1,822 training-option embeddings, then jointly trains the shared scorer and eight-number vectors for 1,658 background respondents. The small model has 13,840 parameters and uses 100 fixed epochs, masked cross-entropy and L2 regularization. Settings are in `configs/response_model.json`; no development/final evidence or validation/test answers are loaded.
+
+- `outputs/question_answer_pca.npz`: training-fitted mean, components, variance scales and fitting-row IDs.
+- `outputs/question_answer_features_64.npy`: 64-number features, in the existing option-index order.
+- `outputs/shared_response_model.npz`: shared `beta` and `W`, background respondent vectors and their IDs.
+- `outputs/shared_response_training.json`: timing, training-fit metrics, learning history, provenance and verification checks.
+
+The notebook verifies saved-file round trips, the scoring equation, masked options and missing answers. Reported accuracy measures training fit, not performance on unseen respondents or questions. The background vectors are not the final 100 personas.
+
 - **People:** 1,658 shared-training, 300 development, 100 final personas.
 - **Questions:** 430 permitted training columns; 92 persona-evidence columns; eight validation questions; three final-test questions.
 - **Source/version:** `configs/data_source.json` records the Hugging Face commit and file checksums.
@@ -60,6 +69,6 @@ Data and output reports are included in Git so reviewers can inspect the source 
 
 ## Next
 
-Fit dimensionality reduction on training-question vectors only, then train the shared response model. The Qwen encoder is frozen; no response model or persona vectors have been trained yet. The audit caveats still apply: related policy rows share a survey instrument, and public-model pretraining contamination is unknown.
+Freeze the shared scorer and fit eight-number vectors for the 300 development respondents using their 92 evidence questions. Evaluate on validation questions before choosing settings and constructing the final 100 personas. Validation/test answers have not been used in model training. The audit caveats still apply: related policy rows share a survey instrument, and public-model pretraining contamination is unknown.
 
 Source: [Twin-2K-500](https://huggingface.co/datasets/LLM-Digital-Twin/Twin-2K-500), Toubia et al. (2025), [paper](https://arxiv.org/abs/2505.17479). Licence: CC BY 4.0.

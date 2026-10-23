@@ -1,0 +1,14 @@
+{
+  "seed": 20261023,
+  "pca_components": 64,
+  "pca_whiten": true,
+  "pca_solver": "randomized",
+  "latent_dimension": 8,
+  "epochs": 100,
+  "batch_size": 256,
+  "learning_rate": 0.01,
+  "l2_penalty": 0.01,
+  "gradient_clip_norm": 5.0,
+  "training_partition": "data/processed/shared_training_wave1_3.parquet",
+  "selection_policy": "Fixed initial settings; no validation/test answers used and no claim of generalization."
+}
