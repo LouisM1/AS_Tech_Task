@@ -36,6 +36,8 @@ The dataset is downloaded and the splits are saved. `01_download_and_splits.ipyn
 
 `03_clean_responses.ipynb` joins permitted responses to the question bank and verifies them against the original labelled source. It saves `shared_training_long.parquet`, `development_anchors_long.parquet` and `final_anchors_long.parquet` in `data/processed/`. Each row contains the person/item IDs, full question text, original response code, zero-based answer index and selected answer text. Missing rows remain null; filter `is_missing == False` before fitting. Checks are saved in `outputs/response_cleaning_audit.json`.
 
+`04_data_quality_and_leakage.ipynb` verifies source hashes, participant/question splits, wording and option mappings, clean response tables, held-out file boundaries and potential question overlap. Results and item-level review notes are saved in `outputs/data_quality_leakage_audit.json`. It reads held-out participant IDs and file metadata only, never answer columns. Related predictors remain permitted; no equivalent held-out question was identified in the assistant text review.
+
 - **People:** 1,658 shared-training, 300 development, 100 final personas.
 - **Questions:** 430 permitted training columns; 92 persona-evidence columns; eight validation questions; three final-test questions.
 - **Source/version:** `configs/data_source.json` records the Hugging Face commit and file checksums.
@@ -48,6 +50,6 @@ Data and output reports are included in Git so reviewers can inspect the source 
 
 ## Next
 
-Complete the broader semantic leakage audit, then generate frozen language-model features. Response cleaning, source-label verification and known split exclusions have passed. No model has been trained yet.
+Generate frozen language-model features next, fitting PCA/scalers on training questions only. Data quality and leakage checks passed with documented caveats: related policy rows share a survey instrument, and public-model pretraining contamination is unknown. No model has been trained yet.
 
 Source: [Twin-2K-500](https://huggingface.co/datasets/LLM-Digital-Twin/Twin-2K-500), Toubia et al. (2025), [paper](https://arxiv.org/abs/2505.17479). Licence: CC BY 4.0.

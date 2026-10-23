@@ -1,0 +1,1103 @@
+{
+  "status": "passed_with_caveats",
+  "automated_checks_passed": 93,
+  "source_revision": "f883165a3026fde855dfd448e0cd16443ab257b6",
+  "checks": [
+    {
+      "check": "source manifests agree",
+      "passed": true
+    },
+    {
+      "check": "source checksum: README.md",
+      "passed": true
+    },
+    {
+      "check": "source checksum: question_catalog_and_human_response_csv/question_catalog_README.md",
+      "passed": true
+    },
+    {
+      "check": "source checksum: question_catalog_and_human_response_csv/question_catalog.json",
+      "passed": true
+    },
+    {
+      "check": "source checksum: question_catalog_and_human_response_csv/wave1_3_response.csv",
+      "passed": true
+    },
+    {
+      "check": "source checksum: question_catalog_and_human_response_csv/wave1_3_response_label.csv",
+      "passed": true
+    },
+    {
+      "check": "source checksum: question_catalog_and_human_response_csv/wave4_response.csv",
+      "passed": true
+    },
+    {
+      "check": "source checksum: question_catalog_and_human_response_csv/wave4_response_label.csv",
+      "passed": true
+    },
+    {
+      "check": "partition checksum: shared_training",
+      "passed": true
+    },
+    {
+      "check": "partition checksum: development_anchors",
+      "passed": true
+    },
+    {
+      "check": "partition checksum: final_anchors",
+      "passed": true
+    },
+    {
+      "check": "partition checksum: validation_policy",
+      "passed": true
+    },
+    {
+      "check": "partition checksum: validation_maximization",
+      "passed": true
+    },
+    {
+      "check": "partition checksum: final_test",
+      "passed": true
+    },
+    {
+      "check": "partition checksum: final_retest_reference",
+      "passed": true
+    },
+    {
+      "check": "cleaned checksum: shared_training",
+      "passed": true
+    },
+    {
+      "check": "cleaned checksum: development_anchors",
+      "passed": true
+    },
+    {
+      "check": "cleaned checksum: final_anchors",
+      "passed": true
+    },
+    {
+      "check": "question bank checksum",
+      "passed": true
+    },
+    {
+      "check": "question split checksum",
+      "passed": true
+    },
+    {
+      "check": "split matches plan",
+      "passed": true
+    },
+    {
+      "check": "source revision matches",
+      "passed": true
+    },
+    {
+      "check": "participant counts",
+      "passed": true
+    },
+    {
+      "check": "recorded seeds agree",
+      "passed": true
+    },
+    {
+      "check": "unique participants within each split",
+      "passed": true
+    },
+    {
+      "check": "disjoint participant groups",
+      "passed": true
+    },
+    {
+      "check": "seeded participant split reproduced",
+      "passed": true
+    },
+    {
+      "check": "CSV participant assignments agree",
+      "passed": true
+    },
+    {
+      "check": "unique CSV question assignments",
+      "passed": true
+    },
+    {
+      "check": "CSV question assignments: shared_training",
+      "passed": true
+    },
+    {
+      "check": "CSV question assignments: validation_policy_only",
+      "passed": true
+    },
+    {
+      "check": "CSV question assignments: validation_maximization_only",
+      "passed": true
+    },
+    {
+      "check": "CSV question assignments: final_test_only",
+      "passed": true
+    },
+    {
+      "check": "CSV anchor assignments",
+      "passed": true
+    },
+    {
+      "check": "question sets disjoint",
+      "passed": true
+    },
+    {
+      "check": "92 unique permitted anchor items",
+      "passed": true
+    },
+    {
+      "check": "forbidden questions absent from inputs",
+      "passed": true
+    },
+    {
+      "check": "perceived policy support excluded",
+      "passed": true
+    },
+    {
+      "check": "supplied persona summaries excluded",
+      "passed": true
+    },
+    {
+      "check": "bank contains precisely selected questions",
+      "passed": true
+    },
+    {
+      "check": "bank role: training",
+      "passed": true
+    },
+    {
+      "check": "bank role: validation",
+      "passed": true
+    },
+    {
+      "check": "bank role: test",
+      "passed": true
+    },
+    {
+      "check": "bank anchor flags",
+      "passed": true
+    },
+    {
+      "check": "original catalogue records preserved",
+      "passed": true
+    },
+    {
+      "check": "all 441 question texts and option mappings verified",
+      "passed": true
+    },
+    {
+      "check": "shared_training: exact input columns and people",
+      "passed": true
+    },
+    {
+      "check": "shared_training: unique complete person/item grid",
+      "passed": true
+    },
+    {
+      "check": "shared_training: permitted wave and role",
+      "passed": true
+    },
+    {
+      "check": "shared_training: missing response_code",
+      "passed": true
+    },
+    {
+      "check": "shared_training: missing answer_index",
+      "passed": true
+    },
+    {
+      "check": "shared_training: missing answer_text",
+      "passed": true
+    },
+    {
+      "check": "shared_training: missing source_option_label",
+      "passed": true
+    },
+    {
+      "check": "shared_training: valid codes and indices",
+      "passed": true
+    },
+    {
+      "check": "shared_training: question and selected option join",
+      "passed": true
+    },
+    {
+      "check": "shared_training: lossless wide-to-long conversion",
+      "passed": true
+    },
+    {
+      "check": "shared_training: each person and item has evidence",
+      "passed": true
+    },
+    {
+      "check": "development_anchors: exact input columns and people",
+      "passed": true
+    },
+    {
+      "check": "development_anchors: unique complete person/item grid",
+      "passed": true
+    },
+    {
+      "check": "development_anchors: permitted wave and role",
+      "passed": true
+    },
+    {
+      "check": "development_anchors: missing response_code",
+      "passed": true
+    },
+    {
+      "check": "development_anchors: missing answer_index",
+      "passed": true
+    },
+    {
+      "check": "development_anchors: missing answer_text",
+      "passed": true
+    },
+    {
+      "check": "development_anchors: missing source_option_label",
+      "passed": true
+    },
+    {
+      "check": "development_anchors: valid codes and indices",
+      "passed": true
+    },
+    {
+      "check": "development_anchors: question and selected option join",
+      "passed": true
+    },
+    {
+      "check": "development_anchors: lossless wide-to-long conversion",
+      "passed": true
+    },
+    {
+      "check": "development_anchors: each person and item has evidence",
+      "passed": true
+    },
+    {
+      "check": "final_anchors: exact input columns and people",
+      "passed": true
+    },
+    {
+      "check": "final_anchors: unique complete person/item grid",
+      "passed": true
+    },
+    {
+      "check": "final_anchors: permitted wave and role",
+      "passed": true
+    },
+    {
+      "check": "final_anchors: missing response_code",
+      "passed": true
+    },
+    {
+      "check": "final_anchors: missing answer_index",
+      "passed": true
+    },
+    {
+      "check": "final_anchors: missing answer_text",
+      "passed": true
+    },
+    {
+      "check": "final_anchors: missing source_option_label",
+      "passed": true
+    },
+    {
+      "check": "final_anchors: valid codes and indices",
+      "passed": true
+    },
+    {
+      "check": "final_anchors: question and selected option join",
+      "passed": true
+    },
+    {
+      "check": "final_anchors: lossless wide-to-long conversion",
+      "passed": true
+    },
+    {
+      "check": "final_anchors: each person and item has evidence",
+      "passed": true
+    },
+    {
+      "check": "validation_policy: schema and row count",
+      "passed": true
+    },
+    {
+      "check": "validation_policy: expected participant IDs",
+      "passed": true
+    },
+    {
+      "check": "validation_maximization: schema and row count",
+      "passed": true
+    },
+    {
+      "check": "validation_maximization: expected participant IDs",
+      "passed": true
+    },
+    {
+      "check": "final_test: schema and row count",
+      "passed": true
+    },
+    {
+      "check": "final_test: expected participant IDs",
+      "passed": true
+    },
+    {
+      "check": "final_retest_reference: schema and row count",
+      "passed": true
+    },
+    {
+      "check": "final_retest_reference: expected participant IDs",
+      "passed": true
+    },
+    {
+      "check": "no held-out statement in rendered training context",
+      "passed": true
+    },
+    {
+      "check": "no test statement in validation context",
+      "passed": true
+    },
+    {
+      "check": "review applies to this bank",
+      "passed": true
+    },
+    {
+      "check": "all 11 held-out items reviewed",
+      "passed": true
+    },
+    {
+      "check": "only planned policy parent crosses question splits",
+      "passed": true
+    },
+    {
+      "check": "all input data unchanged",
+      "passed": true
+    }
+  ],
+  "response_quality": [
+    {
+      "partition": "shared_training",
+      "people": 1658,
+      "items": 430,
+      "rows": 712940,
+      "missing_answers": 113,
+      "missing_percent": 0.0158,
+      "minimum_answers_per_person": 418,
+      "missing_by_item": {
+        "QID28_10": 14,
+        "QID29_13": 2,
+        "QID29_14": 2,
+        "QID29_15": 2,
+        "QID29_16": 2,
+        "QID29_17": 2,
+        "QID29_18": 2,
+        "QID29_19": 7,
+        "QID29_20": 8,
+        "QID29_21": 8,
+        "QID29_22": 9,
+        "QID29_23": 11,
+        "QID29_24": 44
+      },
+      "constant_items": []
+    },
+    {
+      "partition": "development_anchors",
+      "people": 300,
+      "items": 92,
+      "rows": 27600,
+      "missing_answers": 24,
+      "missing_percent": 0.087,
+      "minimum_answers_per_person": 85,
+      "missing_by_item": {
+        "QID29_18": 1,
+        "QID29_19": 2,
+        "QID29_20": 2,
+        "QID29_21": 2,
+        "QID29_22": 2,
+        "QID29_23": 3,
+        "QID29_24": 12
+      },
+      "constant_items": []
+    },
+    {
+      "partition": "final_anchors",
+      "people": 100,
+      "items": 92,
+      "rows": 9200,
+      "missing_answers": 2,
+      "missing_percent": 0.0217,
+      "minimum_answers_per_person": 91,
+      "missing_by_item": {
+        "QID29_24": 2
+      },
+      "constant_items": [
+        "QID16"
+      ]
+    }
+  ],
+  "duplicate_evidence_profiles": {
+    "people_with_identical_92_item_profiles": 0,
+    "cross_split_groups": 0
+  },
+  "semantic_review": {
+    "reviewer": "Codex assistant",
+    "bank_sha256": "a1a83bd0ec96873a7c5f5d793b35cd54e7d23f81e1cf52eca8dd3ff01eb7b941",
+    "finding": "No equivalent held-out question identified; related predictors retained.",
+    "validation_test_review": "Paid leave and wealth-tax validation policies are distinct from the three climate test policies; shared tax/redistribution themes are intentional transfer, not equivalent outcomes.",
+    "exact_matches": [],
+    "shared_parent_questions": [
+      "False consensus::Matrix::QID287"
+    ],
+    "item_reviews": {
+      "QID239_1": "Radio-station maximization; competitiveness and financial vignettes do not ask this behaviour.",
+      "QID239_2": "Seeking better jobs despite satisfaction; job diligence and ambition are related but distinct.",
+      "QID239_3": "Difficulty choosing a gift; empathy for friends is not the same preference.",
+      "QID239_4": "Difficulty finding ideal clothes; spending restraint and general indecision are distinct.",
+      "QID239_5": "Highest personal standards; achievement, diligence and accuracy are related constructs, not equivalent statements.",
+      "QID239_6": "Never settling for second best; competitiveness and superiority are related, not synonymous across contexts.",
+      "QID287_1": "Carbon-tax support; environmental values are permitted predictors. The IRS vignette asks emotional framing, not policy support.",
+      "QID287_2": "40% clean-energy allocation to low-income communities; income, equality and environmental values do not repeat this policy.",
+      "QID287_3": "Federal carbon-free-electricity investment by 2035; general environmental values do not repeat this policy.",
+      "QID287_7": "Mandatory paid parental leave; family obligations and other policy preferences are distinct.",
+      "QID287_10": "2% wealth tax above $50m; personal income, wealth values and tax-loss vignettes are distinct."
+    },
+    "lexical_candidates": [
+      {
+        "heldout_item": "QID239_1",
+        "training_item": "QID152",
+        "method": "word",
+        "rank": 1,
+        "similarity": 0.0647,
+        "heldout_statement": "When I am in the car listening to the radio, I often check other stations to see if something better is playing, even if I am relatively satisfied with what I’m listening to.",
+        "training_statement": "Person A's car was damaged in a parking lot. They had to spend $200 to repair the damage. The same day the car was damaged, they won $25 in the office football pool. Person B's car was damaged in a parking lot. They had to spend $175 to repair the damage. Who was more upset?"
+      },
+      {
+        "heldout_item": "QID239_1",
+        "training_item": "QID118",
+        "method": "word",
+        "rank": 2,
+        "similarity": 0.0426,
+        "heldout_statement": "When I am in the car listening to the radio, I often check other stations to see if something better is playing, even if I am relatively satisfied with what I’m listening to.",
+        "training_statement": "Suppose now that you are playing this game as the other person, i.e., the receiver. For each amount that you may receive, how much would you keep for yourself and how much would send back to the other person? If the person sends me $5 (which would become $15):"
+      },
+      {
+        "heldout_item": "QID239_1",
+        "training_item": "QID225",
+        "method": "word",
+        "rank": 3,
+        "similarity": 0.0385,
+        "heldout_statement": "When I am in the car listening to the radio, I often check other stations to see if something better is playing, even if I am relatively satisfied with what I’m listening to.",
+        "training_statement": "Suppose now that you are playing this game as the other person, i.e., the receiver. For each offer made by the sender, would you accept or reject the offer? If the person offers to keep $0 for themselves and send me $5:"
+      },
+      {
+        "heldout_item": "QID239_2",
+        "training_item": "QID233_5",
+        "method": "word",
+        "rank": 1,
+        "similarity": 0.1397,
+        "heldout_statement": "No matter how satisfied I am with my job, it’s only right for me to be on the lookout for better opportunities.",
+        "training_statement": "It is important for me to do my job better than the others"
+      },
+      {
+        "heldout_item": "QID239_2",
+        "training_item": "QID25_3",
+        "method": "word",
+        "rank": 2,
+        "similarity": 0.1094,
+        "heldout_statement": "No matter how satisfied I am with my job, it’s only right for me to be on the lookout for better opportunities.",
+        "training_statement": "Does a thorough job"
+      },
+      {
+        "heldout_item": "QID239_2",
+        "training_item": "QID29_10",
+        "method": "word",
+        "rank": 3,
+        "similarity": 0.0919,
+        "heldout_statement": "No matter how satisfied I am with my job, it’s only right for me to be on the lookout for better opportunities.",
+        "training_statement": "AMBITION (high aspirations, seizing opportunities)"
+      },
+      {
+        "heldout_item": "QID239_3",
+        "training_item": "QID232_3",
+        "method": "word",
+        "rank": 1,
+        "similarity": 0.1037,
+        "heldout_statement": "I often find it difficult to shop for a gift for a friend.",
+        "training_statement": "I can understand my friend’s happiness when she/he does well at something."
+      },
+      {
+        "heldout_item": "QID239_3",
+        "training_item": "QID232_18",
+        "method": "word",
+        "rank": 2,
+        "similarity": 0.0919,
+        "heldout_statement": "I often find it difficult to shop for a gift for a friend.",
+        "training_statement": "My friend’s unhappiness doesn’t make me feel anything."
+      },
+      {
+        "heldout_item": "QID239_3",
+        "training_item": "QID232_16",
+        "method": "word",
+        "rank": 3,
+        "similarity": 0.0897,
+        "heldout_statement": "I often find it difficult to shop for a gift for a friend.",
+        "training_statement": "I can usually realize quickly when a friend is angry."
+      },
+      {
+        "heldout_item": "QID239_4",
+        "training_item": "QID26_7",
+        "method": "word",
+        "rank": 1,
+        "similarity": 0.1258,
+        "heldout_statement": "When shopping, I have a hard time finding clothing that I really love.",
+        "training_statement": "I only think as hard as I have to"
+      },
+      {
+        "heldout_item": "QID239_4",
+        "training_item": "QID237_3",
+        "method": "word",
+        "rank": 2,
+        "similarity": 0.1171,
+        "heldout_statement": "When shopping, I have a hard time finding clothing that I really love.",
+        "training_statement": "I spend a lot of time wondering about what kind of person I really am."
+      },
+      {
+        "heldout_item": "QID239_4",
+        "training_item": "QID233_11",
+        "method": "word",
+        "rank": 3,
+        "similarity": 0.1034,
+        "heldout_statement": "When shopping, I have a hard time finding clothing that I really love.",
+        "training_statement": "To me, pleasure is spending time with others"
+      },
+      {
+        "heldout_item": "QID239_5",
+        "training_item": "QID27_5",
+        "method": "word",
+        "rank": 1,
+        "similarity": 0.1379,
+        "heldout_statement": "No matter what I do, I have the highest standards for myself.",
+        "training_statement": "No matter who I'm talking to, I'm always a good listener"
+      },
+      {
+        "heldout_item": "QID239_5",
+        "training_item": "QID14",
+        "method": "word",
+        "rank": 2,
+        "similarity": 0.1371,
+        "heldout_statement": "No matter what I do, I have the highest standards for myself.",
+        "training_statement": "What is the highest level of schooling or degree that you have completed?"
+      },
+      {
+        "heldout_item": "QID239_5",
+        "training_item": "QID233_15",
+        "method": "word",
+        "rank": 3,
+        "similarity": 0.1061,
+        "heldout_statement": "No matter what I do, I have the highest standards for myself.",
+        "training_statement": "Family members should stick together, no matter what sacrifices are required"
+      },
+      {
+        "heldout_item": "QID239_6",
+        "training_item": "QID17",
+        "method": "word",
+        "rank": 1,
+        "similarity": 0.2304,
+        "heldout_statement": "I never settle for second best.",
+        "training_statement": "Which of these best describes you?"
+      },
+      {
+        "heldout_item": "QID239_6",
+        "training_item": "QID31",
+        "method": "word",
+        "rank": 2,
+        "similarity": 0.1373,
+        "heldout_statement": "I never settle for second best.",
+        "training_statement": "Which of the following best describes your spending habits?"
+      },
+      {
+        "heldout_item": "QID239_6",
+        "training_item": "QID33",
+        "method": "word",
+        "rank": 3,
+        "similarity": 0.0598,
+        "heldout_statement": "I never settle for second best.",
+        "training_statement": "Other people have trouble spending money. Perhaps because spending money makes them anxious, they often don't spend money on things they should spend it on. How well does the second description fit you? That is, do you have trouble spending money?"
+      },
+      {
+        "heldout_item": "QID287_1",
+        "training_item": "QID150",
+        "method": "word",
+        "rank": 1,
+        "similarity": 0.0764,
+        "heldout_statement": "Placing a tax on carbon emissions?",
+        "training_statement": "Person A received a letter from the IRS saying that they made a minor arithmetical mistake on their tax return and owed $100. They received a similar letter the same day from their state income tax authority saying they owed $50. There were no other repercussions from either mistake. Person B received a letter from the IRS saying that they made a minor arithmetical mistake on their tax return and owed $150. There were no other repercussions from either mistake. Who was more upset?"
+      },
+      {
+        "heldout_item": "QID287_1",
+        "training_item": "QID11",
+        "method": "word",
+        "rank": 2,
+        "similarity": 0.0,
+        "heldout_statement": "Placing a tax on carbon emissions?",
+        "training_statement": "Which part of the United States do you currently live in?"
+      },
+      {
+        "heldout_item": "QID287_1",
+        "training_item": "QID117",
+        "method": "word",
+        "rank": 3,
+        "similarity": 0.0,
+        "heldout_statement": "Placing a tax on carbon emissions?",
+        "training_statement": "Suppose you were given $5 and had to decide how much of this money to keep for yourself and how much to send to another (anonymous) person. Any amount you send to the other person would then be tripled. That is, if you send $1, this becomes $3. If you send $2, this becomes $6, etc. Then, the other person would have to decide how much of that money to keep and how much to return to you. That is, if you send $1, this would become $3 and the other person would have to decide how much of this $3 to keep for themself and how much to send back to you. In this scenario, how much would keep for yourself and how much would you send to the other person?"
+      },
+      {
+        "heldout_item": "QID287_10",
+        "training_item": "QID150",
+        "method": "word",
+        "rank": 1,
+        "similarity": 0.0604,
+        "heldout_statement": "A 2% tax on the assets of individuals with a net worth of more than $50 million?",
+        "training_statement": "Person A received a letter from the IRS saying that they made a minor arithmetical mistake on their tax return and owed $100. They received a similar letter the same day from their state income tax authority saying they owed $50. There were no other repercussions from either mistake. Person B received a letter from the IRS saying that they made a minor arithmetical mistake on their tax return and owed $150. There were no other repercussions from either mistake. Who was more upset?"
+      },
+      {
+        "heldout_item": "QID287_10",
+        "training_item": "QID250_1",
+        "method": "word",
+        "rank": 2,
+        "similarity": 0.0261,
+        "heldout_statement": "A 2% tax on the assets of individuals with a net worth of more than $50 million?",
+        "training_statement": "In this question, the LOTTERY is a 50% chance of winning $6 and a 50% chance of winning $0.  Suppose you are given the option to exchange this lottery for certain amounts of money. Please choose between the following options. For each line in the list, you must choose between the option on the left and the option on the right. Note that on each line, the option on the left stays the same while the option on the right gets better as one goes down the list. You can select the option you would prefer receiving by clicking on the button next to that option. Lottery:$0.50"
+      },
+      {
+        "heldout_item": "QID287_10",
+        "training_item": "QID250_12",
+        "method": "word",
+        "rank": 3,
+        "similarity": 0.0261,
+        "heldout_statement": "A 2% tax on the assets of individuals with a net worth of more than $50 million?",
+        "training_statement": "In this question, the LOTTERY is a 50% chance of winning $6 and a 50% chance of winning $0.  Suppose you are given the option to exchange this lottery for certain amounts of money. Please choose between the following options. For each line in the list, you must choose between the option on the left and the option on the right. Note that on each line, the option on the left stays the same while the option on the right gets better as one goes down the list. You can select the option you would prefer receiving by clicking on the button next to that option. Lottery:$3.50"
+      },
+      {
+        "heldout_item": "QID287_2",
+        "training_item": "QID25_11",
+        "method": "word",
+        "rank": 1,
+        "similarity": 0.2041,
+        "heldout_statement": "Ensuring 40% of all new clean energy infrastructure development spending goes to low-income communities?",
+        "training_statement": "Is full of energy"
+      },
+      {
+        "heldout_item": "QID287_2",
+        "training_item": "QID233_11",
+        "method": "word",
+        "rank": 2,
+        "similarity": 0.0683,
+        "heldout_statement": "Ensuring 40% of all new clean energy infrastructure development spending goes to low-income communities?",
+        "training_statement": "To me, pleasure is spending time with others"
+      },
+      {
+        "heldout_item": "QID287_2",
+        "training_item": "QID33",
+        "method": "word",
+        "rank": 3,
+        "similarity": 0.0623,
+        "heldout_statement": "Ensuring 40% of all new clean energy infrastructure development spending goes to low-income communities?",
+        "training_statement": "Other people have trouble spending money. Perhaps because spending money makes them anxious, they often don't spend money on things they should spend it on. How well does the second description fit you? That is, do you have trouble spending money?"
+      },
+      {
+        "heldout_item": "QID287_3",
+        "training_item": "QID29_20",
+        "method": "word",
+        "rank": 1,
+        "similarity": 0.0766,
+        "heldout_statement": "Federal investments to ensure a carbon-pollution free electricity sector by 2035?",
+        "training_statement": "AUTONOMY (independent, free of others' control)"
+      },
+      {
+        "heldout_item": "QID287_3",
+        "training_item": "QID28_7",
+        "method": "word",
+        "rank": 2,
+        "similarity": 0.0569,
+        "heldout_statement": "Federal investments to ensure a carbon-pollution free electricity sector by 2035?",
+        "training_statement": "I always try to make my work as accurate and error-free as possible"
+      },
+      {
+        "heldout_item": "QID287_3",
+        "training_item": "QID11",
+        "method": "word",
+        "rank": 3,
+        "similarity": 0.0,
+        "heldout_statement": "Federal investments to ensure a carbon-pollution free electricity sector by 2035?",
+        "training_statement": "Which part of the United States do you currently live in?"
+      },
+      {
+        "heldout_item": "QID287_7",
+        "training_item": "QID233_7",
+        "method": "word",
+        "rank": 1,
+        "similarity": 0.1089,
+        "heldout_statement": "A law that requires companies to provide paid family leave for parents?",
+        "training_statement": "Competition is the law of nature"
+      },
+      {
+        "heldout_item": "QID287_7",
+        "training_item": "QID233_13",
+        "method": "word",
+        "rank": 2,
+        "similarity": 0.0902,
+        "heldout_statement": "A law that requires companies to provide paid family leave for parents?",
+        "training_statement": "Parents and children must stay together as much as possible"
+      },
+      {
+        "heldout_item": "QID287_7",
+        "training_item": "QID29_11",
+        "method": "word",
+        "rank": 3,
+        "similarity": 0.0612,
+        "heldout_statement": "A law that requires companies to provide paid family leave for parents?",
+        "training_statement": "LOYALTY (being faithful to friends, family, and group)"
+      },
+      {
+        "heldout_item": "QID239_1",
+        "training_item": "QID236_3",
+        "method": "character",
+        "rank": 1,
+        "similarity": 0.1846,
+        "heldout_statement": "When I am in the car listening to the radio, I often check other stations to see if something better is playing, even if I am relatively satisfied with what I’m listening to.",
+        "training_statement": "When I feel that the image I am portraying isn't working, I can readily change it to something that does."
+      },
+      {
+        "heldout_item": "QID239_1",
+        "training_item": "QID233_3",
+        "method": "character",
+        "rank": 2,
+        "similarity": 0.1788,
+        "heldout_statement": "When I am in the car listening to the radio, I often check other stations to see if something better is playing, even if I am relatively satisfied with what I’m listening to.",
+        "training_statement": "I often do my own thing"
+      },
+      {
+        "heldout_item": "QID239_1",
+        "training_item": "QID236_12",
+        "method": "character",
+        "rank": 3,
+        "similarity": 0.168,
+        "heldout_statement": "When I am in the car listening to the radio, I often check other stations to see if something better is playing, even if I am relatively satisfied with what I’m listening to.",
+        "training_statement": "I can usually tell when I've said something inappropriate by reading it in the listener's eyes."
+      },
+      {
+        "heldout_item": "QID239_2",
+        "training_item": "QID29_10",
+        "method": "character",
+        "rank": 1,
+        "similarity": 0.2439,
+        "heldout_statement": "No matter how satisfied I am with my job, it’s only right for me to be on the lookout for better opportunities.",
+        "training_statement": "AMBITION (high aspirations, seizing opportunities)"
+      },
+      {
+        "heldout_item": "QID239_2",
+        "training_item": "QID29_21",
+        "method": "character",
+        "rank": 2,
+        "similarity": 0.1811,
+        "heldout_statement": "No matter how satisfied I am with my job, it’s only right for me to be on the lookout for better opportunities.",
+        "training_statement": "EQUALITY (human rights and equal opportunity for all)"
+      },
+      {
+        "heldout_item": "QID239_2",
+        "training_item": "QID233_5",
+        "method": "character",
+        "rank": 3,
+        "similarity": 0.1595,
+        "heldout_statement": "No matter how satisfied I am with my job, it’s only right for me to be on the lookout for better opportunities.",
+        "training_statement": "It is important for me to do my job better than the others"
+      },
+      {
+        "heldout_item": "QID239_3",
+        "training_item": "QID232_6",
+        "method": "character",
+        "rank": 1,
+        "similarity": 0.2484,
+        "heldout_statement": "I often find it difficult to shop for a gift for a friend.",
+        "training_statement": "I find it hard to know when my friends are frightened."
+      },
+      {
+        "heldout_item": "QID239_3",
+        "training_item": "QID236_6",
+        "method": "character",
+        "rank": 2,
+        "similarity": 0.236,
+        "heldout_statement": "I often find it difficult to shop for a gift for a friend.",
+        "training_statement": "Even when it might be to my advantage, I have difficulty putting up a good front."
+      },
+      {
+        "heldout_item": "QID239_3",
+        "training_item": "QID232_17",
+        "method": "character",
+        "rank": 3,
+        "similarity": 0.1953,
+        "heldout_statement": "I often find it difficult to shop for a gift for a friend.",
+        "training_statement": "I often get swept up in my friends’ feelings."
+      },
+      {
+        "heldout_item": "QID239_4",
+        "training_item": "QID26_7",
+        "method": "character",
+        "rank": 1,
+        "similarity": 0.2592,
+        "heldout_statement": "When shopping, I have a hard time finding clothing that I really love.",
+        "training_statement": "I only think as hard as I have to"
+      },
+      {
+        "heldout_item": "QID239_4",
+        "training_item": "QID237_3",
+        "method": "character",
+        "rank": 2,
+        "similarity": 0.2033,
+        "heldout_statement": "When shopping, I have a hard time finding clothing that I really love.",
+        "training_statement": "I spend a lot of time wondering about what kind of person I really am."
+      },
+      {
+        "heldout_item": "QID239_4",
+        "training_item": "QID34",
+        "method": "character",
+        "rank": 3,
+        "similarity": 0.2017,
+        "heldout_statement": "When shopping, I have a hard time finding clothing that I really love.",
+        "training_statement": "Following is a scenario describing the behavior of two shoppers. After reading about each shopper, please answer the question that follows. Mr. A is accompanying a good friend who is on a shopping spree at a local mall. When they enter a large department store, Mr. A sees that the store has a \"one-day-only-sale\" where everything is priced 10-60% off. He realizes that he doesn't need anything, yet can't resist and ends up spending almost $100 on stuff. Mr. B is accompanying a good friend who is on a shopping spree at a local mall. When they enter a large department store, Mr. B sees that the store has a \"one-day-only-sale\" where everything is priced 10-60% off. He figures that he can get great deals on many items that he needs, yet the thought of spending the money keeps him from buying the stuff. In terms of your own behavior, who are you more similar to, Mr. A or Mr. B?"
+      },
+      {
+        "heldout_item": "QID239_5",
+        "training_item": "QID14",
+        "method": "character",
+        "rank": 1,
+        "similarity": 0.2662,
+        "heldout_statement": "No matter what I do, I have the highest standards for myself.",
+        "training_statement": "What is the highest level of schooling or degree that you have completed?"
+      },
+      {
+        "heldout_item": "QID239_5",
+        "training_item": "QID237_7",
+        "method": "character",
+        "rank": 2,
+        "similarity": 0.2133,
+        "heldout_statement": "No matter what I do, I have the highest standards for myself.",
+        "training_statement": "Sometimes I think I know other people better than I know myself."
+      },
+      {
+        "heldout_item": "QID239_5",
+        "training_item": "QID27_5",
+        "method": "character",
+        "rank": 3,
+        "similarity": 0.1404,
+        "heldout_statement": "No matter what I do, I have the highest standards for myself.",
+        "training_statement": "No matter who I'm talking to, I'm always a good listener"
+      },
+      {
+        "heldout_item": "QID239_6",
+        "training_item": "QID27_10",
+        "method": "character",
+        "rank": 1,
+        "similarity": 0.1412,
+        "heldout_statement": "I never settle for second best.",
+        "training_statement": "I have never been irked when people expressed ideas different from my own"
+      },
+      {
+        "heldout_item": "QID239_6",
+        "training_item": "QID27_13",
+        "method": "character",
+        "rank": 2,
+        "similarity": 0.1263,
+        "heldout_statement": "I never settle for second best.",
+        "training_statement": "I have never deliberately said something that hurt someone's feelings"
+      },
+      {
+        "heldout_item": "QID239_6",
+        "training_item": "QID17",
+        "method": "character",
+        "rank": 3,
+        "similarity": 0.1132,
+        "heldout_statement": "I never settle for second best.",
+        "training_statement": "Which of these best describes you?"
+      },
+      {
+        "heldout_item": "QID287_1",
+        "training_item": "QID150",
+        "method": "character",
+        "rank": 1,
+        "similarity": 0.0994,
+        "heldout_statement": "Placing a tax on carbon emissions?",
+        "training_statement": "Person A received a letter from the IRS saying that they made a minor arithmetical mistake on their tax return and owed $100. They received a similar letter the same day from their state income tax authority saying they owed $50. There were no other repercussions from either mistake. Person B received a letter from the IRS saying that they made a minor arithmetical mistake on their tax return and owed $150. There were no other repercussions from either mistake. Who was more upset?"
+      },
+      {
+        "heldout_item": "QID287_1",
+        "training_item": "QID28_3",
+        "method": "character",
+        "rank": 2,
+        "similarity": 0.0876,
+        "heldout_statement": "Placing a tax on carbon emissions?",
+        "training_statement": "For me, it is very important to carry out the obligations placed on me"
+      },
+      {
+        "heldout_item": "QID287_1",
+        "training_item": "QID29_17",
+        "method": "character",
+        "rank": 3,
+        "similarity": 0.0684,
+        "heldout_statement": "Placing a tax on carbon emissions?",
+        "training_statement": "COMPASSION (caring for others, displaying kindness)"
+      },
+      {
+        "heldout_item": "QID287_10",
+        "training_item": "QID279_4",
+        "method": "character",
+        "rank": 1,
+        "similarity": 0.1015,
+        "heldout_statement": "A 2% tax on the assets of individuals with a net worth of more than $50 million?",
+        "training_statement": "In this question, the LOTTERY is a 50% chance of LOSING $8 (as indicated by the minus sign before $8) and a 50% chance of winning a value x.  Suppose you are given the option to exchange this lottery for the certainty of winning $0. Please choose between the following options. For each line in the list, you must choose between the option on the left and the option on the right. Note that on each line, the option on the left gets better as one goes down the list while the option on the right stays the same. You can select the option you would prefer receiving by clicking on the button next to that option. Lottery with x=$10.00:$0"
+      },
+      {
+        "heldout_item": "QID287_10",
+        "training_item": "QID279_2",
+        "method": "character",
+        "rank": 2,
+        "similarity": 0.1015,
+        "heldout_statement": "A 2% tax on the assets of individuals with a net worth of more than $50 million?",
+        "training_statement": "In this question, the LOTTERY is a 50% chance of LOSING $8 (as indicated by the minus sign before $8) and a 50% chance of winning a value x.  Suppose you are given the option to exchange this lottery for the certainty of winning $0. Please choose between the following options. For each line in the list, you must choose between the option on the left and the option on the right. Note that on each line, the option on the left gets better as one goes down the list while the option on the right stays the same. You can select the option you would prefer receiving by clicking on the button next to that option. Lottery with x=$8.00:$0"
+      },
+      {
+        "heldout_item": "QID287_10",
+        "training_item": "QID279_1",
+        "method": "character",
+        "rank": 3,
+        "similarity": 0.1014,
+        "heldout_statement": "A 2% tax on the assets of individuals with a net worth of more than $50 million?",
+        "training_statement": "In this question, the LOTTERY is a 50% chance of LOSING $8 (as indicated by the minus sign before $8) and a 50% chance of winning a value x.  Suppose you are given the option to exchange this lottery for the certainty of winning $0. Please choose between the following options. For each line in the list, you must choose between the option on the left and the option on the right. Note that on each line, the option on the left gets better as one goes down the list while the option on the right stays the same. You can select the option you would prefer receiving by clicking on the button next to that option. Lottery with x=$7.00:$0"
+      },
+      {
+        "heldout_item": "QID287_2",
+        "training_item": "QID25_11",
+        "method": "character",
+        "rank": 1,
+        "similarity": 0.2279,
+        "heldout_statement": "Ensuring 40% of all new clean energy infrastructure development spending goes to low-income communities?",
+        "training_statement": "Is full of energy"
+      },
+      {
+        "heldout_item": "QID287_2",
+        "training_item": "QID238_21",
+        "method": "character",
+        "rank": 2,
+        "similarity": 0.1924,
+        "heldout_statement": "Ensuring 40% of all new clean energy infrastructure development spending goes to low-income communities?",
+        "training_statement": "I enjoy having a clear and structured mode of life."
+      },
+      {
+        "heldout_item": "QID287_2",
+        "training_item": "QID233_11",
+        "method": "character",
+        "rank": 3,
+        "similarity": 0.1571,
+        "heldout_statement": "Ensuring 40% of all new clean energy infrastructure development spending goes to low-income communities?",
+        "training_statement": "To me, pleasure is spending time with others"
+      },
+      {
+        "heldout_item": "QID287_3",
+        "training_item": "QID35_6",
+        "method": "character",
+        "rank": 1,
+        "similarity": 0.097,
+        "heldout_statement": "Federal investments to ensure a carbon-pollution free electricity sector by 2035?",
+        "training_statement": "I prefer simplicity in design"
+      },
+      {
+        "heldout_item": "QID287_3",
+        "training_item": "QID25_25",
+        "method": "character",
+        "rank": 2,
+        "similarity": 0.0781,
+        "heldout_statement": "Federal investments to ensure a carbon-pollution free electricity sector by 2035?",
+        "training_statement": "Is inventive"
+      },
+      {
+        "heldout_item": "QID287_3",
+        "training_item": "QID29_2",
+        "method": "character",
+        "rank": 3,
+        "similarity": 0.0703,
+        "heldout_statement": "Federal investments to ensure a carbon-pollution free electricity sector by 2035?",
+        "training_statement": "PLEASURE (having one’s fill of life’s pleasures and enjoyments)"
+      },
+      {
+        "heldout_item": "QID287_7",
+        "training_item": "QID233_15",
+        "method": "character",
+        "rank": 1,
+        "similarity": 0.1855,
+        "heldout_statement": "A law that requires companies to provide paid family leave for parents?",
+        "training_statement": "Family members should stick together, no matter what sacrifices are required"
+      },
+      {
+        "heldout_item": "QID287_7",
+        "training_item": "QID26_2",
+        "method": "character",
+        "rank": 2,
+        "similarity": 0.1622,
+        "heldout_statement": "A law that requires companies to provide paid family leave for parents?",
+        "training_statement": "I like to have the responsibility of handling a situation that requires a lot of thinking"
+      },
+      {
+        "heldout_item": "QID287_7",
+        "training_item": "QID26_16",
+        "method": "character",
+        "rank": 3,
+        "similarity": 0.1579,
+        "heldout_statement": "A law that requires companies to provide paid family leave for parents?",
+        "training_statement": "I feel relief rather than satisfaction after completing a task that requires a lot of mental effort"
+      }
+    ]
+  },
+  "heldout_access": "SHA-256, Parquet schema/row count, and pid column only; no answer columns decoded.",
+  "heldout_answer_columns_loaded": false,
+  "data_modified": false,
+  "training_started": false,
+  "input_sha256": {
+    "data/heldout/final_test_original_wave1_3.parquet": "eadfa510707c7c9171d3ede56f561920bc4018fad1e45e9344bc452e07df1314",
+    "data/heldout/final_test_wave4.parquet": "98f0f902366ef3b56f936c3e737c9599b85f09a08f54f1c2b65e6581621322ff",
+    "data/heldout/validation_maximization_wave1_3.parquet": "09cd642a9d7da0342e951a4dad338f96e65e5b8cf330be7963cd45d5113faf7f",
+    "data/heldout/validation_policy_wave4.parquet": "e98c9283ab1a04360c2fa63fb721e88be8e5e31a07809f4857336aa80f36bd8a",
+    "data/processed/development_anchors_long.parquet": "20da864989ae1002bc83ad0602dd4c3416ffe6e7132f1750f2ade9a259068797",
+    "data/processed/development_anchors_wave1_3.parquet": "d5a87ff7567e5d6de9b2c18e592cb2a6c332c2da0e4dcaf9c640ba2940cbc3a4",
+    "data/processed/final_anchors_long.parquet": "247b0c2e004fe553be2c6a047c6f1b1a780e620d778bc65f3856c5b120fee796",
+    "data/processed/final_anchors_wave1_3.parquet": "ce5fd5668f685cd96e82cf35469f59d8bbf93e518ce9f0c401c1b436906b075d",
+    "data/processed/question_bank.json": "a1a83bd0ec96873a7c5f5d793b35cd54e7d23f81e1cf52eca8dd3ff01eb7b941",
+    "data/processed/shared_training_long.parquet": "f8402ba7dbbd0f91b8f3b0c3de4bfd7efc54ec97c97a703331722f73b42da4b9",
+    "data/processed/shared_training_wave1_3.parquet": "fbd31f760c8ff6a81b9e4bbb7d6b3585bfab1311408f66a4fcf95bffcd986741",
+    "data/raw/twin_2k_500/f883165a3026fde855dfd448e0cd16443ab257b6/README.md": "9f71a028d2510476cdb3dd365f4525e7b7cc0736f17939adcfeae9bf91a52d4b",
+    "data/raw/twin_2k_500/f883165a3026fde855dfd448e0cd16443ab257b6/question_catalog_and_human_response_csv/question_catalog.json": "e72e305f0c7c83bb990e97de4c0cf2c718ead18cc197239b7feeb354c9ac1bef",
+    "data/raw/twin_2k_500/f883165a3026fde855dfd448e0cd16443ab257b6/question_catalog_and_human_response_csv/question_catalog_README.md": "eaf3ccb2a5a0382723a057d8e05a0d3a9464c8c9cef1a675205eb55f739689f8",
+    "data/raw/twin_2k_500/f883165a3026fde855dfd448e0cd16443ab257b6/question_catalog_and_human_response_csv/wave1_3_response.csv": "fc227b1682e2654fd4b2a8152294b68118c0e3be4d83f4a9af5f3e96df56d3f0",
+    "data/raw/twin_2k_500/f883165a3026fde855dfd448e0cd16443ab257b6/question_catalog_and_human_response_csv/wave1_3_response_label.csv": "4d735be9e5f00d072d17be25029cef524de9ec383911a4acc44f0b64a9c5818c",
+    "data/raw/twin_2k_500/f883165a3026fde855dfd448e0cd16443ab257b6/question_catalog_and_human_response_csv/wave4_response.csv": "09ec1a88bdd48fec95963da3102df0ca467378bf729cbc1c0b869b0f1e4fb942",
+    "data/raw/twin_2k_500/f883165a3026fde855dfd448e0cd16443ab257b6/question_catalog_and_human_response_csv/wave4_response_label.csv": "02eb7eeff000406ff70c954565dada7a4a8d997c2f8152aec8d32a1e719e3681",
+    "data/raw/twin_2k_500/source_manifest.json": "303ee84a2e7c30d9b9c0b073c7a4f0e804c55f8ec0f6c31a2b4a7bd802e72844",
+    "data/splits/partition_manifest.json": "f659da3c5bc6eaea453b2614ed54cb5725db8f2a42e830f4ae5df0c1573b6b7d",
+    "data/splits/question_assignments.csv": "383dce10ab1ba40a890f90a6d27fd24aee9031d0137cbd74d8a9ab6a6d693994",
+    "data/splits/question_split.json": "28763f0e6cb9ffd7407955ae5398543d97299bce096556b4b1dab815b2bbf00f",
+    "data/splits/respondent_assignments.csv": "711e606f0d6fcd09e738d0e71dd7e86a9d2387bafe972cfa693898e9d7ac9eea",
+    "data/splits/respondent_split.json": "1c2e99f99fce2f090bbcfea9a2cdb83eb2573def8bac2379dcbcb4bc006964e8"
+  },
+  "limitations": [
+    "The policy matrix intentionally spans roles; different policy rows are held out, not the whole survey instrument.",
+    "Semantic review is assistant judgement supported by lexical screening, not proof that no subtle proxy exists.",
+    "Raw data and provenance source records include held-out content. Model inputs must use permitted long tables and per-item question_text, never entire raw files or bank.sources.",
+    "Public-dataset contamination of a future pretrained encoder is unknown and cannot be ruled out by this audit.",
+    "The random panel is a historical Prolific cohort; it is not a weighted sample of current US opinion.",
+    "Repeated matrix rows are correlated; rows are not independent observations. Use person/item-aware evaluation.",
+    "Missing answers remain null and must be masked during fitting. Constant items in a small panel are reported, not automatically dropped."
+  ],
+  "next_step": "Generate frozen language-model features; fit PCA/scalers on training questions only."
+}
